@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738735A2045A1FC004B13D3 /* DataModel.swift */; };
 		5755A8AC203EBE6800555610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AB203EBE6800555610 /* AppDelegate.swift */; };
 		5755A8AE203EBE6800555610 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AD203EBE6800555610 /* MasterViewController.swift */; };
 		5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AF203EBE6800555610 /* DetailViewController.swift */; };
@@ -15,6 +16,8 @@
 		5755A8B8203EBE6800555610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5755A8B6203EBE6800555610 /* LaunchScreen.storyboard */; };
 		5755A8C3203EBE6800555610 /* Football_Manager_WonderkidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8C2203EBE6800555610 /* Football_Manager_WonderkidsTests.swift */; };
 		5755A8CE203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8CD203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift */; };
+		578E217720459A8900E319F9 /* playerSeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 578E217620459A8900E319F9 /* playerSeed.json */; };
+		57BEDE27203F0499001A32DB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEDE26203F0499001A32DB /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5738735A2045A1FC004B13D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		5755A8A8203EBE6800555610 /* Football Manager Wonderkids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Football Manager Wonderkids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5755A8AB203EBE6800555610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5755A8AD203EBE6800555610 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		5755A8C9203EBE6800555610 /* Football Manager WonderkidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Football Manager WonderkidsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5755A8CD203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football_Manager_WonderkidsUITests.swift; sourceTree = "<group>"; };
 		5755A8CF203EBE6800555610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578E217620459A8900E319F9 /* playerSeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playerSeed.json; sourceTree = "<group>"; };
+		57BEDE26203F0499001A32DB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				5755A8B4203EBE6800555610 /* Assets.xcassets */,
 				5755A8B6203EBE6800555610 /* LaunchScreen.storyboard */,
 				5755A8B9203EBE6800555610 /* Info.plist */,
+				578E217620459A8900E319F9 /* playerSeed.json */,
+				57BEDE26203F0499001A32DB /* Player.swift */,
+				5738735A2045A1FC004B13D3 /* DataModel.swift */,
 			);
 			path = "Football Manager Wonderkids";
 			sourceTree = "<group>";
@@ -236,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5755A8B8203EBE6800555610 /* LaunchScreen.storyboard in Resources */,
+				578E217720459A8900E319F9 /* playerSeed.json in Resources */,
 				5755A8B5203EBE6800555610 /* Assets.xcassets in Resources */,
 				5755A8B3203EBE6800555610 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */,
+				57BEDE27203F0499001A32DB /* Player.swift in Sources */,
 				5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */,
 				5755A8AE203EBE6800555610 /* MasterViewController.swift in Sources */,
 				5755A8AC203EBE6800555610 /* AppDelegate.swift in Sources */,
