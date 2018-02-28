@@ -18,6 +18,8 @@
 		5755A8CE203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8CD203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift */; };
 		578E217720459A8900E319F9 /* playerSeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 578E217620459A8900E319F9 /* playerSeed.json */; };
 		57BEDE27203F0499001A32DB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEDE26203F0499001A32DB /* Player.swift */; };
+		57D99DD82045B5BB00DD2392 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D99DD72045B5BB00DD2392 /* MenuCell.xib */; };
+		57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		5755A8CF203EBE6800555610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578E217620459A8900E319F9 /* playerSeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playerSeed.json; sourceTree = "<group>"; };
 		57BEDE26203F0499001A32DB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		57D99DD72045B5BB00DD2392 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				578E217620459A8900E319F9 /* playerSeed.json */,
 				57BEDE26203F0499001A32DB /* Player.swift */,
 				5738735A2045A1FC004B13D3 /* DataModel.swift */,
+				57D99DDB2045B94100DD2392 /* Cells */,
 			);
 			path = "Football Manager Wonderkids";
 			sourceTree = "<group>";
@@ -135,6 +140,15 @@
 				5755A8CF203EBE6800555610 /* Info.plist */,
 			);
 			path = "Football Manager WonderkidsUITests";
+			sourceTree = "<group>";
+		};
+		57D99DDB2045B94100DD2392 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */,
+				57D99DD72045B5BB00DD2392 /* MenuCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +260,7 @@
 			files = (
 				5755A8B8203EBE6800555610 /* LaunchScreen.storyboard in Resources */,
 				578E217720459A8900E319F9 /* playerSeed.json in Resources */,
+				57D99DD82045B5BB00DD2392 /* MenuCell.xib in Resources */,
 				5755A8B5203EBE6800555610 /* Assets.xcassets in Resources */,
 				5755A8B3203EBE6800555610 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +289,7 @@
 			files = (
 				5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */,
 				57BEDE27203F0499001A32DB /* Player.swift in Sources */,
+				57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */,
 				5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */,
 				5755A8AE203EBE6800555610 /* MasterViewController.swift in Sources */,
 				5755A8AC203EBE6800555610 /* AppDelegate.swift in Sources */,
