@@ -6,8 +6,26 @@
 //  Copyright © 2018 Izzy Ali. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-struct MenuTitles {
-    var titles = ["Goalkeepers", "Defenders", "Midfielders", "Forwards", "Favourites"]
+enum MenuTitles: String {
+    case Goalkeepers, Defenders, Midfielders, Forwards, Favourites
+    
+    var titles: [MenuTitles] {
+        return [.Goalkeepers, .Defenders, .Midfielders, .Forwards, .Favourites]
+    }
+    
+}
+
+extension MenuTitles {
+    
+    var image: UIImage {
+        switch self {
+        case .Goalkeepers: return #imageLiteral(resourceName: "Goalkeepers")
+        case .Defenders: return #imageLiteral(resourceName: "Defenders")
+        default:
+            return #imageLiteral(resourceName: "Defenders")
+        }
+    }
+    
 }

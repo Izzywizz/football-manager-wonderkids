@@ -26,8 +26,10 @@ class MenuTableViewCell: UITableViewCell {
     }
     
     // Mark: - Cell Configuration
-    func configure( _ title: String) {
+    func configure( _ title: String, image: UIImage) {
         menuTitle.text = title
+        menuImage.image = image
+        
     }
 
 }

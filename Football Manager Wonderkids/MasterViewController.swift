@@ -11,8 +11,8 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    lazy var dataSource: MenuTitles = {
-        let dataSource = MenuTitles()
+    lazy var dataSource: [MenuTitles] = {
+       let dataSource = MenuTitles.Goalkeepers.titles
         return dataSource
     }()
 
@@ -37,7 +37,7 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let object = dataSource.titles[indexPath.row] as! String
+                let object = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
@@ -49,7 +49,7 @@ class MasterViewController: UITableViewController {
     
     // Mark: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataSource.titles.count
+        return dataSource.count
     }
 
     /// custom cell
@@ -59,8 +59,10 @@ class MasterViewController: UITableViewController {
         
         tableView.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: reuseID)
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! MenuTableViewCell
-        let title = dataSource.titles[indexPath.row]
-        cell.configure(title)
+        let title = dataSource[indexPath.row].rawValue
+        let image = dataSource[indexPath.row].image
+        
+        cell.configure(title, image: image)
                 
         return cell
     }

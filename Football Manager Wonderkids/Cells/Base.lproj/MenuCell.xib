@@ -25,7 +25,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBg-JD-Eum">
                         <rect key="frame" x="0.0" y="0.0" width="466" height="42.5"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goalkeeper" translatesAutoresizingMaskIntoConstraints="NO" id="y5H-6f-4Tw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y5H-6f-4Tw">
                                 <rect key="frame" x="8" y="5.5" width="32" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Urt-xi-DrA"/>
@@ -33,7 +33,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czg-40-gvY">
-                                <rect key="frame" x="48" y="8" width="48" height="26"/>
+                                <rect key="frame" x="48" y="8" width="390" height="26"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,6 +53,7 @@
                             <constraint firstAttribute="trailing" secondItem="NUn-70-68L" secondAttribute="trailing" constant="8" id="Rgc-Ve-npr"/>
                             <constraint firstItem="NUn-70-68L" firstAttribute="centerY" secondItem="OBg-JD-Eum" secondAttribute="centerY" id="TVF-gg-K4O"/>
                             <constraint firstItem="y5H-6f-4Tw" firstAttribute="centerY" secondItem="OBg-JD-Eum" secondAttribute="centerY" id="Unx-Kw-bl2"/>
+                            <constraint firstItem="NUn-70-68L" firstAttribute="leading" secondItem="Czg-40-gvY" secondAttribute="trailing" constant="8" id="VU8-3z-pcL"/>
                             <constraint firstItem="Czg-40-gvY" firstAttribute="leading" secondItem="OBg-JD-Eum" secondAttribute="leading" constant="48" id="sIi-R0-dkE"/>
                         </constraints>
                     </view>
@@ -75,6 +76,5 @@
     </objects>
     <resources>
         <image name="Disclosure Indicator" width="8" height="13"/>
-        <image name="goalkeeper" width="39" height="33"/>
     </resources>
 </document>
