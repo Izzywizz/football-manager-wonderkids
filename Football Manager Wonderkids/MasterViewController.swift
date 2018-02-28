@@ -9,30 +9,49 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
-
+    
     var detailViewController: DetailViewController? = nil
+    
     lazy var dataSource: [MenuTitle] = {
-       let dataSource = MenuTitle.Goalkeepers.titles
+        let dataSource = MenuTitle.Goalkeepers.titles
         return dataSource
     }()
     var dataModel: DataModel!
     
+    override func willTransition( to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.willTransition(to: newCollection, with: coordinator)
+        switch newCollection.verticalSizeClass {
+        case .compact:
+            print("Compact")
+            if let indexPath = tableView.indexPathForSelectedRow {
+                //no selection needed becasue we have a value to select
+            } else {
+                // FIXME:- Find a way to remeber previous selction using nsuserdafults 
+                let defaultSelection = IndexPath(row: 0, section: 0)
+                tableView.selectRow(at: defaultSelection, animated: true, scrollPosition: .none)
+            }
+        case .regular, .unspecified:
+            print("Regular")
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         
         if let split = splitViewController {
             let controllers = split.viewControllers
-            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as! DetailViewController
+            detailViewController?.players = dataModel.players
         }
         
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         clearsSelectionOnViewWillAppear = splitViewController!.isCollapsed
         super.viewWillAppear(animated)
     }
-
+    
     // MARK: - Segues
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
@@ -48,23 +67,23 @@ class MasterViewController: UITableViewController {
         }
     }
     
+    func returnPositionData(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let position = dataSource[indexPath.row]
+        let players = dataModel.filter(on: position)
+        performSegue(withIdentifier: "showDetail", sender: players)
+    }
+    
     
     // Mark:- TableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
-        if let selectedIndexRow = tableView.indexPathForSelectedRow?.row {
-            let position = dataSource[selectedIndexRow]
-            let players = dataModel.filter(on: position)
-            performSegue(withIdentifier: "showDetail", sender: players)
-        }
-        
+        returnPositionData(tableView, didSelectRowAt: indexPath)
     }
     
     // Mark: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }
-
+    
     /// custom cell
     func mainCell(for indexPath: IndexPath) -> MenuTableViewCell {
         let reuseID = "menuCell"
@@ -76,14 +95,14 @@ class MasterViewController: UITableViewController {
         let image = dataSource[indexPath.row].image
         
         cell.configure(title, image: image)
-                
+        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return mainCell(for: indexPath)
     }
-
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44.0
     }
@@ -92,29 +111,3 @@ class MasterViewController: UITableViewController {
         return UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 10))
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

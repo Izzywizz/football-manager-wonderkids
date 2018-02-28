@@ -27,7 +27,7 @@
         <!--Detail View Controller-->
         <scene sceneID="7pt-Eg-qBl">
             <objects>
-                <tableViewController id="vfQ-Bz-ed3" customClass="DetailViewController" customModule="Football_Manager_Wonderkids" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vfQ-Bz-ed3" customClass="DetailViewController" customModule="Football_Manager_Wonderkids" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="b2u-4x-1ri">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
