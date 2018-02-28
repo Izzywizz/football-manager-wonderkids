@@ -10,6 +10,20 @@ import UIKit
 
 class DetailViewController: UITableViewController {
     
+    var detailItem: String? {
+        didSet {
+            // Update the view.
+            configureView()
+        }
+    }
+    
+    var players: [Player]? {
+        didSet {
+            configureView()
+        }
+    }
+    
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem, let players = players {
@@ -25,28 +39,16 @@ class DetailViewController: UITableViewController {
         configureView()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
-    var detailItem: String? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
-    
-    var players: [Player]? {
-        didSet {
-            configureView()
-        }
-    }
-    
+
     // Mark:- TableView DataSource
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return players!.count
+        if let count = players?.count  {
+            return count
+        } else {
+            return 0
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
