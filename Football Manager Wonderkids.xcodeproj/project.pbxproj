@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570A623F20469E280087E6AC /* MenuTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A623E20469E280087E6AC /* MenuTitles.swift */; };
 		5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738735A2045A1FC004B13D3 /* DataModel.swift */; };
+		573CE1C72046BBBB00EC5DB3 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */; };
+		573CE1CC2046D30600EC5DB3 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */; };
 		5755A8AC203EBE6800555610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AB203EBE6800555610 /* AppDelegate.swift */; };
 		5755A8AE203EBE6800555610 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AD203EBE6800555610 /* MasterViewController.swift */; };
 		5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8AF203EBE6800555610 /* DetailViewController.swift */; };
@@ -17,8 +20,18 @@
 		5755A8C3203EBE6800555610 /* Football_Manager_WonderkidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8C2203EBE6800555610 /* Football_Manager_WonderkidsTests.swift */; };
 		5755A8CE203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755A8CD203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift */; };
 		578E217720459A8900E319F9 /* playerSeed.json in Resources */ = {isa = PBXBuildFile; fileRef = 578E217620459A8900E319F9 /* playerSeed.json */; };
+		57B96A162046BA4E00226B12 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A0B2046BA4E00226B12 /* OpenSans-SemiBold.ttf */; };
+		57B96A172046BA4E00226B12 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A0C2046BA4E00226B12 /* OpenSans-Light.ttf */; };
+		57B96A182046BA4E00226B12 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A0D2046BA4E00226B12 /* OpenSans-Italic.ttf */; };
+		57B96A192046BA4E00226B12 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A0E2046BA4E00226B12 /* OpenSans-ExtraBold.ttf */; };
+		57B96A1A2046BA4E00226B12 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A0F2046BA4E00226B12 /* OpenSans-LightItalic.ttf */; };
+		57B96A1B2046BA4E00226B12 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A102046BA4E00226B12 /* OpenSans-Bold.ttf */; };
+		57B96A1C2046BA4E00226B12 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A112046BA4E00226B12 /* OpenSans-SemiBoldItalic.ttf */; };
+		57B96A1D2046BA4E00226B12 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A122046BA4E00226B12 /* OpenSans-ExtraBoldItalic.ttf */; };
+		57B96A1E2046BA4E00226B12 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A132046BA4E00226B12 /* LICENSE.txt */; };
+		57B96A1F2046BA4E00226B12 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A142046BA4E00226B12 /* OpenSans-Regular.ttf */; };
+		57B96A202046BA4E00226B12 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B96A152046BA4E00226B12 /* OpenSans-BoldItalic.ttf */; };
 		57BEDE27203F0499001A32DB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEDE26203F0499001A32DB /* Player.swift */; };
-		57D99DD82045B5BB00DD2392 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D99DD72045B5BB00DD2392 /* MenuCell.xib */; };
 		57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570A623E20469E280087E6AC /* MenuTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitles.swift; sourceTree = "<group>"; };
 		5738735A2045A1FC004B13D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		573CE1C82046BBBB00EC5DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MenuCell.xib; sourceTree = "<group>"; };
+		573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
 		5755A8A8203EBE6800555610 /* Football Manager Wonderkids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Football Manager Wonderkids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5755A8AB203EBE6800555610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5755A8AD203EBE6800555610 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +72,18 @@
 		5755A8CD203EBE6800555610 /* Football_Manager_WonderkidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Football_Manager_WonderkidsUITests.swift; sourceTree = "<group>"; };
 		5755A8CF203EBE6800555610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578E217620459A8900E319F9 /* playerSeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playerSeed.json; sourceTree = "<group>"; };
+		57B96A0B2046BA4E00226B12 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		57B96A0C2046BA4E00226B12 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		57B96A0D2046BA4E00226B12 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		57B96A0E2046BA4E00226B12 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		57B96A0F2046BA4E00226B12 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		57B96A102046BA4E00226B12 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		57B96A112046BA4E00226B12 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		57B96A122046BA4E00226B12 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		57B96A132046BA4E00226B12 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		57B96A142046BA4E00226B12 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		57B96A152046BA4E00226B12 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		57BEDE26203F0499001A32DB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		57D99DD72045B5BB00DD2392 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
 		57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,9 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		573CE1CA2046D2FA00EC5DB3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		5755A89F203EBE6800555610 = {
 			isa = PBXGroup;
 			children = (
+				57B96A0A2046BA4E00226B12 /* Open_Sans */,
 				5755A8AA203EBE6800555610 /* Football Manager Wonderkids */,
 				5755A8C1203EBE6800555610 /* Football Manager WonderkidsTests */,
 				5755A8CC203EBE6800555610 /* Football Manager WonderkidsUITests */,
@@ -109,6 +144,7 @@
 		5755A8AA203EBE6800555610 /* Football Manager Wonderkids */ = {
 			isa = PBXGroup;
 			children = (
+				573CE1CA2046D2FA00EC5DB3 /* Helper */,
 				5755A8AB203EBE6800555610 /* AppDelegate.swift */,
 				5755A8AD203EBE6800555610 /* MasterViewController.swift */,
 				5755A8AF203EBE6800555610 /* DetailViewController.swift */,
@@ -118,6 +154,7 @@
 				5755A8B9203EBE6800555610 /* Info.plist */,
 				578E217620459A8900E319F9 /* playerSeed.json */,
 				57BEDE26203F0499001A32DB /* Player.swift */,
+				570A623E20469E280087E6AC /* MenuTitles.swift */,
 				5738735A2045A1FC004B13D3 /* DataModel.swift */,
 				57D99DDB2045B94100DD2392 /* Cells */,
 			);
@@ -142,11 +179,29 @@
 			path = "Football Manager WonderkidsUITests";
 			sourceTree = "<group>";
 		};
+		57B96A0A2046BA4E00226B12 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				57B96A0B2046BA4E00226B12 /* OpenSans-SemiBold.ttf */,
+				57B96A0C2046BA4E00226B12 /* OpenSans-Light.ttf */,
+				57B96A0D2046BA4E00226B12 /* OpenSans-Italic.ttf */,
+				57B96A0E2046BA4E00226B12 /* OpenSans-ExtraBold.ttf */,
+				57B96A0F2046BA4E00226B12 /* OpenSans-LightItalic.ttf */,
+				57B96A102046BA4E00226B12 /* OpenSans-Bold.ttf */,
+				57B96A112046BA4E00226B12 /* OpenSans-SemiBoldItalic.ttf */,
+				57B96A122046BA4E00226B12 /* OpenSans-ExtraBoldItalic.ttf */,
+				57B96A132046BA4E00226B12 /* LICENSE.txt */,
+				57B96A142046BA4E00226B12 /* OpenSans-Regular.ttf */,
+				57B96A152046BA4E00226B12 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
 		57D99DDB2045B94100DD2392 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				57D99DD92045B7A700DD2392 /* MenuTableViewCell.swift */,
-				57D99DD72045B5BB00DD2392 /* MenuCell.xib */,
+				573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -258,10 +313,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B96A1C2046BA4E00226B12 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				57B96A1B2046BA4E00226B12 /* OpenSans-Bold.ttf in Resources */,
 				5755A8B8203EBE6800555610 /* LaunchScreen.storyboard in Resources */,
+				57B96A182046BA4E00226B12 /* OpenSans-Italic.ttf in Resources */,
+				57B96A192046BA4E00226B12 /* OpenSans-ExtraBold.ttf in Resources */,
 				578E217720459A8900E319F9 /* playerSeed.json in Resources */,
-				57D99DD82045B5BB00DD2392 /* MenuCell.xib in Resources */,
+				57B96A1E2046BA4E00226B12 /* LICENSE.txt in Resources */,
+				57B96A1A2046BA4E00226B12 /* OpenSans-LightItalic.ttf in Resources */,
+				57B96A172046BA4E00226B12 /* OpenSans-Light.ttf in Resources */,
+				573CE1C72046BBBB00EC5DB3 /* MenuCell.xib in Resources */,
+				57B96A1F2046BA4E00226B12 /* OpenSans-Regular.ttf in Resources */,
+				57B96A1D2046BA4E00226B12 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				5755A8B5203EBE6800555610 /* Assets.xcassets in Resources */,
+				57B96A162046BA4E00226B12 /* OpenSans-SemiBold.ttf in Resources */,
+				57B96A202046BA4E00226B12 /* OpenSans-BoldItalic.ttf in Resources */,
 				5755A8B3203EBE6800555610 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,11 +353,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570A623F20469E280087E6AC /* MenuTitles.swift in Sources */,
 				5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */,
 				57BEDE27203F0499001A32DB /* Player.swift in Sources */,
 				57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */,
 				5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */,
 				5755A8AE203EBE6800555610 /* MasterViewController.swift in Sources */,
+				573CE1CC2046D30600EC5DB3 /* ViewHelper.swift in Sources */,
 				5755A8AC203EBE6800555610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +396,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573CE1C82046BBBB00EC5DB3 /* Base */,
+			);
+			name = MenuCell.xib;
+			sourceTree = "<group>";
+		};
 		5755A8B1203EBE6800555610 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

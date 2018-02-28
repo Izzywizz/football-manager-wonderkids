@@ -12,15 +12,22 @@ class MenuTableViewCell: UITableViewCell {
 
     @IBOutlet weak var menuTitle: UILabel!
     @IBOutlet weak var menuImage: UIImageView!
+    @IBOutlet weak var view: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        ViewHelper.roundedCorners(for: [view])        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         // Configure the view for the selected state
+    }
+    
+    // Mark: - Cell Configuration
+    func configure( _ title: String) {
+        menuTitle.text = title
     }
 
 }

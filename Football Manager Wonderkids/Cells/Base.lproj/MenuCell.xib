@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="8" id="DCs-8X-fYr" customClass="MenuTableViewCell" customModule="Football_Manager_Wonderkids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DCs-8X-fYr" id="ICp-Ms-ML9">
+                <rect key="frame" x="0.0" y="0.0" width="466" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBg-JD-Eum">
+                        <rect key="frame" x="0.0" y="0.0" width="466" height="42.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goalkeeper" translatesAutoresizingMaskIntoConstraints="NO" id="y5H-6f-4Tw">
+                                <rect key="frame" x="8" y="5.5" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Urt-xi-DrA"/>
+                                    <constraint firstAttribute="width" constant="32" id="igQ-lE-qiW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czg-40-gvY">
+                                <rect key="frame" x="48" y="8" width="48" height="26"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Disclosure Indicator" translatesAutoresizingMaskIntoConstraints="NO" id="NUn-70-68L">
+                                <rect key="frame" x="446" y="14" width="12" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="AwV-FD-ram"/>
+                                    <constraint firstAttribute="height" constant="14" id="WFs-YV-rTn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Czg-40-gvY" firstAttribute="top" secondItem="OBg-JD-Eum" secondAttribute="top" constant="8" id="NiB-5M-eU6"/>
+                            <constraint firstItem="y5H-6f-4Tw" firstAttribute="leading" secondItem="OBg-JD-Eum" secondAttribute="leading" constant="8" id="R5R-b7-hxh"/>
+                            <constraint firstAttribute="trailing" secondItem="NUn-70-68L" secondAttribute="trailing" constant="8" id="Rgc-Ve-npr"/>
+                            <constraint firstItem="NUn-70-68L" firstAttribute="centerY" secondItem="OBg-JD-Eum" secondAttribute="centerY" id="TVF-gg-K4O"/>
+                            <constraint firstItem="y5H-6f-4Tw" firstAttribute="centerY" secondItem="OBg-JD-Eum" secondAttribute="centerY" id="Unx-Kw-bl2"/>
+                            <constraint firstItem="Czg-40-gvY" firstAttribute="leading" secondItem="OBg-JD-Eum" secondAttribute="leading" constant="48" id="sIi-R0-dkE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OBg-JD-Eum" firstAttribute="top" secondItem="ICp-Ms-ML9" secondAttribute="top" id="6sC-qM-b4h"/>
+                    <constraint firstItem="OBg-JD-Eum" firstAttribute="leading" secondItem="ICp-Ms-ML9" secondAttribute="leading" id="SxM-vy-BcK"/>
+                    <constraint firstAttribute="bottom" secondItem="OBg-JD-Eum" secondAttribute="bottom" constant="1" id="TrF-wq-kwm"/>
+                    <constraint firstAttribute="trailing" secondItem="OBg-JD-Eum" secondAttribute="trailing" id="wuN-b9-1t8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <connections>
+                <outlet property="menuImage" destination="y5H-6f-4Tw" id="U4C-e9-VNq"/>
+                <outlet property="menuTitle" destination="Czg-40-gvY" id="PNx-Nc-yuZ"/>
+                <outlet property="view" destination="OBg-JD-Eum" id="2rW-Pa-zrb"/>
+            </connections>
+            <point key="canvasLocation" x="-1211" y="-238"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Disclosure Indicator" width="8" height="13"/>
+        <image name="goalkeeper" width="39" height="33"/>
+    </resources>
+</document>
