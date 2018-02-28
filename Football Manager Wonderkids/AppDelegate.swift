@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         let topNavController = splitViewController.viewControllers.first as! UINavigationController
         let masterViewController = topNavController.topViewController as! MasterViewController
-        
+        masterViewController.dataModel = data
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
         

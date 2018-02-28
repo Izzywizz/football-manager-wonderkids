@@ -15,7 +15,7 @@ class MasterViewController: UITableViewController {
        let dataSource = MenuTitles.Goalkeepers.titles
         return dataSource
     }()
-
+    var dataModel: DataModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,10 @@ class MasterViewController: UITableViewController {
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        }
+        
+        for player in dataModel.players {
+            print(player.name)
         }
         
     }
@@ -37,15 +41,21 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let object = dataSource[indexPath.row].rawValue
+                let title = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = object
+                controller.detailItem = title
+                controller.navigationItem.title = title
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }
     
+    
+    // Mark:- TableView Delegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showDetail", sender: nil)
+    }
     
     // Mark: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

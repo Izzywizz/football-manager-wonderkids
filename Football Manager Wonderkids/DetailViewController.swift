@@ -8,17 +8,13 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+class DetailViewController: UITableViewController {
 
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
+            print("detail: \(detail)")
         }
     }
 
