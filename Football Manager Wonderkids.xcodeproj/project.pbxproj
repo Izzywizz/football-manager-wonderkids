@@ -120,6 +120,17 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		573CE1CD2046DE4C00EC5DB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				578E217620459A8900E319F9 /* playerSeed.json */,
+				57BEDE26203F0499001A32DB /* Player.swift */,
+				570A623E20469E280087E6AC /* MenuTitles.swift */,
+				5738735A2045A1FC004B13D3 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5755A89F203EBE6800555610 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +155,7 @@
 		5755A8AA203EBE6800555610 /* Football Manager Wonderkids */ = {
 			isa = PBXGroup;
 			children = (
+				573CE1CD2046DE4C00EC5DB3 /* Models */,
 				573CE1CA2046D2FA00EC5DB3 /* Helper */,
 				5755A8AB203EBE6800555610 /* AppDelegate.swift */,
 				5755A8AD203EBE6800555610 /* MasterViewController.swift */,
@@ -152,10 +164,6 @@
 				5755A8B4203EBE6800555610 /* Assets.xcassets */,
 				5755A8B6203EBE6800555610 /* LaunchScreen.storyboard */,
 				5755A8B9203EBE6800555610 /* Info.plist */,
-				578E217620459A8900E319F9 /* playerSeed.json */,
-				57BEDE26203F0499001A32DB /* Player.swift */,
-				570A623E20469E280087E6AC /* MenuTitles.swift */,
-				5738735A2045A1FC004B13D3 /* DataModel.swift */,
 				57D99DDB2045B94100DD2392 /* Cells */,
 			);
 			path = "Football Manager Wonderkids";

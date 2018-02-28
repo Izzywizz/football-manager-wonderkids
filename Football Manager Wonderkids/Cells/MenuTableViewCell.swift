@@ -29,7 +29,6 @@ class MenuTableViewCell: UITableViewCell {
     func configure( _ title: String, image: UIImage) {
         menuTitle.text = title
         menuImage.image = image
-        
     }
 
 }

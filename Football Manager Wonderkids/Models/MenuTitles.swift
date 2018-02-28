@@ -23,8 +23,10 @@ extension MenuTitles {
         switch self {
         case .Goalkeepers: return #imageLiteral(resourceName: "Goalkeepers")
         case .Defenders: return #imageLiteral(resourceName: "Defenders")
+        case .Midfielders: return #imageLiteral(resourceName: "Midfielders")
+        case .Forwards: return #imageLiteral(resourceName: "Forwards")
         default:
-            return #imageLiteral(resourceName: "Defenders")
+            return #imageLiteral(resourceName: "Favourites")
         }
     }
     
