@@ -11,8 +11,8 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    lazy var dataSource: [MenuTitles] = {
-       let dataSource = MenuTitles.Goalkeepers.titles
+    lazy var dataSource: [MenuTitle] = {
+       let dataSource = MenuTitle.Goalkeepers.titles
         return dataSource
     }()
     var dataModel: DataModel!
@@ -24,10 +24,6 @@ class MasterViewController: UITableViewController {
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
-        }
-        
-        for player in dataModel.players {
-            print(player.name)
         }
         
     }
@@ -44,6 +40,7 @@ class MasterViewController: UITableViewController {
                 let title = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = title
+                controller.players = sender as! [Player]
                 controller.navigationItem.title = title
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
@@ -54,7 +51,13 @@ class MasterViewController: UITableViewController {
     
     // Mark:- TableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showDetail", sender: nil)
+
+        if let selectedIndexRow = tableView.indexPathForSelectedRow?.row {
+            let position = dataSource[selectedIndexRow]
+            let players = dataModel.filter(on: position)
+            performSegue(withIdentifier: "showDetail", sender: players)
+        }
+        
     }
     
     // Mark: - TableView DataSource

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570A623F20469E280087E6AC /* MenuTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A623E20469E280087E6AC /* MenuTitles.swift */; };
+		570A623F20469E280087E6AC /* MenuTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A623E20469E280087E6AC /* MenuTitle.swift */; };
 		5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738735A2045A1FC004B13D3 /* DataModel.swift */; };
 		573CE1C72046BBBB00EC5DB3 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */; };
 		573CE1CC2046D30600EC5DB3 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */; };
@@ -53,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		570A623E20469E280087E6AC /* MenuTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitles.swift; sourceTree = "<group>"; };
+		570A623E20469E280087E6AC /* MenuTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitle.swift; sourceTree = "<group>"; };
 		5738735A2045A1FC004B13D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		573CE1C82046BBBB00EC5DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MenuCell.xib; sourceTree = "<group>"; };
 		573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			children = (
 				578E217620459A8900E319F9 /* playerSeed.json */,
 				57BEDE26203F0499001A32DB /* Player.swift */,
-				570A623E20469E280087E6AC /* MenuTitles.swift */,
+				570A623E20469E280087E6AC /* MenuTitle.swift */,
 				5738735A2045A1FC004B13D3 /* DataModel.swift */,
 			);
 			path = Models;
@@ -361,7 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570A623F20469E280087E6AC /* MenuTitles.swift in Sources */,
+				570A623F20469E280087E6AC /* MenuTitle.swift in Sources */,
 				5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */,
 				57BEDE27203F0499001A32DB /* Player.swift in Sources */,
 				57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */,

@@ -37,5 +37,26 @@ class DataModel {
         }
     }
     
+    func findGoalkeepers() -> [Player] {
+        var goalkeepers = [Player]()
+        
+        for player in players {
+            if player.position.contains("GK") {
+                goalkeepers.append(player)
+            }
+        }
+        
+        return goalkeepers
+    }
+    
+    func filter(on filterParameter: MenuTitle) -> [Player] {
+        switch filterParameter {
+        case .Goalkeepers:
+            return findGoalkeepers()
+        default:
+            return [Player]()
+        }
+    }
+    
     
 }

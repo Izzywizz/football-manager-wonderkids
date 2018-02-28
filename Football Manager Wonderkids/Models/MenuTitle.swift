@@ -8,16 +8,15 @@
 
 import UIKit
 
-enum MenuTitles: String {
+enum MenuTitle: String {
     case Goalkeepers, Defenders, Midfielders, Forwards, Favourites
     
-    var titles: [MenuTitles] {
+    var titles: [MenuTitle] {
         return [.Goalkeepers, .Defenders, .Midfielders, .Forwards, .Favourites]
     }
-    
 }
 
-extension MenuTitles {
+extension MenuTitle {
     
     var image: UIImage {
         switch self {
