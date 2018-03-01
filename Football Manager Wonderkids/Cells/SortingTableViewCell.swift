@@ -53,6 +53,10 @@ class SortingTableViewCell: UITableViewCell {
             sender.isSelected = !sender.isSelected
         }
         
+        changeBackgrondColour()
+    }
+    
+    func changeBackgrondColour() {
         //determins the background colour of the button, giving the illusion that the other buttons have not been selected and changes its colours
         for button in buttonArray {
             if button.isSelected != true {
