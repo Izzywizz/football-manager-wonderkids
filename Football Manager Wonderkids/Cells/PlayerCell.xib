@@ -33,15 +33,25 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGB-SB-7ka" userLabel="position view">
-                        <rect key="frame" x="8" y="4" width="34" height="34"/>
-                        <color key="backgroundColor" red="1" green="0.32289199470000002" blue="0.22929406299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <rect key="frame" x="8" y="8" width="28" height="28"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-8h-Tcb" userLabel="position">
+                                <rect key="frame" x="4.5" y="5" width="20" height="20"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.34003496170043945" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="34" id="Rh3-GO-CaK"/>
-                            <constraint firstAttribute="width" constant="34" id="oF9-BL-VB1"/>
+                            <constraint firstItem="XI9-8h-Tcb" firstAttribute="centerX" secondItem="ZGB-SB-7ka" secondAttribute="centerX" id="8Zw-vq-OXs"/>
+                            <constraint firstAttribute="height" constant="28" id="Rh3-GO-CaK"/>
+                            <constraint firstItem="XI9-8h-Tcb" firstAttribute="centerY" secondItem="ZGB-SB-7ka" secondAttribute="centerY" constant="1" id="SGR-f6-dho"/>
+                            <constraint firstAttribute="width" constant="28" id="oF9-BL-VB1"/>
                         </constraints>
                     </view>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xql-AS-dCx">
-                        <rect key="frame" x="49" y="0.0" width="111" height="42.5"/>
+                        <rect key="frame" x="43" y="0.5" width="111" height="41.5"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marek, Hamisk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="a5G-oJ-yh8" userLabel="Name">
                                 <rect key="frame" x="0.0" y="0.0" width="111" height="22"/>
@@ -50,8 +60,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Napoli" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="q1X-5R-FvO" userLabel="Team">
-                                <rect key="frame" x="0.0" y="22" width="111" height="20.5"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="15"/>
+                                <rect key="frame" x="0.0" y="22" width="111" height="19.5"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -88,16 +98,9 @@
                             <constraint firstAttribute="height" constant="24" id="I5V-ZL-wrK"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-8h-Tcb">
-                        <rect key="frame" x="14" y="12" width="20" height="19.5"/>
-                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="ZGB-SB-7ka" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1qb-ww-Qej"/>
-                    <constraint firstItem="XI9-8h-Tcb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2PR-PS-KZR"/>
                     <constraint firstItem="ohO-VM-hE7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Arz-VB-CED"/>
                     <constraint firstAttribute="trailing" secondItem="ohO-VM-hE7" secondAttribute="trailing" constant="5" id="BnD-tz-0UQ"/>
                     <constraint firstItem="gwc-jD-od0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FFe-5U-6lV"/>
@@ -107,13 +110,13 @@
                     <constraint firstItem="ohO-VM-hE7" firstAttribute="leading" secondItem="cxu-qk-dII" secondAttribute="trailing" constant="5" id="YwP-wg-gCA"/>
                     <constraint firstItem="cxu-qk-dII" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bTU-lp-fgx"/>
                     <constraint firstItem="cxu-qk-dII" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="uVd-L7-rNQ"/>
-                    <constraint firstItem="XI9-8h-Tcb" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-136" id="xUl-xu-pdH"/>
                     <constraint firstItem="xql-AS-dCx" firstAttribute="leading" secondItem="ZGB-SB-7ka" secondAttribute="trailing" constant="7" id="zMq-gs-mul"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="playerName" destination="a5G-oJ-yh8" id="zAP-YE-sZT"/>
+                <outlet property="positionView" destination="ZGB-SB-7ka" id="Lcj-0m-rNq"/>
                 <outlet property="ratingView" destination="cxu-qk-dII" id="qWk-na-ycW"/>
             </connections>
             <point key="canvasLocation" x="32" y="47"/>
