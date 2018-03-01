@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		570A623F20469E280087E6AC /* MenuTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A623E20469E280087E6AC /* MenuTitle.swift */; };
+		5714F20F2048648A003FDC29 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714F20D2048648A003FDC29 /* PlayerTableViewCell.swift */; };
+		5714F2102048648A003FDC29 /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5714F20E2048648A003FDC29 /* PlayerCell.xib */; };
 		5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738735A2045A1FC004B13D3 /* DataModel.swift */; };
 		573CE1C72046BBBB00EC5DB3 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */; };
 		573CE1CC2046D30600EC5DB3 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		570A623E20469E280087E6AC /* MenuTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitle.swift; sourceTree = "<group>"; };
+		5714F20D2048648A003FDC29 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		5714F20E2048648A003FDC29 /* PlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
 		5738735A2045A1FC004B13D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		573CE1C82046BBBB00EC5DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MenuCell.xib; sourceTree = "<group>"; };
 		573CE1CB2046D30600EC5DB3 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 				573CE1C92046BBBB00EC5DB3 /* MenuCell.xib */,
 				574AF65120484E580046A2D5 /* SortingTableViewCell.swift */,
 				574AF65320484E6B0046A2D5 /* SortingCell.xib */,
+				5714F20D2048648A003FDC29 /* PlayerTableViewCell.swift */,
+				5714F20E2048648A003FDC29 /* PlayerCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				57B96A192046BA4E00226B12 /* OpenSans-ExtraBold.ttf in Resources */,
 				578E217720459A8900E319F9 /* playerSeed.json in Resources */,
 				57B96A1E2046BA4E00226B12 /* LICENSE.txt in Resources */,
+				5714F2102048648A003FDC29 /* PlayerCell.xib in Resources */,
 				57B96A1A2046BA4E00226B12 /* OpenSans-LightItalic.ttf in Resources */,
 				57B96A172046BA4E00226B12 /* OpenSans-Light.ttf in Resources */,
 				573CE1C72046BBBB00EC5DB3 /* MenuCell.xib in Resources */,
@@ -370,6 +377,7 @@
 			files = (
 				570A623F20469E280087E6AC /* MenuTitle.swift in Sources */,
 				5738735B2045A1FC004B13D3 /* DataModel.swift in Sources */,
+				5714F20F2048648A003FDC29 /* PlayerTableViewCell.swift in Sources */,
 				57BEDE27203F0499001A32DB /* Player.swift in Sources */,
 				57D99DDA2045B7A700DD2392 /* MenuTableViewCell.swift in Sources */,
 				5755A8B0203EBE6800555610 /* DetailViewController.swift in Sources */,

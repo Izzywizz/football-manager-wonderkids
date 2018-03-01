@@ -74,12 +74,12 @@ class MasterViewController: UITableViewController {
     }
     
     
-    // Mark:- TableView Delegate
+    // MARK: - TableView Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         returnPositionData(tableView, didSelectRowAt: indexPath)
     }
     
-    // Mark: - TableView DataSource
+    // MARK: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }

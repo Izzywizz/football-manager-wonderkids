@@ -36,7 +36,7 @@ class DetailViewController: UITableViewController {
     }
 
 
-    // Mark:- TableView Delegate
+    // MARK: - TableView Delegate
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         //return headerCell
         return headerCell(at: section)
@@ -56,7 +56,9 @@ class DetailViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 100.0
     }
-    // Mark:- TableView DataSource
+    
+    
+    // MARK: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let count = players?.count  {
             return count
@@ -66,9 +68,19 @@ class DetailViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "playerCell", for: indexPath)
+    
+        return playerCell(at: indexPath)
+    }
+    
+    ///Main Player Cell
+    func playerCell(at indexPath: IndexPath) -> PlayerTableViewCell {
+        let reuseID = "playerCell"
+        let nibName = "PlayerCell"
         
-        cell.textLabel?.text = players?[indexPath.row].name
+        tableView.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: reuseID)
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! PlayerTableViewCell
+        
+        cell.playerName.text = players?[indexPath.row].name
         
         return cell
     }
