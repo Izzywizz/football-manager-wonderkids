@@ -159,9 +159,9 @@
 		5755A8AA203EBE6800555610 /* Football Manager Wonderkids */ = {
 			isa = PBXGroup;
 			children = (
-				57D99DDB2045B94100DD2392 /* Cells */,
-				573CE1CD2046DE4C00EC5DB3 /* Models */,
 				573CE1CA2046D2FA00EC5DB3 /* Helper */,
+				573CE1CD2046DE4C00EC5DB3 /* Models */,
+				57D99DDB2045B94100DD2392 /* Cells */,
 				5755A8AB203EBE6800555610 /* AppDelegate.swift */,
 				5755A8AD203EBE6800555610 /* MasterViewController.swift */,
 				5755A8AF203EBE6800555610 /* DetailViewController.swift */,

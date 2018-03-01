@@ -18,4 +18,17 @@ struct ViewHelper {
             view.layer.cornerRadius = cornerRadiusValue
         }
     }
+    
+    /**
+     Ensures that the views related to the textfields have a border and colour applied to them by default, recall that textfields are just views
+     - parameter views: an Array of subclasses of UIView so TextFields, TableViewCells etc
+     */
+    static func drawBorders(for views: [UIView])   {
+        
+        let borderColour = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
+        for view in views {
+            view.layer.borderWidth = 1
+            view.layer.borderColor = borderColour
+        }
+    }
 }
