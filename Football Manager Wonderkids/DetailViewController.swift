@@ -23,7 +23,6 @@ class DetailViewController: UITableViewController {
         }
     }
     
-    
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem, let players = players {
@@ -40,9 +39,27 @@ class DetailViewController: UITableViewController {
     }
 
 
-
-    // Mark:- TableView DataSource
+    // Mark:- TableView Delegate
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        //return headerCell
+        return headerCell(at: section)
+    }
     
+    ///Custom Header cell for the sorting options.
+    func headerCell(at indexPathSection: Int) -> SortingTableViewCell {
+        let reuseID = "sortingCell"
+        let nibName = "SortingCell"
+        
+        tableView.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: reuseID)
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! SortingTableViewCell
+        
+        return cell
+    }
+
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 100.0
+    }
+    // Mark:- TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let count = players?.count  {
             return count

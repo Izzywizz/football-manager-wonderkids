@@ -26,7 +26,7 @@ class MasterViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 //no selection needed becasue we have a value to select
             } else {
-                // FIXME:- Find a way to remeber previous selction using nsuserdafults 
+                // FIXME:- Find a way to remeber previous selction using nsuserdafults
                 let defaultSelection = IndexPath(row: 0, section: 0)
                 tableView.selectRow(at: defaultSelection, animated: true, scrollPosition: .none)
             }
