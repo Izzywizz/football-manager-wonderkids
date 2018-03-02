@@ -120,6 +120,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="favourite" destination="ohO-VM-hE7" id="x7c-jV-qRg"/>
                 <outlet property="playerName" destination="a5G-oJ-yh8" id="zAP-YE-sZT"/>
                 <outlet property="positionView" destination="ZGB-SB-7ka" id="Lcj-0m-rNq"/>
                 <outlet property="postion" destination="XI9-8h-Tcb" id="reh-S2-8K4"/>

@@ -16,6 +16,7 @@ class PlayerTableViewCell: UITableViewCell {
     @IBOutlet weak var postion: UILabel!
     @IBOutlet weak var value: UILabel!
     @IBOutlet weak var rating: UILabel!
+    @IBOutlet weak var favourite: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -48,6 +49,13 @@ class PlayerTableViewCell: UITableViewCell {
         }
         value.text = "\(player.value) mil"
         rating.text = player.rating
+        
+        
+        if player.isFavourite {
+            favourite.image = #imageLiteral(resourceName: "Favourites")
+        } else {
+            favourite.image = #imageLiteral(resourceName: "noHeart")
+        }
     }
     
 }

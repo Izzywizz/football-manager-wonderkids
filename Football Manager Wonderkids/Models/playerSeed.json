@@ -7,7 +7,8 @@
     "team": "AAGent",
     "weeklyWageInK": "0.9",
     "value": "0.06",
-    "name": "Czekanowicz,Youn"
+    "name": "Czekanowicz,Youn",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -17,7 +18,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Ramos,Moha"
+    "name": "Ramos,Moha",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -27,7 +29,8 @@
     "team": "Olimpija",
     "weeklyWageInK": "0.9",
     "value": "0.09",
-    "name": "Vodisek,Rok"
+    "name": "Vodisek,Rok",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -37,7 +40,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "1.5",
     "value": "0.07",
-    "name": "Grabara,Kamil"
+    "name": "Grabara,Kamil",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -47,7 +51,8 @@
     "team": "Monaco",
     "weeklyWageInK": "5",
     "value": "0.6",
-    "name": "Badiashile,Loic"
+    "name": "Badiashile,Loic",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -57,7 +62,8 @@
     "team": "Inter",
     "weeklyWageInK": "6.4",
     "value": "0.23",
-    "name": "Radu,Ionut"
+    "name": "Radu,Ionut",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -67,7 +73,8 @@
     "team": "Schalke",
     "weeklyWageInK": "4",
     "value": "0.87",
-    "name": "Nubel,Alexander"
+    "name": "Nubel,Alexander",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -77,7 +84,8 @@
     "team": "Juventus",
     "weeklyWageInK": "11.9",
     "value": "0.5",
-    "name": "Audero,Emil"
+    "name": "Audero,Emil",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -87,7 +95,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "2.5",
     "value": "0.02",
-    "name": "Bulka,Marcin"
+    "name": "Bulka,Marcin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -97,7 +106,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "1",
     "value": "0.16",
-    "name": "Carevic,Lazar"
+    "name": "Carevic,Lazar",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -107,7 +117,8 @@
     "team": "At.Mineiro",
     "weeklyWageInK": "0.1",
     "value": "0.05",
-    "name": "Cleiton"
+    "name": "Cleiton",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -117,7 +128,8 @@
     "team": "Porto",
     "weeklyWageInK": "1.6",
     "value": "0.04",
-    "name": "Costa,Diogo"
+    "name": "Costa,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "88",
@@ -127,7 +139,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "180",
     "value": "14",
-    "name": "Donnarumma,Gianluigi"
+    "name": "Donnarumma,Gianluigi",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -137,7 +150,8 @@
     "team": "Bayern",
     "weeklyWageInK": "0.4",
     "value": "0.33",
-    "name": "Fruchtl,Christian"
+    "name": "Fruchtl,Christian",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -147,7 +161,8 @@
     "team": "Sampdoria",
     "weeklyWageInK": "0.2",
     "value": "0.1",
-    "name": "Hutvagner,Gergely"
+    "name": "Hutvagner,Gergely",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -157,7 +172,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "0.1",
     "value": "0.03",
-    "name": "Jaen,Brian"
+    "name": "Jaen,Brian",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -167,7 +183,8 @@
     "team": "Strasbourg",
     "weeklyWageInK": "5.7",
     "value": "1.4",
-    "name": "Kamara,Bingourou"
+    "name": "Kamara,Bingourou",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -177,7 +194,8 @@
     "team": "Toulouse",
     "weeklyWageInK": "8.2",
     "value": "2.7",
-    "name": "Lafont,Alban"
+    "name": "Lafont,Alban",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -187,7 +205,8 @@
     "team": "Hull",
     "weeklyWageInK": "0.6",
     "value": "0.2",
-    "name": "Mannion,Will"
+    "name": "Mannion,Will",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -197,7 +216,8 @@
     "team": "Osmanlispor",
     "weeklyWageInK": "5.1",
     "value": "0.4",
-    "name": "Mele,Santiago"
+    "name": "Mele,Santiago",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -207,7 +227,8 @@
     "team": "Udinese",
     "weeklyWageInK": "15.9",
     "value": "2.4",
-    "name": "Meret,Alex"
+    "name": "Meret,Alex",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -217,7 +238,8 @@
     "team": "Altinordu",
     "weeklyWageInK": "0.3",
     "value": "0.19",
-    "name": "Ozer,Berke"
+    "name": "Ozer,Berke",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -227,7 +249,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "0.4",
     "value": "0.03",
-    "name": "Pena,Inaki"
+    "name": "Pena,Inaki",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -237,7 +260,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "6",
     "value": "0.35",
-    "name": "Plizzari,Alessandro"
+    "name": "Plizzari,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -247,7 +271,8 @@
     "team": "Boca",
     "weeklyWageInK": "0.7",
     "value": "0.13",
-    "name": "Roffo,Manuel"
+    "name": "Roffo,Manuel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -257,7 +282,8 @@
     "team": "Alaves",
     "weeklyWageInK": "5",
     "value": "1",
-    "name": "Sivera,Antonio"
+    "name": "Sivera,Antonio",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -267,7 +293,8 @@
     "team": "Benfica",
     "weeklyWageInK": "9.1",
     "value": "0.22",
-    "name": "Svilar,Mile"
+    "name": "Svilar,Mile",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -277,7 +304,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "0.1",
     "value": "0.05",
-    "name": "Unbehaun,Luca"
+    "name": "Unbehaun,Luca",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -287,7 +315,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "0.1",
     "value": "0.09",
-    "name": "Panzo,Jonathan"
+    "name": "Panzo,Jonathan",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -297,7 +326,8 @@
     "team": "ManCity",
     "weeklyWageInK": "30",
     "value": "0.3",
-    "name": "Adarabioyo,Tosin"
+    "name": "Adarabioyo,Tosin",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -307,7 +337,8 @@
     "team": "ManCity",
     "weeklyWageInK": "0.1",
     "value": "0.03",
-    "name": "Garcia,Eric"
+    "name": "Garcia,Eric",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -317,7 +348,8 @@
     "team": "Porto",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Matos,Tiago"
+    "name": "Matos,Tiago",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -327,7 +359,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.02",
     "value": "0.09",
-    "name": "Perez,Nehuen"
+    "name": "Perez,Nehuen",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -337,7 +370,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.1",
     "value": "0.02",
-    "name": "MatheusGuedes"
+    "name": "MatheusGuedes",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -347,7 +381,8 @@
     "team": "Espanyol",
     "weeklyWageInK": "0.5",
     "value": "0.03",
-    "name": "Alavedra,Albert"
+    "name": "Alavedra,Albert",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -357,7 +392,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1",
     "value": "0.01",
-    "name": "Alvaro,Pedro"
+    "name": "Alvaro,Pedro",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -367,7 +403,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "0.1",
     "value": "0.13",
-    "name": "Amo,JoseMaria"
+    "name": "Amo,JoseMaria",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -377,7 +414,8 @@
     "team": "S.Gijon",
     "weeklyWageInK": "0.9",
     "value": "0.2",
-    "name": "Suarez,Pelayo"
+    "name": "Suarez,Pelayo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -387,7 +425,8 @@
     "team": "Valencia",
     "weeklyWageInK": "0.3",
     "value": "0.02",
-    "name": "Badal,Carlos"
+    "name": "Badal,Carlos",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -397,7 +436,8 @@
     "team": "Nantes",
     "weeklyWageInK": "1.9",
     "value": "0.15",
-    "name": "Basila,Thomas"
+    "name": "Basila,Thomas",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -407,7 +447,8 @@
     "team": "Nice",
     "weeklyWageInK": "8.1",
     "value": "1.2",
-    "name": "Sarr,Malang"
+    "name": "Sarr,Malang",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -417,7 +458,8 @@
     "team": "Marseille",
     "weeklyWageInK": "3.6",
     "value": "0.24",
-    "name": "Kamara,Boubacar"
+    "name": "Kamara,Boubacar",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -427,7 +469,8 @@
     "team": "Toulouse",
     "weeklyWageInK": "8.2",
     "value": "3.5",
-    "name": "Diop,Issa"
+    "name": "Diop,Issa",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -437,7 +480,8 @@
     "team": "Inter",
     "weeklyWageInK": "15.9",
     "value": "0.56",
-    "name": "Bastoni,Alessandro"
+    "name": "Bastoni,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -447,7 +491,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.2",
     "value": "0.06",
-    "name": "Bettella,Davide"
+    "name": "Bettella,Davide",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -457,7 +502,8 @@
     "team": "Tottenham",
     "weeklyWageInK": "30",
     "value": "3.8",
-    "name": "Carter-Vickers,Cameron"
+    "name": "Carter-Vickers,Cameron",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -467,7 +513,8 @@
     "team": "Sundowns",
     "weeklyWageInK": "3.4",
     "value": "0.43",
-    "name": "Coetzee,Rivaldo"
+    "name": "Coetzee,Rivaldo",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -477,7 +524,8 @@
     "team": "Ajax",
     "weeklyWageInK": "9.3",
     "value": "5",
-    "name": "deLigt,Matthijs"
+    "name": "deLigt,Matthijs",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -487,7 +535,8 @@
     "team": "Benfica",
     "weeklyWageInK": "4",
     "value": "1",
-    "name": "Dias,Ruben"
+    "name": "Dias,Ruben",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -497,7 +546,8 @@
     "team": "Sporting",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Djalo,Tiago"
+    "name": "Djalo,Tiago",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -507,7 +557,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "0.5",
     "value": "0.52",
-    "name": "Dossena,Alberto"
+    "name": "Dossena,Alberto",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -517,7 +568,8 @@
     "team": "KanoPillars",
     "weeklyWageInK": "0.2",
     "value": "0.12",
-    "name": "Bello,Zaharaddeen"
+    "name": "Bello,Zaharaddeen",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -527,7 +579,8 @@
     "team": "Tottenham",
     "weeklyWageInK": "18",
     "value": "3.8",
-    "name": "Foyth,Juan"
+    "name": "Foyth,Juan",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -537,7 +590,8 @@
     "team": "Celtic",
     "weeklyWageInK": "10",
     "value": "1.6",
-    "name": "Ajer,Kristoffer"
+    "name": "Ajer,Kristoffer",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -547,7 +601,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "Geovani"
+    "name": "Geovani",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -557,7 +612,8 @@
     "team": "Rennes",
     "weeklyWageInK": "7.5",
     "value": "3.5",
-    "name": "Gnagnon,Joris"
+    "name": "Gnagnon,Joris",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -567,7 +623,8 @@
     "team": "Valencia",
     "weeklyWageInK": "0.4",
     "value": "0.05",
-    "name": "Guillamon,Hugo"
+    "name": "Guillamon,Hugo",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -577,7 +634,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.9",
     "value": "0.1",
-    "name": "Hernando,Manu"
+    "name": "Hernando,Manu",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -587,7 +645,8 @@
     "team": "Valencia",
     "weeklyWageInK": "2.2",
     "value": "0.7",
-    "name": "JaviJimenez"
+    "name": "JaviJimenez",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -597,7 +656,8 @@
     "team": "Tenerife",
     "weeklyWageInK": "4.3",
     "value": "0.97",
-    "name": "Jorge"
+    "name": "Jorge",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -607,7 +667,8 @@
     "team": "Schalke",
     "weeklyWageInK": "4",
     "value": "3.6",
-    "name": "Kehrer,Thilo"
+    "name": "Kehrer,Thilo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -617,7 +678,8 @@
     "team": "Basel",
     "weeklyWageInK": "4.9",
     "value": "1",
-    "name": "Cumart,Eray"
+    "name": "Cumart,Eray",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -627,7 +689,8 @@
     "team": "SportingCP",
     "weeklyWageInK": "1.3",
     "value": "0.17",
-    "name": "Kiki"
+    "name": "Kiki",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -637,7 +700,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "10.7",
     "value": "3.8",
-    "name": "Uduokhai,Felix"
+    "name": "Uduokhai,Felix",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -647,7 +711,8 @@
     "team": "SanLorenzo",
     "weeklyWageInK": "3",
     "value": "1.7",
-    "name": "Senesi,Marcos"
+    "name": "Senesi,Marcos",
+    "isFavourite": false
   },
   {
     "rating": "70",
@@ -657,7 +722,8 @@
     "team": "Porto",
     "weeklyWageInK": "1.6",
     "value": "0.05",
-    "name": "Leite,Diogo"
+    "name": "Leite,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -667,7 +733,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "1.7",
     "value": "0.17",
-    "name": "LeoSantos"
+    "name": "LeoSantos",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -677,7 +744,8 @@
     "team": "Leverkusen",
     "weeklyWageInK": "34.3",
     "value": "3.8",
-    "name": "Retsos,Panagiotis"
+    "name": "Retsos,Panagiotis",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -687,7 +755,8 @@
     "team": "Vitoria",
     "weeklyWageInK": "1",
     "value": "0.12",
-    "name": "LeoXavier"
+    "name": "LeoXavier",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -697,7 +766,8 @@
     "team": "Torino",
     "weeklyWageInK": "9.5",
     "value": "2.9",
-    "name": "Lyanco"
+    "name": "Lyanco",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -707,7 +777,8 @@
     "team": "At.Mineiro",
     "weeklyWageInK": "1.4",
     "value": "0.13",
-    "name": "Bremer"
+    "name": "Bremer",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -717,7 +788,8 @@
     "team": "Sassuolo",
     "weeklyWageInK": "7",
     "value": "0.26",
-    "name": "Marchizza,Riccardo"
+    "name": "Marchizza,Riccardo",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -727,7 +799,8 @@
     "team": "PSG",
     "weeklyWageInK": "0.9",
     "value": "0.1",
-    "name": "MbeSoh,Loic"
+    "name": "MbeSoh,Loic",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -737,7 +810,8 @@
     "team": "Gladbach",
     "weeklyWageInK": "7.6",
     "value": "5.4",
-    "name": "Elvedi,Nico"
+    "name": "Elvedi,Nico",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -747,7 +821,8 @@
     "team": "Nantes",
     "weeklyWageInK": "0.7",
     "value": "0.09",
-    "name": "Mendy,Batista"
+    "name": "Mendy,Batista",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -757,7 +832,8 @@
     "team": "Koln",
     "weeklyWageInK": "33.9",
     "value": "5.9",
-    "name": "Mere,Jorge"
+    "name": "Mere,Jorge",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -767,7 +843,8 @@
     "team": "Fiorentina",
     "weeklyWageInK": "8.2",
     "value": "1.4",
-    "name": "Milenkovic,Nikola"
+    "name": "Milenkovic,Nikola",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -777,7 +854,8 @@
     "team": "Monterrey",
     "weeklyWageInK": "5.4",
     "value": "1",
-    "name": "Montes,Cesar"
+    "name": "Montes,Cesar",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -787,7 +865,8 @@
     "team": "Cruzeiro",
     "weeklyWageInK": "5.6",
     "value": "0.6",
-    "name": "MuriloCerqueira"
+    "name": "MuriloCerqueira",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -797,7 +876,8 @@
     "team": "WestHam",
     "weeklyWageInK": "40",
     "value": "4.5",
-    "name": "Oxford,Reece"
+    "name": "Oxford,Reece",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -807,7 +887,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "5.5",
     "value": "0.4",
-    "name": "Chalobah,Trevoh"
+    "name": "Chalobah,Trevoh",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -817,7 +898,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "1",
     "value": "0.4",
-    "name": "Williams,Ro-Shaun"
+    "name": "Williams,Ro-Shaun",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -827,7 +909,8 @@
     "team": "Porto",
     "weeklyWageInK": "1.8",
     "value": "0.05",
-    "name": "Queiros,Diogo"
+    "name": "Queiros,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -837,7 +920,8 @@
     "team": "Olimpia",
     "weeklyWageInK": "0.7",
     "value": "0.32",
-    "name": "Salcedo,Saul"
+    "name": "Salcedo,Saul",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -847,7 +931,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "0.2",
     "value": "0.08",
-    "name": "Sportelli,Moris"
+    "name": "Sportelli,Moris",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -857,7 +942,8 @@
     "team": "Zaragoza",
     "weeklyWageInK": "0.3",
     "value": "0.02",
-    "name": "Subias,David"
+    "name": "Subias,David",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -867,7 +953,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "5",
     "value": "17",
-    "name": "Tuanzebe,Axel"
+    "name": "Tuanzebe,Axel",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -877,7 +964,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "41.1",
     "value": "5.4",
-    "name": "Upamecano,Dayot"
+    "name": "Upamecano,Dayot",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -887,7 +975,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "34.3",
     "value": "5.1",
-    "name": "Vallejo,Jesus"
+    "name": "Vallejo,Jesus",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -897,7 +986,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.2",
     "value": "0.18",
-    "name": "Vanheusden,Zinho"
+    "name": "Vanheusden,Zinho",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -907,7 +997,8 @@
     "team": "Cittadella",
     "weeklyWageInK": "0.7",
     "value": "0.6",
-    "name": "Varnier,Marco"
+    "name": "Varnier,Marco",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -917,7 +1008,8 @@
     "team": "Cagliari",
     "weeklyWageInK": "6.3",
     "value": "1.4",
-    "name": "Romagna,Filippo"
+    "name": "Romagna,Filippo",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -927,7 +1019,8 @@
     "team": "Udinese",
     "weeklyWageInK": "0.9",
     "value": "0.05",
-    "name": "Vasko,Filip"
+    "name": "Vasko,Filip",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -937,7 +1030,8 @@
     "team": "Palmeiras",
     "weeklyWageInK": "0.6",
     "value": "0.02",
-    "name": "Vitao"
+    "name": "Vitao",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -947,7 +1041,8 @@
     "team": "Heerenveen",
     "weeklyWageInK": "0.1",
     "value": "0.53",
-    "name": "Pierie,Kik"
+    "name": "Pierie,Kik",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -957,7 +1052,8 @@
     "team": "Fortuna",
     "weeklyWageInK": "1.3",
     "value": "0.34",
-    "name": "Schuurs,Perr"
+    "name": "Schuurs,Perr",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -967,7 +1063,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "4",
     "value": "3.8",
-    "name": "Zagadou,Dan-Axel"
+    "name": "Zagadou,Dan-Axel",
+    "isFavourite": false
   },
   {
     "rating": "68",
@@ -977,7 +1074,8 @@
     "team": "Villarreal",
     "weeklyWageInK": "0.3",
     "value": "0.02",
-    "name": "Castano,Pepe"
+    "name": "Castano,Pepe",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -987,7 +1085,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "28",
     "value": "10.7",
-    "name": "Gomez,Joe"
+    "name": "Gomez,Joe",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -997,7 +1096,8 @@
     "team": "Hertha",
     "weeklyWageInK": "1.3",
     "value": "2.7",
-    "name": "Torunarigha,Jordan"
+    "name": "Torunarigha,Jordan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1007,7 +1107,8 @@
     "team": "Hamburg",
     "weeklyWageInK": "10.7",
     "value": "2.1",
-    "name": "vanDrongelen,Rick"
+    "name": "vanDrongelen,Rick",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1017,7 +1118,8 @@
     "team": "CrystalPalace",
     "weeklyWageInK": "55",
     "value": "9",
-    "name": "Riedewald,Jairo"
+    "name": "Riedewald,Jairo",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1027,7 +1129,8 @@
     "team": "Feyenoord",
     "weeklyWageInK": "8",
     "value": "1.8",
-    "name": "St.Juste,Jerry"
+    "name": "St.Juste,Jerry",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -1037,7 +1140,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "2.5",
     "value": "0.27",
-    "name": "Castillo,Juan"
+    "name": "Castillo,Juan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1047,7 +1151,8 @@
     "team": "Udinese",
     "weeklyWageInK": "0.2",
     "value": "0.09",
-    "name": "Ermacora,Federico"
+    "name": "Ermacora,Federico",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -1057,7 +1162,8 @@
     "team": "A.Bilbao",
     "weeklyWageInK": "9.3",
     "value": "1.4",
-    "name": "Nunez,Unai"
+    "name": "Nunez,Unai",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -1067,7 +1173,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "0.2",
     "value": "0.04",
-    "name": "Campeol,Axel"
+    "name": "Campeol,Axel",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1077,7 +1184,8 @@
     "team": "SportingCP",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Costa,Goncalo"
+    "name": "Costa,Goncalo",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1087,7 +1195,8 @@
     "team": "Leicester",
     "weeklyWageInK": "20",
     "value": "11.3",
-    "name": "Chilwell,Ben"
+    "name": "Chilwell,Ben",
+    "isFavourite": false
   },
   {
     "rating": "70",
@@ -1097,7 +1206,8 @@
     "team": "Everton",
     "weeklyWageInK": "0.1",
     "value": "0.3",
-    "name": "Gibson,Lewis"
+    "name": "Gibson,Lewis",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -1107,7 +1217,8 @@
     "team": "Palermo",
     "weeklyWageInK": "0.2",
     "value": "0.21",
-    "name": "Setola,Carmine"
+    "name": "Setola,Carmine",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1117,7 +1228,8 @@
     "team": "Espanyol",
     "weeklyWageInK": "10.9",
     "value": "2.6",
-    "name": "Aaron"
+    "name": "Aaron",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1127,7 +1239,8 @@
     "team": "Valencia",
     "weeklyWageInK": "0.4",
     "value": "0.03",
-    "name": "Centelles,Alex"
+    "name": "Centelles,Alex",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1137,7 +1250,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "2.6",
     "value": "0.7",
-    "name": "Cucurella,Marc"
+    "name": "Cucurella,Marc",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1147,7 +1261,8 @@
     "team": "Sion",
     "weeklyWageInK": "4.8",
     "value": "0.7",
-    "name": "Dimarco,Federico"
+    "name": "Dimarco,Federico",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1157,7 +1272,8 @@
     "team": "Torino",
     "weeklyWageInK": "0.2",
     "value": "0.15",
-    "name": "Giraudo,Federico"
+    "name": "Giraudo,Federico",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1167,7 +1283,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "8.4",
     "value": "2.7",
-    "name": "GuilhermeArana"
+    "name": "GuilhermeArana",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1177,7 +1294,8 @@
     "team": "Brentford",
     "weeklyWageInK": "5",
     "value": "3.2",
-    "name": "Henry,Rico"
+    "name": "Henry,Rico",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1187,7 +1305,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "16",
     "value": "0.82",
-    "name": "Dasilva,Jay"
+    "name": "Dasilva,Jay",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -1197,7 +1316,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "103",
     "value": "4.7",
-    "name": "Hernandez,Theo"
+    "name": "Hernandez,Theo",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1207,7 +1327,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "4",
     "value": "3.8",
-    "name": "Itter,Gian-Luca"
+    "name": "Itter,Gian-Luca",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1217,7 +1338,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.2",
     "value": "2.3",
-    "name": "JuniorTavares"
+    "name": "JuniorTavares",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1227,7 +1349,8 @@
     "team": "Juventus",
     "weeklyWageInK": "7.8",
     "value": "0.23",
-    "name": "Rogerio"
+    "name": "Rogerio",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1237,7 +1360,8 @@
     "team": "Valencia",
     "weeklyWageInK": "10.4",
     "value": "2.2",
-    "name": "Lato,Toni"
+    "name": "Lato,Toni",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1247,7 +1371,8 @@
     "team": "Rennes",
     "weeklyWageInK": "6.8",
     "value": "1.5",
-    "name": "Maouassa,Faitout"
+    "name": "Maouassa,Faitout",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1257,7 +1382,8 @@
     "team": "Villarreal",
     "weeklyWageInK": "8.9",
     "value": "1.3",
-    "name": "Marin,Adrian"
+    "name": "Marin,Adrian",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1267,7 +1393,8 @@
     "team": "Hoffenheim",
     "weeklyWageInK": "4.5",
     "value": "2.8",
-    "name": "Ochs,Philipp"
+    "name": "Ochs,Philipp",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -1277,7 +1404,8 @@
     "team": "Roma",
     "weeklyWageInK": "1.1",
     "value": "0.14",
-    "name": "Pellegrini,Luca"
+    "name": "Pellegrini,Luca",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1287,7 +1415,8 @@
     "team": "Udinese",
     "weeklyWageInK": "12.7",
     "value": "2.1",
-    "name": "Pezzella,Giuseppe"
+    "name": "Pezzella,Giuseppe",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1297,7 +1426,8 @@
     "team": "SanLorenzo",
     "weeklyWageInK": "3.3",
     "value": "1.9",
-    "name": "Rojas,Gabriel"
+    "name": "Rojas,Gabriel",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -1307,7 +1437,8 @@
     "team": "IndependientedelValle",
     "weeklyWageInK": "0.4",
     "value": "0.04",
-    "name": "Tello,Fabiano"
+    "name": "Tello,Fabiano",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1317,7 +1448,8 @@
     "team": "Celtic",
     "weeklyWageInK": "18",
     "value": "10.7",
-    "name": "Tierney,Kieran"
+    "name": "Tierney,Kieran",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -1327,7 +1459,8 @@
     "team": "Stoke",
     "weeklyWageInK": "10",
     "value": "0.75",
-    "name": "Tymon,Josh"
+    "name": "Tymon,Josh",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1337,7 +1470,8 @@
     "team": "Tottenham",
     "weeklyWageInK": "20",
     "value": "2.9",
-    "name": "Walker-Peters,Kyle"
+    "name": "Walker-Peters,Kyle",
+    "isFavourite": false
   },
   {
     "rating": "67",
@@ -1347,7 +1481,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "1.5",
     "value": "0.09",
-    "name": "Sterling,Dujon"
+    "name": "Sterling,Dujon",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -1357,7 +1492,8 @@
     "team": "Lazio",
     "weeklyWageInK": "2.2",
     "value": "0.09",
-    "name": "Spizzichino,Giorgio"
+    "name": "Spizzichino,Giorgio",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1367,7 +1503,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "0.7",
     "value": "0.11",
-    "name": "Morey,Mateu"
+    "name": "Morey,Mateu",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1377,7 +1514,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "Kleber"
+    "name": "Kleber",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1387,7 +1525,8 @@
     "team": "Cruzeiro",
     "weeklyWageInK": "0.1",
     "value": "0.07",
-    "name": "Vitinho"
+    "name": "Vitinho",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -1397,7 +1536,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "12",
     "value": "13.3",
-    "name": "Alexander-Arnold,Trent"
+    "name": "Alexander-Arnold,Trent",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1407,7 +1547,8 @@
     "team": "Southampton",
     "weeklyWageInK": "0.8",
     "value": "0.16",
-    "name": "Valery,Yan"
+    "name": "Valery,Yan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1417,7 +1558,8 @@
     "team": "PSG",
     "weeklyWageInK": "5.1",
     "value": "0.5",
-    "name": "Georgen,Alec"
+    "name": "Georgen,Alec",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1427,7 +1569,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "12",
     "value": "1.6",
-    "name": "Achraf"
+    "name": "Achraf",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1437,7 +1580,8 @@
     "team": "Malaga",
     "weeklyWageInK": "2.3",
     "value": "0.21",
-    "name": "Robles,Alex"
+    "name": "Robles,Alex",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -1447,7 +1591,8 @@
     "team": "Porto",
     "weeklyWageInK": "2.7",
     "value": "0.19",
-    "name": "Dalot,Diogo"
+    "name": "Dalot,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1457,7 +1602,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.7",
     "value": "0.5",
-    "name": "MacAllister,Kevin"
+    "name": "MacAllister,Kevin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1467,7 +1613,8 @@
     "team": "FCUtrecht",
     "weeklyWageInK": "2.6",
     "value": "1.4",
-    "name": "Troupee,Giovanni"
+    "name": "Troupee,Giovanni",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1477,7 +1624,8 @@
     "team": "Sassuolo",
     "weeklyWageInK": "7.9",
     "value": "2.2",
-    "name": "Adjapong,Claud"
+    "name": "Adjapong,Claud",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1487,7 +1635,8 @@
     "team": "Juventus",
     "weeklyWageInK": "9.5",
     "value": "4.4",
-    "name": "Lirola,Pol"
+    "name": "Lirola,Pol",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1497,7 +1646,8 @@
     "team": "Benfica",
     "weeklyWageInK": "4",
     "value": "0.18",
-    "name": "Pinto,Alex"
+    "name": "Pinto,Alex",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1507,7 +1657,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "34.3",
     "value": "4.8",
-    "name": "Passlack,Felix"
+    "name": "Passlack,Felix",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1517,7 +1668,8 @@
     "team": "Lech",
     "weeklyWageInK": "1",
     "value": "0.28",
-    "name": "Gumny,Robert"
+    "name": "Gumny,Robert",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1527,7 +1679,8 @@
     "team": "ManCity",
     "weeklyWageInK": "7.5",
     "value": "4.5",
-    "name": "Maffeo,Pablo"
+    "name": "Maffeo,Pablo",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1537,7 +1690,8 @@
     "team": "Twente",
     "weeklyWageInK": "2.8",
     "value": "1.6",
-    "name": "terAvest,Hidde"
+    "name": "terAvest,Hidde",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1547,7 +1701,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "19",
     "value": "4.2",
-    "name": "Calabria,Davide"
+    "name": "Calabria,Davide",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1557,7 +1712,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "2.8",
     "value": "0.8",
-    "name": "Carmona,David"
+    "name": "Carmona,David",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1567,7 +1723,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "1.8",
     "value": "0.4",
-    "name": "SanEmeterio,Borja"
+    "name": "SanEmeterio,Borja",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1577,7 +1734,8 @@
     "team": "Leverkusen",
     "weeklyWageInK": "25.6",
     "value": "10",
-    "name": "Henrichs,Benjamin"
+    "name": "Henrichs,Benjamin",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1587,7 +1745,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.1",
     "value": "1.5",
-    "name": "EderMilitao"
+    "name": "EderMilitao",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -1597,7 +1756,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.1",
     "value": "0.05",
-    "name": "GuilhermeNunes"
+    "name": "GuilhermeNunes",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1607,7 +1767,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.1",
     "value": "0.03",
-    "name": "Frizzo"
+    "name": "Frizzo",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1617,7 +1778,8 @@
     "team": "At.Paranaense",
     "weeklyWageInK": "0.04",
     "value": "0.03",
-    "name": "MarcosAntonio"
+    "name": "MarcosAntonio",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1627,7 +1789,8 @@
     "team": "Vasco",
     "weeklyWageInK": "0.1",
     "value": "0.02",
-    "name": "JoaoVictor"
+    "name": "JoaoVictor",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1637,7 +1800,8 @@
     "team": "NewYork",
     "weeklyWageInK": "1.3",
     "value": "1",
-    "name": "Adams,Tyler"
+    "name": "Adams,Tyler",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -1647,7 +1811,8 @@
     "team": "Roma",
     "weeklyWageInK": "0.2",
     "value": "0.23",
-    "name": "Masangu,Keres"
+    "name": "Masangu,Keres",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1657,7 +1822,8 @@
     "team": "Leicester",
     "weeklyWageInK": "35",
     "value": "24",
-    "name": "Ndidi,Wilfred"
+    "name": "Ndidi,Wilfred",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1667,7 +1833,8 @@
     "team": "Ajax",
     "weeklyWageInK": "1",
     "value": "0.3",
-    "name": "Eiting,Carel"
+    "name": "Eiting,Carel",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1677,7 +1844,8 @@
     "team": "Lille",
     "weeklyWageInK": "20.7",
     "value": "7.8",
-    "name": "ThiagoMaia"
+    "name": "ThiagoMaia",
+    "isFavourite": false
   },
   {
     "rating": "70",
@@ -1687,7 +1855,8 @@
     "team": "ASJAcademy",
     "weeklyWageInK": "0.07",
     "value": "0.09",
-    "name": "Agor,Chukwudi"
+    "name": "Agor,Chukwudi",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -1697,7 +1866,8 @@
     "team": "Leverkusen",
     "weeklyWageInK": "1.8",
     "value": "0.43",
-    "name": "Akkaynak,Atakan"
+    "name": "Akkaynak,Atakan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1707,7 +1877,8 @@
     "team": "Vasco",
     "weeklyWageInK": "2",
     "value": "0.29",
-    "name": "Andrey"
+    "name": "Andrey",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1717,7 +1888,8 @@
     "team": "Stuttgart",
     "weeklyWageInK": "17.8",
     "value": "6",
-    "name": "Ascacibar,Santiago"
+    "name": "Ascacibar,Santiago",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1727,7 +1899,8 @@
     "team": "Velez",
     "weeklyWageInK": "2.7",
     "value": "1.8",
-    "name": "Caseres,Santiago"
+    "name": "Caseres,Santiago",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1737,7 +1910,8 @@
     "team": "Sporting",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Braganca,Daniel"
+    "name": "Braganca,Daniel",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1747,7 +1921,8 @@
     "team": "Hertha",
     "weeklyWageInK": "1.7",
     "value": "2",
-    "name": "Maier,Arne"
+    "name": "Maier,Arne",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1757,7 +1932,8 @@
     "team": "Vasco",
     "weeklyWageInK": "0.1",
     "value": "0.02",
-    "name": "CaioLopes"
+    "name": "CaioLopes",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -1767,7 +1943,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.06",
     "value": "0.07",
-    "name": "Calderon,Martin"
+    "name": "Calderon,Martin",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -1777,7 +1954,8 @@
     "team": "Lyon",
     "weeklyWageInK": "1.8",
     "value": "0.13",
-    "name": "Caqueret,Maxence"
+    "name": "Caqueret,Maxence",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1787,7 +1965,8 @@
     "team": "Everton",
     "weeklyWageInK": "2",
     "value": "0.4",
-    "name": "Baningime,Beni"
+    "name": "Baningime,Beni",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -1797,7 +1976,8 @@
     "team": "Napoli",
     "weeklyWageInK": "23.8",
     "value": "17.5",
-    "name": "Diawara,Amadou"
+    "name": "Diawara,Amadou",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1807,7 +1987,8 @@
     "team": "Saint-Etienne",
     "weeklyWageInK": "9.3",
     "value": "4.6",
-    "name": "Diousse,Assane"
+    "name": "Diousse,Assane",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1817,7 +1998,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "1.1",
     "value": "4.3",
-    "name": "Douglas"
+    "name": "Douglas",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1827,7 +2009,8 @@
     "team": "ManCity",
     "weeklyWageInK": "60",
     "value": "14",
-    "name": "DouglasLuiz"
+    "name": "DouglasLuiz",
+    "isFavourite": false
   },
   {
     "rating": "70",
@@ -1837,7 +2020,8 @@
     "team": "Lillestrom",
     "weeklyWageInK": "1.2",
     "value": "0.08",
-    "name": "Ezeh,Charles"
+    "name": "Ezeh,Charles",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1847,7 +2031,8 @@
     "team": "WestBrom",
     "weeklyWageInK": "10",
     "value": "5",
-    "name": "Field,Sam"
+    "name": "Field,Sam",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -1857,7 +2042,8 @@
     "team": "Maritimo",
     "weeklyWageInK": "1.8",
     "value": "0.38",
-    "name": "Gamboa,Joao"
+    "name": "Gamboa,Joao",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -1867,7 +2053,8 @@
     "team": "Hoffenheim",
     "weeklyWageInK": "1.3",
     "value": "4",
-    "name": "Geiger,Dennis"
+    "name": "Geiger,Dennis",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -1877,7 +2064,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "0.8",
     "value": "0.24",
-    "name": "Genaro"
+    "name": "Genaro",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1887,7 +2075,8 @@
     "team": "PSG",
     "weeklyWageInK": "1.2",
     "value": "0.19",
-    "name": "Gomes,Claudio"
+    "name": "Gomes,Claudio",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -1897,7 +2086,8 @@
     "team": "Lazio",
     "weeklyWageInK": "0.2",
     "value": "0.13",
-    "name": "Miceli,Alessio"
+    "name": "Miceli,Alessio",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1907,7 +2097,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1",
     "value": "0.06",
-    "name": "Luis,Florentino"
+    "name": "Luis,Florentino",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -1917,7 +2108,8 @@
     "team": "Schalke",
     "weeklyWageInK": "13.4",
     "value": "3.2",
-    "name": "McKennie,Weston"
+    "name": "McKennie,Weston",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1927,7 +2119,8 @@
     "team": "Villarreal",
     "weeklyWageInK": "0.06",
     "value": "0.19",
-    "name": "Morlanes,Manu"
+    "name": "Morlanes,Manu",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -1937,7 +2130,8 @@
     "team": "Wolves",
     "weeklyWageInK": "30",
     "value": "14.3",
-    "name": "Neves,Ruben"
+    "name": "Neves,Ruben",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1947,7 +2141,8 @@
     "team": "Amiens",
     "weeklyWageInK": "24.1",
     "value": "5.7",
-    "name": "Ndombele,Tanguy"
+    "name": "Ndombele,Tanguy",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1957,7 +2152,8 @@
     "team": "Cruzeiro",
     "weeklyWageInK": "2.7",
     "value": "0.5",
-    "name": "Nonoca"
+    "name": "Nonoca",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1967,7 +2163,8 @@
     "team": "Porto",
     "weeklyWageInK": "2.7",
     "value": "0.34",
-    "name": "Pires,Rui"
+    "name": "Pires,Rui",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1977,7 +2174,8 @@
     "team": "Benfica",
     "weeklyWageInK": "4",
     "value": "0.43",
-    "name": "Rodrigues,Pedro"
+    "name": "Rodrigues,Pedro",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -1987,7 +2185,8 @@
     "team": "Leeds",
     "weeklyWageInK": "4",
     "value": "2.2",
-    "name": "RonaldoVieira"
+    "name": "RonaldoVieira",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -1997,7 +2196,8 @@
     "team": "Pescara",
     "weeklyWageInK": "0.2",
     "value": "0.3",
-    "name": "Kanoute,ElimaneFranck"
+    "name": "Kanoute,ElimaneFranck",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2007,7 +2207,8 @@
     "team": "Palermo",
     "weeklyWageInK": "0.4",
     "value": "0.29",
-    "name": "Ruggiero,Gennaro"
+    "name": "Ruggiero,Gennaro",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2017,7 +2218,8 @@
     "team": "Monaco",
     "weeklyWageInK": "0.9",
     "value": "0.14",
-    "name": "Thuram,Khephren"
+    "name": "Thuram,Khephren",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2027,7 +2229,8 @@
     "team": "Lyon",
     "weeklyWageInK": "16.9",
     "value": "7",
-    "name": "Tousart,Lucas"
+    "name": "Tousart,Lucas",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2037,7 +2240,8 @@
     "team": "Estoril",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Valente,Duarte"
+    "name": "Valente,Duarte",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2047,7 +2251,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "8.2",
     "value": "1.4",
-    "name": "Valverde,Federico"
+    "name": "Valverde,Federico",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2057,7 +2262,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.02",
     "value": "0.14",
-    "name": "Vera,Fausto"
+    "name": "Vera,Fausto",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2067,7 +2273,8 @@
     "team": "Gladbach",
     "weeklyWageInK": "34.3",
     "value": "7.2",
-    "name": "Zakaria,Denis"
+    "name": "Zakaria,Denis",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2077,7 +2284,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "0.1",
     "value": "0.1",
-    "name": "Puigmal,Arnau"
+    "name": "Puigmal,Arnau",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -2087,7 +2295,8 @@
     "team": "Juventus",
     "weeklyWageInK": "31.3",
     "value": "8.3",
-    "name": "Bentancur,Rodrigo"
+    "name": "Bentancur,Rodrigo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2097,7 +2306,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.3",
     "value": "0.04",
-    "name": "VictorYan"
+    "name": "VictorYan",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2107,7 +2317,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "0.1",
     "value": "0.09",
-    "name": "Tagseth,Edvard"
+    "name": "Tagseth,Edvard",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2117,7 +2328,8 @@
     "team": "Fulham",
     "weeklyWageInK": "0.1",
     "value": "0.17",
-    "name": "O'Riley,Matt"
+    "name": "O'Riley,Matt",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -2127,7 +2339,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "8.5",
     "value": "5",
-    "name": "Wendel"
+    "name": "Wendel",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2137,7 +2350,8 @@
     "team": "Ajax",
     "weeklyWageInK": "1.4",
     "value": "4.9",
-    "name": "vandeBeek,Donny"
+    "name": "vandeBeek,Donny",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2147,7 +2361,8 @@
     "team": "Cagliari",
     "weeklyWageInK": "9.5",
     "value": "5",
-    "name": "Barella,Nicolo"
+    "name": "Barella,Nicolo",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -2157,7 +2372,8 @@
     "team": "Monaco",
     "weeklyWageInK": "34.2",
     "value": "9.5",
-    "name": "Tielemans,Youri"
+    "name": "Tielemans,Youri",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2167,7 +2383,8 @@
     "team": "DynamoKyiv",
     "weeklyWageInK": "6.1",
     "value": "3.2",
-    "name": "Shepelev,Volodymyr"
+    "name": "Shepelev,Volodymyr",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2177,7 +2394,8 @@
     "team": "Delfin",
     "weeklyWageInK": "0.3",
     "value": "0.01",
-    "name": "Sierra,Jordan"
+    "name": "Sierra,Jordan",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -2187,7 +2405,8 @@
     "team": "Valencia",
     "weeklyWageInK": "29.4",
     "value": "8.4",
-    "name": "Soler,Carlos"
+    "name": "Soler,Carlos",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -2197,7 +2416,8 @@
     "team": "Bayern",
     "weeklyWageInK": "51.4",
     "value": "10.2",
-    "name": "Sanches,Renato"
+    "name": "Sanches,Renato",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2207,7 +2427,8 @@
     "team": "Juventus",
     "weeklyWageInK": "0.2",
     "value": "0.17",
-    "name": "Portanova,Manolo"
+    "name": "Portanova,Manolo",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2217,7 +2438,8 @@
     "team": "Gladbach",
     "weeklyWageInK": "1.8",
     "value": "2.8",
-    "name": "Cuisance,Mickael"
+    "name": "Cuisance,Mickael",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2227,7 +2449,8 @@
     "team": "S.Gijon",
     "weeklyWageInK": "0.4",
     "value": "0.09",
-    "name": "Campos-Anso,Gaspar"
+    "name": "Campos-Anso,Gaspar",
+    "isFavourite": false
   },
   {
     "rating": "85",
@@ -2237,7 +2460,8 @@
     "team": "Porto",
     "weeklyWageInK": "1.6",
     "value": "0.01",
-    "name": "Sousa,Afonso"
+    "name": "Sousa,Afonso",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2247,7 +2471,8 @@
     "team": "Guidars",
     "weeklyWageInK": "0.02",
     "value": "0.02",
-    "name": "Jiddou,AbdouSalam"
+    "name": "Jiddou,AbdouSalam",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -2257,7 +2482,8 @@
     "team": "Celtic",
     "weeklyWageInK": "0.7",
     "value": "0.02",
-    "name": "Hill,Mark"
+    "name": "Hill,Mark",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2267,7 +2493,8 @@
     "team": "AjaxCT",
     "weeklyWageInK": "1.1",
     "value": "0.11",
-    "name": "Margeman,Grant"
+    "name": "Margeman,Grant",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2277,7 +2504,8 @@
     "team": "Lyon",
     "weeklyWageInK": "16.2",
     "value": "5.3",
-    "name": "PapeCheikh"
+    "name": "PapeCheikh",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2287,7 +2515,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "4.3",
     "value": "1.4",
-    "name": "Alena,Carles"
+    "name": "Alena,Carles",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2297,7 +2526,8 @@
     "team": "Espanyol",
     "weeklyWageInK": "6",
     "value": "1.3",
-    "name": "Melendo,Oscar"
+    "name": "Melendo,Oscar",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2307,7 +2537,8 @@
     "team": "At.Pamplona",
     "weeklyWageInK": "1.6",
     "value": "0.37",
-    "name": "Otegui,Antonio"
+    "name": "Otegui,Antonio",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2317,7 +2548,8 @@
     "team": "America",
     "weeklyWageInK": "1.4",
     "value": "0.02",
-    "name": "Paredes,Cristhian"
+    "name": "Paredes,Cristhian",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2327,7 +2559,8 @@
     "team": "Marseille",
     "weeklyWageInK": "24.7",
     "value": "3.2",
-    "name": "Lopez,Maxime"
+    "name": "Lopez,Maxime",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2337,7 +2570,8 @@
     "team": "AAGent",
     "weeklyWageInK": "2.2",
     "value": "0.25",
-    "name": "Raskin,Nicolas"
+    "name": "Raskin,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -2347,7 +2581,8 @@
     "team": "Roma",
     "weeklyWageInK": "0.2",
     "value": "0.04",
-    "name": "Riccardi,Alessio"
+    "name": "Riccardi,Alessio",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2357,7 +2592,8 @@
     "team": "Espanyol",
     "weeklyWageInK": "8.7",
     "value": "2",
-    "name": "Roca,Marc"
+    "name": "Roca,Marc",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2367,7 +2603,8 @@
     "team": "Koln",
     "weeklyWageInK": "4",
     "value": "3.6",
-    "name": "Ozcan,Salih"
+    "name": "Ozcan,Salih",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2377,7 +2614,8 @@
     "team": "Levante",
     "weeklyWageInK": "3.8",
     "value": "0.7",
-    "name": "Pepelu"
+    "name": "Pepelu",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2387,7 +2625,8 @@
     "team": "PSG",
     "weeklyWageInK": "13.1",
     "value": "2.1",
-    "name": "Nkunku,Christopher"
+    "name": "Nkunku,Christopher",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2397,7 +2636,8 @@
     "team": "Guingamp",
     "weeklyWageInK": "5.1",
     "value": "2.1",
-    "name": "Blas,Ludovic"
+    "name": "Blas,Ludovic",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2407,7 +2647,8 @@
     "team": "ManCity",
     "weeklyWageInK": "21.8",
     "value": "4",
-    "name": "Herrera,Yangel"
+    "name": "Herrera,Yangel",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2417,7 +2658,8 @@
     "team": "Koln",
     "weeklyWageInK": "3.4",
     "value": "1.3",
-    "name": "Nartey,Nikolas"
+    "name": "Nartey,Nikolas",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2427,7 +2669,8 @@
     "team": "Chievo",
     "weeklyWageInK": "0.2",
     "value": "0.24",
-    "name": "Rabbas,Mohamed"
+    "name": "Rabbas,Mohamed",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2437,7 +2680,8 @@
     "team": "Lazio",
     "weeklyWageInK": "15.9",
     "value": "3.5",
-    "name": "Murgia,Alessandro"
+    "name": "Murgia,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2447,7 +2691,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1.8",
     "value": "0.76",
-    "name": "Carvalho,Joao"
+    "name": "Carvalho,Joao",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -2457,7 +2702,8 @@
     "team": "Benfica",
     "weeklyWageInK": "8.1",
     "value": "1.1",
-    "name": "Horta,Andre"
+    "name": "Horta,Andre",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -2467,7 +2713,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "1",
     "value": "0.5",
-    "name": "Melegoni,Filippo"
+    "name": "Melegoni,Filippo",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2477,7 +2724,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.9",
     "value": "0.23",
-    "name": "Zaniolo,Nicolo"
+    "name": "Zaniolo,Nicolo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2487,7 +2735,8 @@
     "team": "Torino",
     "weeklyWageInK": "7.9",
     "value": "2",
-    "name": "Lukic,Sasa"
+    "name": "Lukic,Sasa",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2497,7 +2746,8 @@
     "team": "Botafogo",
     "weeklyWageInK": "4.7",
     "value": "1.9",
-    "name": "MatheusFernandes"
+    "name": "MatheusFernandes",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2507,7 +2757,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "34.3",
     "value": "4.8",
-    "name": "Laimer,Konrad"
+    "name": "Laimer,Konrad",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2517,7 +2768,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "25.4",
     "value": "8.3",
-    "name": "Locatelli,Manuel"
+    "name": "Locatelli,Manuel",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2527,7 +2779,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "0.5",
     "value": "0.24",
-    "name": "Zanellato,Niccolo"
+    "name": "Zanellato,Niccolo",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -2537,7 +2790,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "139.6",
     "value": "17.5",
-    "name": "Kessie,Franck"
+    "name": "Kessie,Franck",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2557,7 +2811,8 @@
     "team": "Chievo",
     "weeklyWageInK": "4.3",
     "value": "1.2",
-    "name": "Gaudino,Gianluca"
+    "name": "Gaudino,Gianluca",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -2567,7 +2822,8 @@
     "team": "Udinese",
     "weeklyWageInK": "4.6",
     "value": "0.42",
-    "name": "Coulibaly,Mamadou"
+    "name": "Coulibaly,Mamadou",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2577,7 +2833,8 @@
     "team": "Nantes",
     "weeklyWageInK": "0.7",
     "value": "0.1",
-    "name": "Dabo,Abdoulaye"
+    "name": "Dabo,Abdoulaye",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2587,7 +2844,8 @@
     "team": "Everton",
     "weeklyWageInK": "25",
     "value": "4.3",
-    "name": "Davies,Tom"
+    "name": "Davies,Tom",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2597,7 +2855,8 @@
     "team": "Ajax",
     "weeklyWageInK": "5.5",
     "value": "1",
-    "name": "deJong,Frenkie"
+    "name": "deJong,Frenkie",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2607,7 +2866,8 @@
     "team": "Malaga",
     "weeklyWageInK": "8.5",
     "value": "1.4",
-    "name": "Cecchini,Emanuel"
+    "name": "Cecchini,Emanuel",
+    "isFavourite": false
   },
   {
     "rating": "85",
@@ -2617,7 +2877,8 @@
     "team": "Bournemouth",
     "weeklyWageInK": "30",
     "value": "8.8",
-    "name": "Cook,Lewis"
+    "name": "Cook,Lewis",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -2627,7 +2888,8 @@
     "team": "Estudiantes(LP)",
     "weeklyWageInK": "2.5",
     "value": "1.4",
-    "name": "Cascini,JuanBautista"
+    "name": "Cascini,JuanBautista",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2637,7 +2899,8 @@
     "team": "Udinese",
     "weeklyWageInK": "9.5",
     "value": "1.7",
-    "name": "Balic,Andrija"
+    "name": "Balic,Andrija",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -2647,7 +2910,8 @@
     "team": "Chievo",
     "weeklyWageInK": "3.4",
     "value": "4.7",
-    "name": "Bastien,Samuel"
+    "name": "Bastien,Samuel",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2657,7 +2921,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "51.4",
     "value": "7.2",
-    "name": "Bazoer,Riechedly"
+    "name": "Bazoer,Riechedly",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -2667,7 +2932,8 @@
     "team": "Genk",
     "weeklyWageInK": "8.9",
     "value": "6.8",
-    "name": "Berge,Sander"
+    "name": "Berge,Sander",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -2677,7 +2943,8 @@
     "team": "Gremio",
     "weeklyWageInK": "11.6",
     "value": "7.3",
-    "name": "Arthur"
+    "name": "Arthur",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2687,7 +2954,8 @@
     "team": "Tottenham",
     "weeklyWageInK": "60",
     "value": "8.5",
-    "name": "Onomah,Joshua"
+    "name": "Onomah,Joshua",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2697,7 +2965,8 @@
     "team": "Monaco",
     "weeklyWageInK": "10.3",
     "value": "1.6",
-    "name": "AitBennasser,Youssef"
+    "name": "AitBennasser,Youssef",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2707,7 +2976,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "30",
     "value": "14.7",
-    "name": "Fosu-Mensah,Timothy"
+    "name": "Fosu-Mensah,Timothy",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2717,7 +2987,8 @@
     "team": "Sochaux",
     "weeklyWageInK": "3.2",
     "value": "0.52",
-    "name": "Fuchs,Jeando"
+    "name": "Fuchs,Jeando",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2727,7 +2998,8 @@
     "team": "Benfica",
     "weeklyWageInK": "2",
     "value": "0.18",
-    "name": "Fernandes,Gedson"
+    "name": "Fernandes,Gedson",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2737,7 +3009,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1",
     "value": "0.03",
-    "name": "Soares,Filipe"
+    "name": "Soares,Filipe",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2747,7 +3020,8 @@
     "team": "Sassuolo",
     "weeklyWageInK": "0.2",
     "value": "0.09",
-    "name": "Ahmetaj,Alessandro"
+    "name": "Ahmetaj,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2757,7 +3031,8 @@
     "team": "Porto",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Baro,Romario"
+    "name": "Baro,Romario",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2767,7 +3042,8 @@
     "team": "Benfica",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Batista,Diego"
+    "name": "Batista,Diego",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2777,7 +3053,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "0.06",
     "value": "0.21",
-    "name": "Majetschak,Erik"
+    "name": "Majetschak,Erik",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2787,7 +3064,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.2",
     "value": "0.07",
-    "name": "Emmers,Xian"
+    "name": "Emmers,Xian",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2797,7 +3075,8 @@
     "team": "SpartaPrague",
     "weeklyWageInK": "1",
     "value": "0.19",
-    "name": "Frydek,Christian"
+    "name": "Frydek,Christian",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -2807,7 +3086,8 @@
     "team": "AstonVilla",
     "weeklyWageInK": "0.8",
     "value": "0.16",
-    "name": "Doyle-Hayes,Jake"
+    "name": "Doyle-Hayes,Jake",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2817,7 +3097,8 @@
     "team": "Ipswich",
     "weeklyWageInK": "3.5",
     "value": "0.52",
-    "name": "Dozzell,Andre"
+    "name": "Dozzell,Andre",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2827,7 +3108,8 @@
     "team": "Fiorentina",
     "weeklyWageInK": "0.2",
     "value": "0.25",
-    "name": "Diakhate,Abdou"
+    "name": "Diakhate,Abdou",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -2837,7 +3119,8 @@
     "team": "Juventus",
     "weeklyWageInK": "0.2",
     "value": "0.15",
-    "name": "Caligara,Fabrizio"
+    "name": "Caligara,Fabrizio",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -2847,7 +3130,8 @@
     "team": "Benfica",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Dantas,Tiago"
+    "name": "Dantas,Tiago",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2857,7 +3141,8 @@
     "team": "Roma",
     "weeklyWageInK": "0.5",
     "value": "0.04",
-    "name": "DeAngelis,Nicolo"
+    "name": "DeAngelis,Nicolo",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -2867,7 +3152,8 @@
     "team": "N.E.C.",
     "weeklyWageInK": "0.9",
     "value": "0.26",
-    "name": "Kadioglu,Ferdi"
+    "name": "Kadioglu,Ferdi",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2877,7 +3163,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "0.8",
     "value": "0.07",
-    "name": "Kulusevski,Dejan"
+    "name": "Kulusevski,Dejan",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2887,7 +3174,8 @@
     "team": "CotonSport",
     "weeklyWageInK": "0.2",
     "value": "0.04",
-    "name": "Djoubairou,Felix"
+    "name": "Djoubairou,Felix",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2897,7 +3185,8 @@
     "team": "Velez",
     "weeklyWageInK": "1.8",
     "value": "0.52",
-    "name": "Dominguez,Nicolas"
+    "name": "Dominguez,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -2907,7 +3196,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.6",
     "value": "0.03",
-    "name": "GabrielCalabres"
+    "name": "GabrielCalabres",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2917,7 +3207,8 @@
     "team": "Gremio",
     "weeklyWageInK": "2.1",
     "value": "0.16",
-    "name": "JeanPyerre"
+    "name": "JeanPyerre",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2927,7 +3218,8 @@
     "team": "R.Betis",
     "weeklyWageInK": "0.6",
     "value": "0.09",
-    "name": "Julio"
+    "name": "Julio",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2937,7 +3229,8 @@
     "team": "FCKobenhavn",
     "weeklyWageInK": "1.8",
     "value": "0.3",
-    "name": "Keita,Aboubakar"
+    "name": "Keita,Aboubakar",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2947,7 +3240,8 @@
     "team": "Sporting",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Luis,Miguel"
+    "name": "Luis,Miguel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -2957,7 +3251,8 @@
     "team": "Rennes",
     "weeklyWageInK": "4.2",
     "value": "0.57",
-    "name": "Janvier,Nicolas"
+    "name": "Janvier,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -2967,7 +3262,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "6.7",
     "value": "2.1",
-    "name": "Maycon"
+    "name": "Maycon",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2977,7 +3273,8 @@
     "team": "Saint-Etienne",
     "weeklyWageInK": "1.2",
     "value": "0.17",
-    "name": "RochaSantos,Kenny"
+    "name": "RochaSantos,Kenny",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -2987,7 +3284,8 @@
     "team": "Espanyol",
     "weeklyWageInK": "1.1",
     "value": "0.24",
-    "name": "Lozano,Pol"
+    "name": "Lozano,Pol",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -2997,7 +3295,8 @@
     "team": "Vit.Guimaraes",
     "weeklyWageInK": "1.2",
     "value": "0.03",
-    "name": "Almeida,Andre"
+    "name": "Almeida,Andre",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3007,7 +3306,8 @@
     "team": "A.Bilbao",
     "weeklyWageInK": "0.4",
     "value": "0.04",
-    "name": "Sancet,Oihan"
+    "name": "Sancet,Oihan",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3017,7 +3317,8 @@
     "team": "DynamoKyiv",
     "weeklyWageInK": "0.2",
     "value": "0.16",
-    "name": "Shaparenko,Mykola"
+    "name": "Shaparenko,Mykola",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3027,7 +3328,8 @@
     "team": "Emelec",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Villamar,Aaron"
+    "name": "Villamar,Aaron",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -3037,7 +3339,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.2",
     "value": "0.03",
-    "name": "Rodrygo"
+    "name": "Rodrygo",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3047,7 +3350,8 @@
     "team": "Dinamo",
     "weeklyWageInK": "0.7",
     "value": "0.07",
-    "name": "Marin,Antonio"
+    "name": "Marin,Antonio",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3057,7 +3361,8 @@
     "team": "WestHam",
     "weeklyWageInK": "0.1",
     "value": "0.04",
-    "name": "ElMhassani,Anouar"
+    "name": "ElMhassani,Anouar",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -3067,7 +3372,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "0.8",
     "value": "0.17",
-    "name": "SergioGomez"
+    "name": "SergioGomez",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3077,7 +3383,8 @@
     "team": "Benfica",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Embalo,Umaro"
+    "name": "Embalo,Umaro",
+    "isFavourite": false
   },
   {
     "rating": "87",
@@ -3087,7 +3394,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "6.3",
     "value": "2.3",
-    "name": "ViniciusJunior"
+    "name": "ViniciusJunior",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3097,7 +3405,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "LeandroSpadacio"
+    "name": "LeandroSpadacio",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3107,7 +3416,8 @@
     "team": "Arsenal",
     "weeklyWageInK": "3",
     "value": "1",
-    "name": "Nelson,Reiss"
+    "name": "Nelson,Reiss",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -3117,7 +3427,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "17.1",
     "value": "3.3",
-    "name": "Sancho,Jadon"
+    "name": "Sancho,Jadon",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3127,7 +3438,8 @@
     "team": "Fulham",
     "weeklyWageInK": "8",
     "value": "3.1",
-    "name": "Sessegnon,Ryan"
+    "name": "Sessegnon,Ryan",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -3137,7 +3449,8 @@
     "team": "Braga",
     "weeklyWageInK": "8.1",
     "value": "0.03",
-    "name": "Neto,Pedro"
+    "name": "Neto,Pedro",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3147,7 +3460,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "2",
     "value": "0.15",
-    "name": "Chong,Tahith"
+    "name": "Chong,Tahith",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3157,7 +3471,8 @@
     "team": "Perugia",
     "weeklyWageInK": "0.2",
     "value": "0.08",
-    "name": "Traore,Abdoulaye"
+    "name": "Traore,Abdoulaye",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3167,7 +3482,8 @@
     "team": "Molde",
     "weeklyWageInK": "0.6",
     "value": "0.1",
-    "name": "Svendsen,Tobias"
+    "name": "Svendsen,Tobias",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3177,7 +3493,8 @@
     "team": "Partizan",
     "weeklyWageInK": "0.02",
     "value": "0.06",
-    "name": "Djerlek,Armin"
+    "name": "Djerlek,Armin",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3187,7 +3504,8 @@
     "team": "Zaragoza",
     "weeklyWageInK": "0.5",
     "value": "0.06",
-    "name": "Forcen,LuisAngel"
+    "name": "Forcen,LuisAngel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3197,7 +3515,8 @@
     "team": "Porto",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Magalhaes,Miguel"
+    "name": "Magalhaes,Miguel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3207,7 +3526,8 @@
     "team": "RacingClub",
     "weeklyWageInK": "2.2",
     "value": "1.4",
-    "name": "Ojeda,Martin"
+    "name": "Ojeda,Martin",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3217,7 +3537,8 @@
     "team": "Genk",
     "weeklyWageInK": "3.6",
     "value": "0.55",
-    "name": "Zhegrova,Edon"
+    "name": "Zhegrova,Edon",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3227,7 +3548,8 @@
     "team": "Mechelen",
     "weeklyWageInK": "2.2",
     "value": "2",
-    "name": "Bande,Hassan"
+    "name": "Bande,Hassan",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3237,7 +3559,8 @@
     "team": "Akhmat",
     "weeklyWageInK": "5.1",
     "value": "0.9",
-    "name": "LeoJaba"
+    "name": "LeoJaba",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3247,7 +3570,8 @@
     "team": "Napoli",
     "weeklyWageInK": "4.2",
     "value": "0.25",
-    "name": "Leandrinho"
+    "name": "Leandrinho",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3257,7 +3581,8 @@
     "team": "Vasco",
     "weeklyWageInK": "1.1",
     "value": "0.45",
-    "name": "PauloVitor"
+    "name": "PauloVitor",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3277,7 +3602,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "1.2",
     "value": "0.09",
-    "name": "Dhanda,Yan"
+    "name": "Dhanda,Yan",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3287,7 +3613,8 @@
     "team": "Roma",
     "weeklyWageInK": "0.2",
     "value": "0.1",
-    "name": "Antonucci,Mirko"
+    "name": "Antonucci,Mirko",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3297,7 +3624,8 @@
     "team": "Napoli",
     "weeklyWageInK": "0.2",
     "value": "0.07",
-    "name": "Zerbin,Alessio"
+    "name": "Zerbin,Alessio",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3307,7 +3635,8 @@
     "team": "PSG",
     "weeklyWageInK": "3.5",
     "value": "0.38",
-    "name": "Diaby,Moussa"
+    "name": "Diaby,Moussa",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3317,7 +3646,8 @@
     "team": "Necaxa",
     "weeklyWageInK": "3.5",
     "value": "0.27",
-    "name": "Alvarado,Roberto"
+    "name": "Alvarado,Roberto",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3327,7 +3657,8 @@
     "team": "RedStar",
     "weeklyWageInK": "0.2",
     "value": "0.14",
-    "name": "Adzic,Luka"
+    "name": "Adzic,Luka",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3347,7 +3678,8 @@
     "team": "Bayern",
     "weeklyWageInK": "0.4",
     "value": "0.33",
-    "name": "Tillman,Timothy"
+    "name": "Tillman,Timothy",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -3357,7 +3689,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "25.6",
     "value": "31",
-    "name": "Pulisic,Christian"
+    "name": "Pulisic,Christian",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3367,7 +3700,8 @@
     "team": "WestHam",
     "weeklyWageInK": "5",
     "value": "0.95",
-    "name": "Haksabanovic,Sead"
+    "name": "Haksabanovic,Sead",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3377,7 +3711,8 @@
     "team": "Legia",
     "weeklyWageInK": "1",
     "value": "0.19",
-    "name": "Szymanski,Sebastian"
+    "name": "Szymanski,Sebastian",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3387,7 +3722,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.7",
     "value": "0.38",
-    "name": "Gonzalez,Nicolas"
+    "name": "Gonzalez,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3397,7 +3733,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "49",
     "value": "3.1",
-    "name": "Brekalo,Josip"
+    "name": "Brekalo,Josip",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3407,7 +3744,8 @@
     "team": "AstonVilla",
     "weeklyWageInK": "5",
     "value": "1.8",
-    "name": "Green,Andre"
+    "name": "Green,Andre",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -3417,7 +3755,8 @@
     "team": "Arsenal",
     "weeklyWageInK": "2",
     "value": "2.8",
-    "name": "Reine-Adelaide,Jeff"
+    "name": "Reine-Adelaide,Jeff",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3427,7 +3766,8 @@
     "team": "Everton",
     "weeklyWageInK": "23",
     "value": "12.5",
-    "name": "Lookman,Ademola"
+    "name": "Lookman,Ademola",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3437,7 +3777,8 @@
     "team": "PSV",
     "weeklyWageInK": "4.9",
     "value": "1.5",
-    "name": "Bergwijn,Steven"
+    "name": "Bergwijn,Steven",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3447,7 +3788,8 @@
     "team": "Perugia",
     "weeklyWageInK": "0.2",
     "value": "0.21",
-    "name": "DiNolfo,Francesco"
+    "name": "DiNolfo,Francesco",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -3457,7 +3799,8 @@
     "team": "Palermo",
     "weeklyWageInK": "7.6",
     "value": "1.6",
-    "name": "LoFaso,Simone"
+    "name": "LoFaso,Simone",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3467,7 +3810,8 @@
     "team": "Chievo",
     "weeklyWageInK": "1.7",
     "value": "0.13",
-    "name": "Leris,Mehdi"
+    "name": "Leris,Mehdi",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3477,7 +3821,8 @@
     "team": "Rennes",
     "weeklyWageInK": "12.3",
     "value": "3.7",
-    "name": "Sarr,Ismaila"
+    "name": "Sarr,Ismaila",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3487,7 +3832,8 @@
     "team": "ClubBrugge",
     "weeklyWageInK": "6.7",
     "value": "5.2",
-    "name": "Bonaventure,Dennis"
+    "name": "Bonaventure,Dennis",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3497,7 +3843,8 @@
     "team": "AZ",
     "weeklyWageInK": "3.3",
     "value": "0.55",
-    "name": "Garcia,Levi"
+    "name": "Garcia,Levi",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3507,7 +3854,8 @@
     "team": "LigadeQuito",
     "weeklyWageInK": "1.3",
     "value": "0.08",
-    "name": "Batalla,Hancel"
+    "name": "Batalla,Hancel",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3517,7 +3865,8 @@
     "team": "Newell's",
     "weeklyWageInK": "2",
     "value": "0.95",
-    "name": "Torres,Joaquin"
+    "name": "Torres,Joaquin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3527,7 +3876,8 @@
     "team": "Everton",
     "weeklyWageInK": "54.6",
     "value": "10",
-    "name": "Onyekuru,Henry"
+    "name": "Onyekuru,Henry",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -3537,7 +3887,8 @@
     "team": "Watford",
     "weeklyWageInK": "32",
     "value": "17",
-    "name": "Richarlison"
+    "name": "Richarlison",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3547,7 +3898,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "12",
     "value": "4.5",
-    "name": "Ojo,Sheyi"
+    "name": "Ojo,Sheyi",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3567,7 +3919,8 @@
     "team": "Monaco",
     "weeklyWageInK": "17.8",
     "value": "4.1",
-    "name": "Dias,Gil"
+    "name": "Dias,Gil",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -3577,7 +3930,8 @@
     "team": "Villarreal",
     "weeklyWageInK": "22.2",
     "value": "1.7",
-    "name": "Leiva,Nahuel"
+    "name": "Leiva,Nahuel",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -3587,7 +3941,8 @@
     "team": "Lyon",
     "weeklyWageInK": "12.6",
     "value": "4.5",
-    "name": "Cornet,Maxwel"
+    "name": "Cornet,Maxwel",
+    "isFavourite": false
   },
   {
     "rating": "85",
@@ -3597,7 +3952,8 @@
     "team": "Benfica",
     "weeklyWageInK": "13.6",
     "value": "9",
-    "name": "Zivkovic,Andrija"
+    "name": "Zivkovic,Andrija",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3607,7 +3963,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "12",
     "value": "7.7",
-    "name": "Kent,Ryan"
+    "name": "Kent,Ryan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3617,7 +3974,8 @@
     "team": "Vit.Guimaraes",
     "weeklyWageInK": "2.4",
     "value": "1.9",
-    "name": "Raphinha"
+    "name": "Raphinha",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3627,7 +3985,8 @@
     "team": "Braga",
     "weeklyWageInK": "1.6",
     "value": "0.03",
-    "name": "Trincao,Francisco"
+    "name": "Trincao,Francisco",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3637,7 +3996,8 @@
     "team": "Bournemouth",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Glover,Ryan"
+    "name": "Glover,Ryan",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -3647,7 +4007,8 @@
     "team": "Chievo",
     "weeklyWageInK": "0.2",
     "value": "0.25",
-    "name": "Vignato,Emanuel"
+    "name": "Vignato,Emanuel",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3657,7 +4018,8 @@
     "team": "YoungBoys",
     "weeklyWageInK": "0.2",
     "value": "0.04",
-    "name": "Toure,Yannick"
+    "name": "Toure,Yannick",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3667,7 +4029,8 @@
     "team": "Bayern",
     "weeklyWageInK": "0.06",
     "value": "0.18",
-    "name": "BatistaMeier,Oliver"
+    "name": "BatistaMeier,Oliver",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3677,7 +4040,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "0.06",
     "value": "0.11",
-    "name": "Hartmann,Fabrice"
+    "name": "Hartmann,Fabrice",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3687,7 +4051,8 @@
     "team": "Atl.Tucuman",
     "weeklyWageInK": "1",
     "value": "0.75",
-    "name": "Cuello,Tomas"
+    "name": "Cuello,Tomas",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3697,7 +4062,8 @@
     "team": "WestBrom",
     "weeklyWageInK": "1.5",
     "value": "0.72",
-    "name": "Harper,Rekeem"
+    "name": "Harper,Rekeem",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3707,7 +4073,8 @@
     "team": "Vitesse",
     "weeklyWageInK": "2",
     "value": "0.36",
-    "name": "vanBergen,Mitchell"
+    "name": "vanBergen,Mitchell",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3717,7 +4084,8 @@
     "team": "PSG",
     "weeklyWageInK": "1.7",
     "value": "0.25",
-    "name": "Adli,Yacine"
+    "name": "Adli,Yacine",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3727,7 +4095,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.07",
     "value": "0.09",
-    "name": "Baeza,Miguel"
+    "name": "Baeza,Miguel",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3737,7 +4106,8 @@
     "team": "Sporting",
     "weeklyWageInK": "0.06",
     "value": "0.02",
-    "name": "Balde,Elves"
+    "name": "Balde,Elves",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3747,7 +4117,8 @@
     "team": "Sporting",
     "weeklyWageInK": "1",
     "value": "0.01",
-    "name": "Bras,Diogo"
+    "name": "Bras,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3757,7 +4128,8 @@
     "team": "Monaco",
     "weeklyWageInK": "2.8",
     "value": "0.25",
-    "name": "Sylla,Moussa"
+    "name": "Sylla,Moussa",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3767,7 +4139,8 @@
     "team": "Valencia",
     "weeklyWageInK": "1.9",
     "value": "0.3",
-    "name": "Torres,Ferran"
+    "name": "Torres,Ferran",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3777,7 +4150,8 @@
     "team": "River",
     "weeklyWageInK": "3.2",
     "value": "1.7",
-    "name": "Palacios,Exequiel"
+    "name": "Palacios,Exequiel",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -3787,7 +4161,8 @@
     "team": "RacingClub",
     "weeklyWageInK": "3.2",
     "value": "2",
-    "name": "Zaracho,Matias"
+    "name": "Zaracho,Matias",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3797,7 +4172,8 @@
     "team": "RacingClub",
     "weeklyWageInK": "1.8",
     "value": "1.1",
-    "name": "Araujo,Agustin"
+    "name": "Araujo,Agustin",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3807,7 +4183,8 @@
     "team": "Stoke",
     "weeklyWageInK": "5",
     "value": "0.75",
-    "name": "Verlinden,Thibaud"
+    "name": "Verlinden,Thibaud",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3817,7 +4194,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "0.5",
     "value": "0.05",
-    "name": "Ramon"
+    "name": "Ramon",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3827,7 +4205,8 @@
     "team": "Granada",
     "weeklyWageInK": "0.7",
     "value": "0.15",
-    "name": "CaioEmerson"
+    "name": "CaioEmerson",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3837,7 +4216,8 @@
     "team": "WestBrom",
     "weeklyWageInK": "3.8",
     "value": "0.95",
-    "name": "Leko,Jonathan"
+    "name": "Leko,Jonathan",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -3847,7 +4227,8 @@
     "team": "Ajax",
     "weeklyWageInK": "2.4",
     "value": "0.26",
-    "name": "Nunnely,Che"
+    "name": "Nunnely,Che",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3857,7 +4238,8 @@
     "team": "Ajax",
     "weeklyWageInK": "9",
     "value": "4.2",
-    "name": "Kluivert,Justin"
+    "name": "Kluivert,Justin",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -3867,7 +4249,8 @@
     "team": "AZ",
     "weeklyWageInK": "2",
     "value": "0.72",
-    "name": "Stengs,Calvin"
+    "name": "Stengs,Calvin",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3877,7 +4260,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "0.06",
     "value": "1.4",
-    "name": "Pozo,Alejandro"
+    "name": "Pozo,Alejandro",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3887,7 +4271,8 @@
     "team": "Monaco",
     "weeklyWageInK": "10.4",
     "value": "1.1",
-    "name": "Mboula,Jordi"
+    "name": "Mboula,Jordi",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -3897,7 +4282,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1.6",
     "value": "0.09",
-    "name": "Filipe,Joao"
+    "name": "Filipe,Joao",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3907,7 +4293,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "1.3",
     "value": "0.24",
-    "name": "Boutobba,Bilal"
+    "name": "Boutobba,Bilal",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3917,7 +4304,8 @@
     "team": "YoungBoys",
     "weeklyWageInK": "3.1",
     "value": "1.6",
-    "name": "Lotomba,Jordan"
+    "name": "Lotomba,Jordan",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3927,7 +4315,8 @@
     "team": "TPMazembe",
     "weeklyWageInK": "2.1",
     "value": "0.45",
-    "name": "Elia,Meschak"
+    "name": "Elia,Meschak",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -3937,7 +4326,8 @@
     "team": "Leverkusen",
     "weeklyWageInK": "34.3",
     "value": "10",
-    "name": "Bailey,Leon"
+    "name": "Bailey,Leon",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -3947,7 +4337,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.1",
     "value": "0.5",
-    "name": "MarquinhosCipriano"
+    "name": "MarquinhosCipriano",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -3957,7 +4348,8 @@
     "team": "Braga",
     "weeklyWageInK": "1.5",
     "value": "0.16",
-    "name": "Erick"
+    "name": "Erick",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -3967,7 +4359,8 @@
     "team": "Ajax",
     "weeklyWageInK": "1.4",
     "value": "2.1",
-    "name": "Cerny,Vaclav"
+    "name": "Cerny,Vaclav",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -3977,7 +4370,8 @@
     "team": "Fiorentina",
     "weeklyWageInK": "12.5",
     "value": "11.5",
-    "name": "Chiesa,Federico"
+    "name": "Chiesa,Federico",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -3987,7 +4381,8 @@
     "team": "AAGent",
     "weeklyWageInK": "4.5",
     "value": "1.7",
-    "name": "Kalu"
+    "name": "Kalu",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -3997,7 +4392,8 @@
     "team": "Al-Ahly",
     "weeklyWageInK": "4.6",
     "value": "0.5",
-    "name": "Mahlambi,Phakamani"
+    "name": "Mahlambi,Phakamani",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4007,7 +4403,8 @@
     "team": "Malaga",
     "weeklyWageInK": "9.1",
     "value": "2",
-    "name": "Ontiveros,Javi"
+    "name": "Ontiveros,Javi",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -4017,7 +4414,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "0.9",
     "value": "0.08",
-    "name": "CarlesPerez"
+    "name": "CarlesPerez",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4027,7 +4425,8 @@
     "team": "DynamoKyiv",
     "weeklyWageInK": "8.1",
     "value": "4.6",
-    "name": "Tsygankov,Victor"
+    "name": "Tsygankov,Victor",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4037,7 +4436,8 @@
     "team": "Caen",
     "weeklyWageInK": "63.4",
     "value": "3.3",
-    "name": "Karamoh,Yann"
+    "name": "Karamoh,Yann",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4047,7 +4447,8 @@
     "team": "PSG",
     "weeklyWageInK": "20.3",
     "value": "1.3",
-    "name": "Ikone,Jonathan"
+    "name": "Ikone,Jonathan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4057,7 +4458,8 @@
     "team": "Palmeiras",
     "weeklyWageInK": "7.4",
     "value": "3.8",
-    "name": "RogerGuedes"
+    "name": "RogerGuedes",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4067,7 +4469,8 @@
     "team": "Bordeaux",
     "weeklyWageInK": "24.9",
     "value": "18.5",
-    "name": "Malcom"
+    "name": "Malcom",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4077,7 +4480,8 @@
     "team": "Ajax",
     "weeklyWageInK": "10.3",
     "value": "5.9",
-    "name": "DavidNeres"
+    "name": "DavidNeres",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -4087,7 +4491,8 @@
     "team": "Batatais",
     "weeklyWageInK": "0.8",
     "value": "0.02",
-    "name": "DouglasPote"
+    "name": "DouglasPote",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4097,7 +4502,8 @@
     "team": "Vigo",
     "weeklyWageInK": "21.4",
     "value": "5.5",
-    "name": "Mor,Emre"
+    "name": "Mor,Emre",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -4107,7 +4513,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "30",
     "value": "8.5",
-    "name": "Boga,Jeremie"
+    "name": "Boga,Jeremie",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4117,7 +4524,8 @@
     "team": "ManCity",
     "weeklyWageInK": "45",
     "value": "15.5",
-    "name": "Roberts,Patrick"
+    "name": "Roberts,Patrick",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -4127,7 +4535,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "3.5",
     "value": "0.92",
-    "name": "Wilson,Harry"
+    "name": "Wilson,Harry",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4137,7 +4546,8 @@
     "team": "WestBrom",
     "weeklyWageInK": "30",
     "value": "11",
-    "name": "Burke,Oliver"
+    "name": "Burke,Oliver",
+    "isFavourite": false
   },
   {
     "rating": "85",
@@ -4147,7 +4557,8 @@
     "team": "Inter",
     "weeklyWageInK": "171.4",
     "value": "8.1",
-    "name": "GabrielBarbosa"
+    "name": "GabrielBarbosa",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4157,7 +4568,8 @@
     "team": "Juventus",
     "weeklyWageInK": "25.4",
     "value": "4",
-    "name": "Orsolini,Riccardo"
+    "name": "Orsolini,Riccardo",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4167,7 +4579,8 @@
     "team": "Napoli",
     "weeklyWageInK": "28.5",
     "value": "5.8",
-    "name": "Ounas,Adam"
+    "name": "Ounas,Adam",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4177,7 +4590,8 @@
     "team": "PSG",
     "weeklyWageInK": "86.2",
     "value": "15",
-    "name": "Guedes,Goncalo"
+    "name": "Guedes,Goncalo",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4187,7 +4601,8 @@
     "team": "Roma",
     "weeklyWageInK": "47.6",
     "value": "2.5",
-    "name": "Under,Cengiz"
+    "name": "Under,Cengiz",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4197,7 +4612,8 @@
     "team": "ManCity",
     "weeklyWageInK": "20",
     "value": "2.8",
-    "name": "Zinchenko,Olexandr"
+    "name": "Zinchenko,Olexandr",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -4207,7 +4623,8 @@
     "team": "Karpaty",
     "weeklyWageInK": "0.8",
     "value": "0.57",
-    "name": "Shved,Marjan"
+    "name": "Shved,Marjan",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -4217,7 +4634,8 @@
     "team": "OGCNice",
     "weeklyWageInK": "17",
     "value": "4.5",
-    "name": "Saint-Maximin,Allan"
+    "name": "Saint-Maximin,Allan",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -4227,7 +4645,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "205.7",
     "value": "52",
-    "name": "Dembele,Ousmane"
+    "name": "Dembele,Ousmane",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4237,7 +4656,8 @@
     "team": "NYCFC",
     "weeklyWageInK": "2.4",
     "value": "2.2",
-    "name": "Harrison,Jack"
+    "name": "Harrison,Jack",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4247,7 +4667,8 @@
     "team": "Benfica",
     "weeklyWageInK": "4",
     "value": "0.63",
-    "name": "Goncalves,Diogo"
+    "name": "Goncalves,Diogo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -4257,7 +4678,8 @@
     "team": "Getafe",
     "weeklyWageInK": "11.1",
     "value": "2.7",
-    "name": "N'Diaye,Amath"
+    "name": "N'Diaye,Amath",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4267,7 +4689,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "0.06",
     "value": "1.3",
-    "name": "Abouchabaka,Elias"
+    "name": "Abouchabaka,Elias",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4277,7 +4700,8 @@
     "team": "Palmeiras",
     "weeklyWageInK": "0.4",
     "value": "0.02",
-    "name": "Alan"
+    "name": "Alan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4287,7 +4711,8 @@
     "team": "Velez",
     "weeklyWageInK": "0.7",
     "value": "0.65",
-    "name": "Almada,Thiago"
+    "name": "Almada,Thiago",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -4297,7 +4722,8 @@
     "team": "Hoffenheim",
     "weeklyWageInK": "25.6",
     "value": "7.6",
-    "name": "Amiri,Nadiem"
+    "name": "Amiri,Nadiem",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4307,7 +4733,8 @@
     "team": "Lyon",
     "weeklyWageInK": "8.4",
     "value": "1.3",
-    "name": "Aouar,Houssem"
+    "name": "Aouar,Houssem",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4317,7 +4744,8 @@
     "team": "AjaxCT",
     "weeklyWageInK": "0.02",
     "value": "0.03",
-    "name": "Appolis,Oswin"
+    "name": "Appolis,Oswin",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4327,7 +4755,8 @@
     "team": "Schalke",
     "weeklyWageInK": "13.6",
     "value": "0.45",
-    "name": "Avdijaj,Donis"
+    "name": "Avdijaj,Donis",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -4337,7 +4766,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.6",
     "value": "0.11",
-    "name": "AugustoGalvan"
+    "name": "AugustoGalvan",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4347,7 +4777,8 @@
     "team": "Independiente",
     "weeklyWageInK": "4.8",
     "value": "2.3",
-    "name": "Barco,Ezequiel"
+    "name": "Barco,Ezequiel",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -4357,7 +4788,8 @@
     "team": "SanLorenzo",
     "weeklyWageInK": "2.1",
     "value": "1.3",
-    "name": "Barrios,Cristian"
+    "name": "Barrios,Cristian",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4367,7 +4799,8 @@
     "team": "Monaco",
     "weeklyWageInK": "4.7",
     "value": "0.47",
-    "name": "Bongiovanni,Adrien"
+    "name": "Bongiovanni,Adrien",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4377,7 +4810,8 @@
     "team": "SheffUtd",
     "weeklyWageInK": "4",
     "value": "2.8",
-    "name": "Brooks,David"
+    "name": "Brooks,David",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4387,7 +4821,8 @@
     "team": "Belgrano",
     "weeklyWageInK": "1.6",
     "value": "1",
-    "name": "Brunetta,Juan"
+    "name": "Brunetta,Juan",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4397,7 +4832,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "0.6",
     "value": "0.17",
-    "name": "BrunoDip"
+    "name": "BrunoDip",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4407,7 +4843,8 @@
     "team": "Cesena",
     "weeklyWageInK": "0.2",
     "value": "0.06",
-    "name": "Buso,Nicolo"
+    "name": "Buso,Nicolo",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4417,7 +4854,8 @@
     "team": "RacingClub",
     "weeklyWageInK": "0.6",
     "value": "0.62",
-    "name": "Cardozo,Evelio"
+    "name": "Cardozo,Evelio",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4427,7 +4865,8 @@
     "team": "Sevilla",
     "weeklyWageInK": "10.6",
     "value": "0.57",
-    "name": "Carrascal,Jorge"
+    "name": "Carrascal,Jorge",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4437,7 +4876,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "47.8",
     "value": "9.6",
-    "name": "Ceballos,Dani"
+    "name": "Ceballos,Dani",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4447,7 +4887,8 @@
     "team": "AAGent",
     "weeklyWageInK": "3.6",
     "value": "0.55",
-    "name": "Chakvetadze,Giorgi"
+    "name": "Chakvetadze,Giorgi",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4457,7 +4898,8 @@
     "team": "Colon",
     "weeklyWageInK": "1.5",
     "value": "1.2",
-    "name": "Chancalay,Tomas"
+    "name": "Chancalay,Tomas",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4467,7 +4909,8 @@
     "team": "Dinamo",
     "weeklyWageInK": "4.6",
     "value": "3.2",
-    "name": "Coric,Ante"
+    "name": "Coric,Ante",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4477,7 +4920,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "0.2",
     "value": "0.06",
-    "name": "Cortinovis,Alessandro"
+    "name": "Cortinovis,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4487,7 +4931,8 @@
     "team": "Palermo",
     "weeklyWageInK": "0.4",
     "value": "0.18",
-    "name": "D'Amico,Felice"
+    "name": "D'Amico,Felice",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4497,7 +4942,8 @@
     "team": "River",
     "weeklyWageInK": "4.2",
     "value": "1.8",
-    "name": "DeLaCruz,Nicolas"
+    "name": "DeLaCruz,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4507,7 +4953,8 @@
     "team": "Velez",
     "weeklyWageInK": "2.5",
     "value": "1.7",
-    "name": "Delgadillo,Nicolas"
+    "name": "Delgadillo,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -4517,7 +4964,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "Denilson"
+    "name": "Denilson",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -4527,7 +4975,8 @@
     "team": "ManCity",
     "weeklyWageInK": "8",
     "value": "0.23",
-    "name": "Diaz,Brahim"
+    "name": "Diaz,Brahim",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4537,7 +4986,8 @@
     "team": "-",
     "weeklyWageInK": "0",
     "value": "0",
-    "name": "Diego"
+    "name": "Diego",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4547,7 +4997,8 @@
     "team": "A.Madrid",
     "weeklyWageInK": "61.8",
     "value": "8",
-    "name": "DiogoJota"
+    "name": "DiogoJota",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4557,7 +5008,8 @@
     "team": "Tottenham",
     "weeklyWageInK": "12",
     "value": "1",
-    "name": "Edwards,Marcus"
+    "name": "Edwards,Marcus",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -4567,7 +5019,8 @@
     "team": "Valerenga",
     "weeklyWageInK": "0.5",
     "value": "0.03",
-    "name": "Ejuke,Chidera"
+    "name": "Ejuke,Chidera",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4577,7 +5030,8 @@
     "team": "Vasco",
     "weeklyWageInK": "1.2",
     "value": "0.73",
-    "name": "Evander"
+    "name": "Evander",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4587,7 +5041,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "1",
     "value": "0.19",
-    "name": "FabricioOya"
+    "name": "FabricioOya",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -4597,7 +5052,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1.3",
     "value": "0.27",
-    "name": "Felix,Joao"
+    "name": "Felix,Joao",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4607,7 +5063,8 @@
     "team": "ManCity",
     "weeklyWageInK": "12",
     "value": "2.4",
-    "name": "Foden,Phil"
+    "name": "Foden,Phil",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4617,7 +5074,8 @@
     "team": "Monaco",
     "weeklyWageInK": "3.7",
     "value": "0.32",
-    "name": "FrancoAntonucci"
+    "name": "FrancoAntonucci",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4627,7 +5085,8 @@
     "team": "Rennes",
     "weeklyWageInK": "1",
     "value": "0.13",
-    "name": "Gboho,Yann"
+    "name": "Gboho,Yann",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4637,7 +5096,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Gelabert,Cesar"
+    "name": "Gelabert,Cesar",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4647,7 +5107,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "0.1",
     "value": "0.15",
-    "name": "Gilmour,Billy"
+    "name": "Gilmour,Billy",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4657,7 +5118,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "0.1",
     "value": "0.3",
-    "name": "Gomes,Angel"
+    "name": "Gomes,Angel",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4667,7 +5129,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "1.2",
     "value": "0.36",
-    "name": "Gribbin,Callum"
+    "name": "Gribbin,Callum",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4677,7 +5140,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.7",
     "value": "0.03",
-    "name": "Guilherme"
+    "name": "Guilherme",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4687,7 +5151,8 @@
     "team": "Fiorentina",
     "weeklyWageInK": "2.9",
     "value": "0.93",
-    "name": "Hagi,Ianis"
+    "name": "Hagi,Ianis",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -4697,7 +5162,8 @@
     "team": "Schalke",
     "weeklyWageInK": "25.7",
     "value": "8.8",
-    "name": "Harit,Amine"
+    "name": "Harit,Amine",
+    "isFavourite": false
   },
   {
     "rating": "87",
@@ -4707,7 +5173,8 @@
     "team": "Leverkusen",
     "weeklyWageInK": "25.6",
     "value": "6.3",
-    "name": "Havertz,Kai"
+    "name": "Havertz,Kai",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4717,7 +5184,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "0.1",
     "value": "0.15",
-    "name": "Hudson-Odoi,Callum"
+    "name": "Hudson-Odoi,Callum",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4727,7 +5195,8 @@
     "team": "ManCity",
     "weeklyWageInK": "10",
     "value": "0.36",
-    "name": "Ilic,Luka"
+    "name": "Ilic,Luka",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4737,7 +5206,8 @@
     "team": "Ajax",
     "weeklyWageInK": "3.6",
     "value": "0.25",
-    "name": "Jensen,Victor"
+    "name": "Jensen,Victor",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4747,7 +5217,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Jones,Curtis"
+    "name": "Jones,Curtis",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4757,7 +5228,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.1",
     "value": "0.13",
-    "name": "Juninho"
+    "name": "Juninho",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4767,7 +5239,8 @@
     "team": "Granada",
     "weeklyWageInK": "0.1",
     "value": "0.08",
-    "name": "Karisic,Strahinja"
+    "name": "Karisic,Strahinja",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4777,7 +5250,8 @@
     "team": "Botafogo",
     "weeklyWageInK": "4.9",
     "value": "2.3",
-    "name": "Leandrinho"
+    "name": "Leandrinho",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4787,7 +5261,8 @@
     "team": "Valencia",
     "weeklyWageInK": "0.4",
     "value": "0.05",
-    "name": "Lee,Kangin"
+    "name": "Lee,Kangin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4797,7 +5272,8 @@
     "team": "Gremio",
     "weeklyWageInK": "11.6",
     "value": "2.3",
-    "name": "Lincoln"
+    "name": "Lincoln",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4807,7 +5283,8 @@
     "team": "Rosario",
     "weeklyWageInK": "2.5",
     "value": "1",
-    "name": "Lovera,Maximiliano"
+    "name": "Lovera,Maximiliano",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4817,7 +5294,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "2.4",
     "value": "1.4",
-    "name": "LucasFernandes"
+    "name": "LucasFernandes",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4827,7 +5305,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.04",
     "value": "0.02",
-    "name": "LucasLourenco"
+    "name": "LucasLourenco",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4837,7 +5316,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "0.7",
     "value": "0.46",
-    "name": "LucasPaqueta"
+    "name": "LucasPaqueta",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4847,7 +5327,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.2",
     "value": "0.1",
-    "name": "MacAllister,Alexis"
+    "name": "MacAllister,Alexis",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4857,7 +5338,8 @@
     "team": "Norwich",
     "weeklyWageInK": "15",
     "value": "7",
-    "name": "Maddison,James"
+    "name": "Maddison,James",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4867,7 +5349,8 @@
     "team": "Lokomotiva",
     "weeklyWageInK": "0.3",
     "value": "1.4",
-    "name": "Majer,Lovro"
+    "name": "Majer,Lovro",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -4877,7 +5360,8 @@
     "team": "Steaua",
     "weeklyWageInK": "1.4",
     "value": "0.23",
-    "name": "Man,Dennis"
+    "name": "Man,Dennis",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -4887,7 +5371,8 @@
     "team": "Boca",
     "weeklyWageInK": "1.2",
     "value": "0.5",
-    "name": "Maroni,Gonzalo"
+    "name": "Maroni,Gonzalo",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4897,7 +5382,8 @@
     "team": "At.Mineiro",
     "weeklyWageInK": "1",
     "value": "0.06",
-    "name": "Marquinhos"
+    "name": "Marquinhos",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4907,7 +5393,8 @@
     "team": "Vasco",
     "weeklyWageInK": "0.2",
     "value": "1.4",
-    "name": "MateusVital"
+    "name": "MateusVital",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4917,7 +5404,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "0.7",
     "value": "0.17",
-    "name": "MatheusSavio"
+    "name": "MatheusSavio",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4927,7 +5415,8 @@
     "team": "America",
     "weeklyWageInK": "2.8",
     "value": "0.62",
-    "name": "Matheusinho"
+    "name": "Matheusinho",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -4937,7 +5426,8 @@
     "team": "CrucerodelNorte",
     "weeklyWageInK": "0",
     "value": "0.57",
-    "name": "Molinas,Ivan"
+    "name": "Molinas,Ivan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -4947,7 +5437,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "10",
     "value": "11",
-    "name": "Musonda,Charly"
+    "name": "Musonda,Charly",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -4957,7 +5448,8 @@
     "team": "Gladbach",
     "weeklyWageInK": "15.2",
     "value": "1.5",
-    "name": "Neuhaus,Florian"
+    "name": "Neuhaus,Florian",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -4967,7 +5459,8 @@
     "team": "Ajax",
     "weeklyWageInK": "6.6",
     "value": "2.7",
-    "name": "Nouri,Abdelhak"
+    "name": "Nouri,Abdelhak",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -4977,7 +5470,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "84.2",
     "value": "2.3",
-    "name": "Odegaard,Martin"
+    "name": "Odegaard,Martin",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4987,7 +5481,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "1.3",
     "value": "0.17",
-    "name": "Oscar"
+    "name": "Oscar",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -4997,7 +5492,8 @@
     "team": "R.Sociedad",
     "weeklyWageInK": "38.4",
     "value": "8",
-    "name": "Oyarzabal,Mikel"
+    "name": "Oyarzabal,Mikel",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -5007,7 +5503,8 @@
     "team": "Stuttgart",
     "weeklyWageInK": "0.6",
     "value": "2.5",
-    "name": "Ozcan,Berkay"
+    "name": "Ozcan,Berkay",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -5017,7 +5514,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "40",
     "value": "5.3",
-    "name": "Palmer,Kasey"
+    "name": "Palmer,Kasey",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5027,7 +5525,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "Patrick"
+    "name": "Patrick",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -5037,7 +5536,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "2.4",
     "value": "0.3",
-    "name": "Pedrinho"
+    "name": "Pedrinho",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5047,7 +5547,8 @@
     "team": "ColoColo",
     "weeklyWageInK": "0.5",
     "value": "0.23",
-    "name": "Provoste,Branco"
+    "name": "Provoste,Branco",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -5057,7 +5558,8 @@
     "team": "WestHam",
     "weeklyWageInK": "7.5",
     "value": "0.05",
-    "name": "Quina,Domingos"
+    "name": "Quina,Domingos",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5067,7 +5569,8 @@
     "team": "Blackburn",
     "weeklyWageInK": "0.4",
     "value": "0.27",
-    "name": "Rankin-Costello,Joe"
+    "name": "Rankin-Costello,Joe",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -5077,7 +5580,8 @@
     "team": "ManCity",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Richards,Taylor"
+    "name": "Richards,Taylor",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5087,7 +5591,8 @@
     "team": "Belgrano",
     "weeklyWageInK": "1.5",
     "value": "0.9",
-    "name": "Rikemberg,Joaquin"
+    "name": "Rikemberg,Joaquin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5097,7 +5602,8 @@
     "team": "Rosario",
     "weeklyWageInK": "0.9",
     "value": "0.75",
-    "name": "Rivas,Leonel"
+    "name": "Rivas,Leonel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5107,7 +5613,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1",
     "value": "0.04",
-    "name": "Santos,Nuno"
+    "name": "Santos,Nuno",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5117,7 +5624,8 @@
     "team": "APOEL",
     "weeklyWageInK": "3.6",
     "value": "0.67",
-    "name": "Sallai,Roland"
+    "name": "Sallai,Roland",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5127,7 +5635,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.8",
     "value": "1.8",
-    "name": "Shaylon"
+    "name": "Shaylon",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -5137,7 +5646,8 @@
     "team": "Southampton",
     "weeklyWageInK": "2",
     "value": "0.15",
-    "name": "Slattery,Callum"
+    "name": "Slattery,Callum",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5147,7 +5657,8 @@
     "team": "Stoke",
     "weeklyWageInK": "23",
     "value": "12.5",
-    "name": "Sobhi,Ramadan"
+    "name": "Sobhi,Ramadan",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5157,7 +5668,8 @@
     "team": "Zaragoza",
     "weeklyWageInK": "0.5",
     "value": "0.06",
-    "name": "Soro,Alberto"
+    "name": "Soro,Alberto",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5167,7 +5679,8 @@
     "team": "Huachipato",
     "weeklyWageInK": "0.4",
     "value": "0.15",
-    "name": "Soteldo,Yeferson"
+    "name": "Soteldo,Yeferson",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5177,7 +5690,8 @@
     "team": "SportingCP",
     "weeklyWageInK": "1",
     "value": "0.01",
-    "name": "Sousa,Bernardo"
+    "name": "Sousa,Bernardo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5187,7 +5701,8 @@
     "team": "FCLiefering",
     "weeklyWageInK": "0.06",
     "value": "0.67",
-    "name": "Szoboszlai,Dominik"
+    "name": "Szoboszlai,Dominik",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5197,7 +5712,8 @@
     "team": "Metz",
     "weeklyWageInK": "2.5",
     "value": "0.27",
-    "name": "Thill,Vincent"
+    "name": "Thill,Vincent",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5207,7 +5723,8 @@
     "team": "AZ",
     "weeklyWageInK": "2.2",
     "value": "1.3",
-    "name": "Til,Guus"
+    "name": "Til,Guus",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5217,7 +5734,8 @@
     "team": "Cheetah",
     "weeklyWageInK": "0",
     "value": "0.09",
-    "name": "Toku,Emmanuel"
+    "name": "Toku,Emmanuel",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -5227,7 +5745,8 @@
     "team": "Velez",
     "weeklyWageInK": "3.2",
     "value": "2",
-    "name": "Vargas,Matias"
+    "name": "Vargas,Matias",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -5237,7 +5756,8 @@
     "team": "Anderlecht",
     "weeklyWageInK": "0.4",
     "value": "0.05",
-    "name": "Verschaeren,Yari"
+    "name": "Verschaeren,Yari",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5247,7 +5767,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "6.1",
     "value": "0.45",
-    "name": "Vitinho"
+    "name": "Vitinho",
+    "isFavourite": false
   },
   {
     "rating": "74",
@@ -5257,7 +5778,8 @@
     "team": "Everton",
     "weeklyWageInK": "25",
     "value": "8.5",
-    "name": "Vlasic,Nikola"
+    "name": "Vlasic,Nikola",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5267,7 +5789,8 @@
     "team": "Braga",
     "weeklyWageInK": "2.1",
     "value": "3.1",
-    "name": "Xadas"
+    "name": "Xadas",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5277,7 +5800,8 @@
     "team": "Independiente",
     "weeklyWageInK": "0.02",
     "value": "0.75",
-    "name": "Abadie,Lucas"
+    "name": "Abadie,Lucas",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5287,7 +5811,8 @@
     "team": "Barcelona",
     "weeklyWageInK": "2.6",
     "value": "0.62",
-    "name": "AbelRuiz"
+    "name": "AbelRuiz",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5297,7 +5822,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "50",
     "value": "13.2",
-    "name": "Abraham,Tammy"
+    "name": "Abraham,Tammy",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5307,7 +5833,8 @@
     "team": "At.Mineiro",
     "weeklyWageInK": "0.2",
     "value": "0.03",
-    "name": "Alerrandro"
+    "name": "Alerrandro",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5317,7 +5844,8 @@
     "team": "Santons",
     "weeklyWageInK": "0.1",
     "value": "0.02",
-    "name": "AndreAnderson"
+    "name": "AndreAnderson",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5327,7 +5855,8 @@
     "team": "Hamburg",
     "weeklyWageInK": "4.1",
     "value": "1.3",
-    "name": "Arp,Fiete"
+    "name": "Arp,Fiete",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5337,7 +5866,8 @@
     "team": "Leipzig",
     "weeklyWageInK": "67.9",
     "value": "8.2",
-    "name": "Augustin,Jean-Kevin"
+    "name": "Augustin,Jean-Kevin",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5347,7 +5877,8 @@
     "team": "Gremio",
     "weeklyWageInK": "7.3",
     "value": "0.13",
-    "name": "BetodaSilva"
+    "name": "BetodaSilva",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5357,7 +5888,8 @@
     "team": "AZ",
     "weeklyWageInK": "0.1",
     "value": "0.1",
-    "name": "Boadu,Myron"
+    "name": "Boadu,Myron",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -5367,7 +5899,8 @@
     "team": "Udinese",
     "weeklyWageInK": "0.2",
     "value": "0.02",
-    "name": "Bocic,Milos"
+    "name": "Bocic,Milos",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5377,7 +5910,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.4",
     "value": "0.1",
-    "name": "Brenner"
+    "name": "Brenner",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -5387,7 +5921,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "0.1",
     "value": "0.3",
-    "name": "Brewster,Rhian"
+    "name": "Brewster,Rhian",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5397,7 +5932,8 @@
     "team": "Vitesse",
     "weeklyWageInK": "0.4",
     "value": "0.22",
-    "name": "Buitink,Thomas"
+    "name": "Buitink,Thomas",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5407,7 +5943,8 @@
     "team": "Newell's",
     "weeklyWageInK": "1.7",
     "value": "0.75",
-    "name": "Cabrera,Enzo"
+    "name": "Cabrera,Enzo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5417,7 +5954,8 @@
     "team": "Vasco",
     "weeklyWageInK": "0.9",
     "value": "0.72",
-    "name": "CaioMonteiro"
+    "name": "CaioMonteiro",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5427,7 +5965,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "1.9",
     "value": "0.35",
-    "name": "Capone,Christian"
+    "name": "Capone,Christian",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5437,7 +5976,8 @@
     "team": "Monaco",
     "weeklyWageInK": "6.4",
     "value": "0.68",
-    "name": "Cardona,Irvin"
+    "name": "Cardona,Irvin",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5447,7 +5987,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "2",
     "value": "0.2",
-    "name": "Carlinhos"
+    "name": "Carlinhos",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5457,7 +5998,8 @@
     "team": "CSKAMoscow",
     "weeklyWageInK": "5",
     "value": "0.7",
-    "name": "Chalov,Fedor"
+    "name": "Chalov,Fedor",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5467,7 +6009,8 @@
     "team": "-",
     "weeklyWageInK": "0",
     "value": "0",
-    "name": "Chuma"
+    "name": "Chuma",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5477,7 +6020,8 @@
     "team": "Inter",
     "weeklyWageInK": "4.3",
     "value": "0.25",
-    "name": "Colidio,Facundo"
+    "name": "Colidio,Facundo",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -5487,7 +6031,8 @@
     "team": "Steaua",
     "weeklyWageInK": "5.5",
     "value": "0.43",
-    "name": "Coman,Florinel"
+    "name": "Coman,Florinel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5497,7 +6042,8 @@
     "team": "SanLorenzo",
     "weeklyWageInK": "2.5",
     "value": "1.6",
-    "name": "Conechny,Tomas"
+    "name": "Conechny,Tomas",
+    "isFavourite": false
   },
   {
     "rating": "85",
@@ -5507,7 +6053,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "7.9",
     "value": "3.7",
-    "name": "Cutrone,Patrick"
+    "name": "Cutrone,Patrick",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5517,7 +6064,8 @@
     "team": "AstonVilla",
     "weeklyWageInK": "1",
     "value": "2.9",
-    "name": "Davis,Keinan"
+    "name": "Davis,Keinan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5527,7 +6075,8 @@
     "team": "Pachuca",
     "weeklyWageInK": "0.5",
     "value": "0.01",
-    "name": "delaRosa,Roberto"
+    "name": "delaRosa,Roberto",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5537,7 +6086,8 @@
     "team": "Celtic",
     "weeklyWageInK": "25",
     "value": "15",
-    "name": "Dembele,Moussa"
+    "name": "Dembele,Moussa",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5547,7 +6097,8 @@
     "team": "Monaco",
     "weeklyWageInK": "24.1",
     "value": "4.1",
-    "name": "Diakhaby,Adama"
+    "name": "Diakhaby,Adama",
+    "isFavourite": false
   },
   {
     "rating": "71",
@@ -5557,7 +6108,8 @@
     "team": "Sarpsborg",
     "weeklyWageInK": "0.8",
     "value": "0.19",
-    "name": "Diatta,Krepin"
+    "name": "Diatta,Krepin",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -5567,7 +6119,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "5.4",
     "value": "1.2",
-    "name": "Diaz,Sergio"
+    "name": "Diaz,Sergio",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5577,7 +6130,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "25.7",
     "value": "4",
-    "name": "Dimata,Nany"
+    "name": "Dimata,Nany",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5587,7 +6141,8 @@
     "team": "Standard",
     "weeklyWageInK": "1.1",
     "value": "0.07",
-    "name": "Dinsifwa,Anaxis"
+    "name": "Dinsifwa,Anaxis",
+    "isFavourite": false
   },
   {
     "rating": "86",
@@ -5597,7 +6152,8 @@
     "team": "Ajax",
     "weeklyWageInK": "8.9",
     "value": "10.2",
-    "name": "Dolberg,Kasper"
+    "name": "Dolberg,Kasper",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5607,7 +6163,8 @@
     "team": "ManCity",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Duncan,Bobby"
+    "name": "Duncan,Bobby",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -5617,7 +6174,8 @@
     "team": "Bremen",
     "weeklyWageInK": "8.6",
     "value": "2.5",
-    "name": "Eggestein,Johannes"
+    "name": "Eggestein,Johannes",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5627,7 +6185,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "0.06",
     "value": "0.01",
-    "name": "Elliot"
+    "name": "Elliot",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -5637,7 +6196,8 @@
     "team": "Schalke",
     "weeklyWageInK": "68.6",
     "value": "9.5",
-    "name": "Embolo,Breel"
+    "name": "Embolo,Breel",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5647,7 +6207,8 @@
     "team": "Malaga",
     "weeklyWageInK": "10.5",
     "value": "1.4",
-    "name": "EnNesyri,Youssef"
+    "name": "EnNesyri,Youssef",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5657,7 +6218,8 @@
     "team": "Mainz",
     "weeklyWageInK": "0.06",
     "value": "0.07",
-    "name": "Eyibil,Erkan"
+    "name": "Eyibil,Erkan",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5667,7 +6229,8 @@
     "team": "Ascoli",
     "weeklyWageInK": "5",
     "value": "1.2",
-    "name": "Favilli,Andrea"
+    "name": "Favilli,Andrea",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5677,7 +6240,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "3.3",
     "value": "2",
-    "name": "FelipeVizeu"
+    "name": "FelipeVizeu",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -5687,7 +6251,8 @@
     "team": "ManCity",
     "weeklyWageInK": "75",
     "value": "46.2",
-    "name": "GabrielJesus"
+    "name": "GabrielJesus",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5697,7 +6262,8 @@
     "team": "Lyon",
     "weeklyWageInK": "0.06",
     "value": "0.32",
-    "name": "Geubbels,Willem"
+    "name": "Geubbels,Willem",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5707,7 +6273,8 @@
     "team": "Benfica",
     "weeklyWageInK": "1.8",
     "value": "0.12",
-    "name": "Gomes,Ze"
+    "name": "Gomes,Ze",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5717,7 +6284,8 @@
     "team": "Lyon",
     "weeklyWageInK": "3.5",
     "value": "0.18",
-    "name": "Gouiri,Amine"
+    "name": "Gouiri,Amine",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5727,7 +6295,8 @@
     "team": "Cagliari",
     "weeklyWageInK": "6.8",
     "value": "0.62",
-    "name": "Han,Kwang-Song"
+    "name": "Han,Kwang-Song",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5737,7 +6306,8 @@
     "team": "Watford",
     "weeklyWageInK": "4.4",
     "value": "0.6",
-    "name": "Hernandez,Juan"
+    "name": "Hernandez,Juan",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5757,7 +6327,8 @@
     "team": "Leicester",
     "weeklyWageInK": "60",
     "value": "26.5",
-    "name": "Iheanacho,Kelechi"
+    "name": "Iheanacho,Kelechi",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5767,7 +6338,8 @@
     "team": "Dortmund",
     "weeklyWageInK": "13.4",
     "value": "4.2",
-    "name": "Isak,Alexander"
+    "name": "Isak,Alexander",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5777,7 +6349,8 @@
     "team": "Levante",
     "weeklyWageInK": "1.2",
     "value": "0.13",
-    "name": "Joel"
+    "name": "Joel",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -5787,7 +6360,8 @@
     "team": "Partizan",
     "weeklyWageInK": "0.6",
     "value": "0.09",
-    "name": "Jovanovic,Djordje"
+    "name": "Jovanovic,Djordje",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5797,7 +6371,8 @@
     "team": "Benfica",
     "weeklyWageInK": "13.6",
     "value": "0.8",
-    "name": "Jovic,Luka"
+    "name": "Jovic,Luka",
+    "isFavourite": false
   },
   {
     "rating": "86",
@@ -5807,7 +6382,8 @@
     "team": "Juventus",
     "weeklyWageInK": "34.9",
     "value": "1.8",
-    "name": "Kean,Moise"
+    "name": "Kean,Moise",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5817,7 +6393,8 @@
     "team": "USCKita",
     "weeklyWageInK": "0.1",
     "value": "0.01",
-    "name": "Koita,Sekou"
+    "name": "Koita,Sekou",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5827,7 +6404,8 @@
     "team": "Malaga",
     "weeklyWageInK": "4.2",
     "value": "0.82",
-    "name": "Kuki"
+    "name": "Kuki",
+    "isFavourite": false
   },
   {
     "rating": "72",
@@ -5837,7 +6415,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "2.2",
     "value": "0.24",
-    "name": "Latte,Emmanuel"
+    "name": "Latte,Emmanuel",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5847,7 +6426,8 @@
     "team": "Flamengo",
     "weeklyWageInK": "0.1",
     "value": "0.02",
-    "name": "Lincoln"
+    "name": "Lincoln",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5857,7 +6437,8 @@
     "team": "Lyon",
     "weeklyWageInK": "4.3",
     "value": "0.62",
-    "name": "Maolida,Myziane"
+    "name": "Maolida,Myziane",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -5867,7 +6448,8 @@
     "team": "Guarani(PAR)",
     "weeklyWageInK": "0.3",
     "value": "0.22",
-    "name": "Marin,Antonio"
+    "name": "Marin,Antonio",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5877,7 +6459,8 @@
     "team": "CSUCraiova",
     "weeklyWageInK": "0.02",
     "value": "0.01",
-    "name": "Markovic,Jovan"
+    "name": "Markovic,Jovan",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5887,7 +6470,8 @@
     "team": "SportingCP",
     "weeklyWageInK": "2",
     "value": "0.07",
-    "name": "Marques,Pedro"
+    "name": "Marques,Pedro",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -5897,7 +6481,8 @@
     "team": "RacingClub",
     "weeklyWageInK": "3.9",
     "value": "2.5",
-    "name": "Martinez,Lautaro"
+    "name": "Martinez,Lautaro",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5907,7 +6492,8 @@
     "team": "Watford",
     "weeklyWageInK": "8.3",
     "value": "0.6",
-    "name": "Matheus"
+    "name": "Matheus",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5917,7 +6503,8 @@
     "team": "R.Madrid",
     "weeklyWageInK": "17.1",
     "value": "2",
-    "name": "Mayoral,Borja"
+    "name": "Mayoral,Borja",
+    "isFavourite": false
   },
   {
     "rating": "89",
@@ -5927,7 +6514,8 @@
     "team": "Monaco",
     "weeklyWageInK": "34.9",
     "value": "52",
-    "name": "Mbappe,Kylian"
+    "name": "Mbappe,Kylian",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -5937,7 +6525,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.2",
     "value": "0.07",
-    "name": "Merola,Davide"
+    "name": "Merola,Davide",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -5947,7 +6536,8 @@
     "team": "ManCity",
     "weeklyWageInK": "67.5",
     "value": "12.5",
-    "name": "Moreno,Marlos"
+    "name": "Moreno,Marlos",
+    "isFavourite": false
   },
   {
     "rating": "69",
@@ -5957,7 +6547,8 @@
     "team": "Stoke",
     "weeklyWageInK": "5",
     "value": "4.5",
-    "name": "Ngoy,Julien"
+    "name": "Ngoy,Julien",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -5967,7 +6558,8 @@
     "team": "Atalanta",
     "weeklyWageInK": "0.6",
     "value": "0.12",
-    "name": "Nivokazi,Rilind"
+    "name": "Nivokazi,Rilind",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -5977,7 +6569,8 @@
     "team": "Wolfsburg",
     "weeklyWageInK": "4",
     "value": "0.8",
-    "name": "Osimhen,Victor"
+    "name": "Osimhen,Victor",
+    "isFavourite": false
   },
   {
     "rating": "83",
@@ -5987,7 +6580,8 @@
     "team": "Vasco",
     "weeklyWageInK": "1.4",
     "value": "0.46",
-    "name": "Paulinho"
+    "name": "Paulinho",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -5997,7 +6591,8 @@
     "team": "SaoPaulo",
     "weeklyWageInK": "1.9",
     "value": "0.18",
-    "name": "PauloBoia"
+    "name": "PauloBoia",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6007,7 +6602,8 @@
     "team": "Fluminense",
     "weeklyWageInK": "7.3",
     "value": "0.73",
-    "name": "Pedro"
+    "name": "Pedro",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -6017,7 +6613,8 @@
     "team": "Internacional",
     "weeklyWageInK": "0.3",
     "value": "0.02",
-    "name": "PedroLucas"
+    "name": "PedroLucas",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -6027,7 +6624,8 @@
     "team": "Porto",
     "weeklyWageInK": "4",
     "value": "0.27",
-    "name": "Pedro,Rui"
+    "name": "Pedro,Rui",
+    "isFavourite": false
   },
   {
     "rating": "86",
@@ -6037,7 +6635,8 @@
     "team": "Genoa",
     "weeklyWageInK": "0.2",
     "value": "6.2",
-    "name": "Pellegri,Pietro"
+    "name": "Pellegri,Pietro",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -6047,7 +6646,8 @@
     "team": "Watford",
     "weeklyWageInK": "17",
     "value": "8.5",
-    "name": "Penaranda,Adalberto"
+    "name": "Penaranda,Adalberto",
+    "isFavourite": false
   },
   {
     "rating": "84",
@@ -6057,7 +6657,8 @@
     "team": "Inter",
     "weeklyWageInK": "15.9",
     "value": "0.7",
-    "name": "Pinamonti,Andrea"
+    "name": "Pinamonti,Andrea",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -6067,7 +6668,8 @@
     "team": "Empoli",
     "weeklyWageInK": "1.5",
     "value": "0.7",
-    "name": "Piu,Alessandro"
+    "name": "Piu,Alessandro",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -6077,7 +6679,8 @@
     "team": "Roma",
     "weeklyWageInK": "68.3",
     "value": "2.5",
-    "name": "Ponce,Ezequiel"
+    "name": "Ponce,Ezequiel",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -6087,7 +6690,8 @@
     "team": "ManUtd",
     "weeklyWageInK": "20",
     "value": "42.5",
-    "name": "Rashford,Marcus"
+    "name": "Rashford,Marcus",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -6097,7 +6701,8 @@
     "team": "LigadeQuito",
     "weeklyWageInK": "0.3",
     "value": "0.04",
-    "name": "Reasco,Djorkaeff"
+    "name": "Reasco,Djorkaeff",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -6107,7 +6712,8 @@
     "team": "Chelsea",
     "weeklyWageInK": "0.1",
     "value": "0.12",
-    "name": "Redan,Daishawn"
+    "name": "Redan,Daishawn",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6117,7 +6723,8 @@
     "team": "River",
     "weeklyWageInK": "0.02",
     "value": "0.78",
-    "name": "Rollheiser,Benjamin"
+    "name": "Rollheiser,Benjamin",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -6127,7 +6734,8 @@
     "team": "Velez",
     "weeklyWageInK": "2.7",
     "value": "1.9",
-    "name": "Romero,Maximiliano"
+    "name": "Romero,Maximiliano",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -6137,7 +6745,8 @@
     "team": "Genoa",
     "weeklyWageInK": "0.2",
     "value": "0.1",
-    "name": "Salcedo,Eddy"
+    "name": "Salcedo,Eddy",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -6147,7 +6756,8 @@
     "team": "Colon",
     "weeklyWageInK": "1.5",
     "value": "0.82",
-    "name": "Sandoval,Tomas"
+    "name": "Sandoval,Tomas",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -6157,7 +6767,8 @@
     "team": "A.Madrid",
     "weeklyWageInK": "3.4",
     "value": "0.92",
-    "name": "Schiappacasse,Nicolas"
+    "name": "Schiappacasse,Nicolas",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -6167,7 +6778,8 @@
     "team": "Hajduk",
     "weeklyWageInK": "0",
     "value": "0.02",
-    "name": "Sego,Michele"
+    "name": "Sego,Michele",
+    "isFavourite": false
   },
   {
     "rating": "79",
@@ -6177,7 +6789,8 @@
     "team": "Ajax",
     "weeklyWageInK": "5.7",
     "value": "0.62",
-    "name": "Sierhuis,Kaj"
+    "name": "Sierhuis,Kaj",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -6187,7 +6800,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "20",
     "value": "4.5",
-    "name": "Solanke,Dominic"
+    "name": "Solanke,Dominic",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -6197,7 +6811,8 @@
     "team": "Temperley",
     "weeklyWageInK": "0.02",
     "value": "0.5",
-    "name": "Sosa,Franco"
+    "name": "Sosa,Franco",
+    "isFavourite": false
   },
   {
     "rating": "75",
@@ -6207,7 +6822,8 @@
     "team": "Toulouse",
     "weeklyWageInK": "0.06",
     "value": "0.08",
-    "name": "Taoui,Adil"
+    "name": "Taoui,Adil",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6217,7 +6833,8 @@
     "team": "Cruzeiro",
     "weeklyWageInK": "0.1",
     "value": "0.16",
-    "name": "ThonnyAnderson"
+    "name": "ThonnyAnderson",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6227,7 +6844,8 @@
     "team": "Boca",
     "weeklyWageInK": "1.6",
     "value": "0.2",
-    "name": "Torres,Marcelo"
+    "name": "Torres,Marcelo",
+    "isFavourite": false
   },
   {
     "rating": "73",
@@ -6237,7 +6855,8 @@
     "team": "ManCity",
     "weeklyWageInK": "0.1",
     "value": "0.04",
-    "name": "Touaizi,Nabil"
+    "name": "Touaizi,Nabil",
+    "isFavourite": false
   },
   {
     "rating": "68",
@@ -6247,7 +6866,8 @@
     "team": "WestBrom",
     "weeklyWageInK": "0.1",
     "value": "0.03",
-    "name": "Tulloch,Rayhaan"
+    "name": "Tulloch,Rayhaan",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -6257,7 +6877,8 @@
     "team": "Roma",
     "weeklyWageInK": "11.4",
     "value": "0.53",
-    "name": "Tumminello,Marco"
+    "name": "Tumminello,Marco",
+    "isFavourite": false
   },
   {
     "rating": "80",
@@ -6267,7 +6888,8 @@
     "team": "Villarreal",
     "weeklyWageInK": "33.9",
     "value": "2.3",
-    "name": "Unal,Enes"
+    "name": "Unal,Enes",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6277,7 +6899,8 @@
     "team": "Inter",
     "weeklyWageInK": "0.2",
     "value": "0.06",
-    "name": "Vergani,Edoardo"
+    "name": "Vergani,Edoardo",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6287,7 +6910,8 @@
     "team": "ArgentinosJrs.",
     "weeklyWageInK": "0.02",
     "value": "0.03",
-    "name": "Veron,Gaston"
+    "name": "Veron,Gaston",
+    "isFavourite": false
   },
   {
     "rating": "81",
@@ -6297,7 +6921,8 @@
     "team": "ACMilan",
     "weeklyWageInK": "0.2",
     "value": "0.06",
-    "name": "Vigolo,Vittorio"
+    "name": "Vigolo,Vittorio",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6307,7 +6932,8 @@
     "team": "A.Bilbao",
     "weeklyWageInK": "6.3",
     "value": "1.2",
-    "name": "Villalibre,Asier"
+    "name": "Villalibre,Asier",
+    "isFavourite": false
   },
   {
     "rating": "86",
@@ -6317,7 +6943,8 @@
     "team": "Corinthians",
     "weeklyWageInK": "1.2",
     "value": "0.02",
-    "name": "Vitinho"
+    "name": "Vitinho",
+    "isFavourite": false
   },
   {
     "rating": "76",
@@ -6327,7 +6954,8 @@
     "team": "Partizan",
     "weeklyWageInK": "0.5",
     "value": "0.13",
-    "name": "Vlahovic,Dusan"
+    "name": "Vlahovic,Dusan",
+    "isFavourite": false
   },
   {
     "rating": "82",
@@ -6337,7 +6965,8 @@
     "team": "Liverpool",
     "weeklyWageInK": "12",
     "value": "2.8",
-    "name": "Woodburn,Ben"
+    "name": "Woodburn,Ben",
+    "isFavourite": false
   },
   {
     "rating": "78",
@@ -6347,7 +6976,8 @@
     "team": "Santos",
     "weeklyWageInK": "0.3",
     "value": "0.05",
-    "name": "YuriAlberto"
+    "name": "YuriAlberto",
+    "isFavourite": false
   },
   {
     "rating": "77",
@@ -6357,6 +6987,7 @@
     "team": "Oostende",
     "weeklyWageInK": "7.1",
     "value": "1.4",
-    "name": "Zivkovic,Richairo"
+    "name": "Zivkovic,Richairo",
+    "isFavourite": false
   }
 ]

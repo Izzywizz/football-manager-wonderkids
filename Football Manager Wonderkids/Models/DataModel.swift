@@ -37,6 +37,14 @@ class DataModel {
         }
     }
     
+    //save
+    func savePlayers() {
+        let jsonURL = Bundle.main.url(forResource: "playerSeed", withExtension: "json")!
+        let encoder = JSONEncoder()
+        let encodingJson = try! encoder.encode(players)
+        try! encodingJson.write(to: jsonURL)
+    }
+    
     
     
     //Find specifc areas on the pitch: Midfielders/ Forwards etc.

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Player {
+class Player: Codable {
     var name: String
     var age: String
     var team: String
@@ -16,7 +16,7 @@ class Player {
     var rating: String
     var weeklyWageInK: String
     var value: String
-    var isFavourite: Bool = false
+    var isFavourite: Bool
     
     struct Key {
         static let rating = "rating"
@@ -27,9 +27,10 @@ class Player {
         static let weeklyWageInK = "weeklyWageInK"
         static let value = "value"
         static let name = "name"
+        static let isFavourite = "isFavourite"
     }
     
-    init(name: String, age: String, team: String, position: String, rating: String, weeklyWageInK: String, value: String) {
+    init(name: String, age: String, team: String, position: String, rating: String, weeklyWageInK: String, value: String, isFavourite: Bool) {
         self.name = name
         self.age = age
         self.team = team
@@ -37,6 +38,7 @@ class Player {
         self.rating = rating
         self.weeklyWageInK = weeklyWageInK
         self.value = value
+        self.isFavourite = isFavourite
     }
     
     init?(from json: [String: Any]) {
@@ -47,7 +49,9 @@ class Player {
             let position = json[Key.position] as? String,
             let rating = json[Key.rating] as? String,
             let weeklyWageInK = json[Key.weeklyWageInK] as? String,
-            let value = json[Key.value] as? String
+            let value = json[Key.value] as? String,
+            let isFavourite = json[Key.isFavourite] as? Bool
+            
         else { return nil }
         
         self.name = name
@@ -57,6 +61,7 @@ class Player {
         self.rating = rating
         self.weeklyWageInK = weeklyWageInK
         self.value = value
+        self.isFavourite = isFavourite
     }
 }
 
