@@ -91,7 +91,7 @@ class MasterViewController: UITableViewController {
         
         tableView.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: reuseID)
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! MenuTableViewCell
-        let title = dataSource[indexPath.row].rawValue
+        let title = dataSource[indexPath.row].rawValue.localizedCapitalized
         let image = dataSource[indexPath.row].image
         
         cell.configure(title, image: image)

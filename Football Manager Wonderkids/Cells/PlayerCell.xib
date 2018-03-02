@@ -35,8 +35,8 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGB-SB-7ka" userLabel="position view">
                         <rect key="frame" x="8" y="8" width="28" height="28"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-8h-Tcb" userLabel="position">
-                                <rect key="frame" x="4.5" y="5" width="20" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-8h-Tcb" userLabel="position">
+                                <rect key="frame" x="4.5" y="5.5" width="20" height="19.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,9 +117,10 @@
             <connections>
                 <outlet property="playerName" destination="a5G-oJ-yh8" id="zAP-YE-sZT"/>
                 <outlet property="positionView" destination="ZGB-SB-7ka" id="Lcj-0m-rNq"/>
+                <outlet property="postion" destination="XI9-8h-Tcb" id="reh-S2-8K4"/>
                 <outlet property="ratingView" destination="cxu-qk-dII" id="qWk-na-ycW"/>
             </connections>
-            <point key="canvasLocation" x="32" y="47"/>
+            <point key="canvasLocation" x="-35" y="50"/>
         </tableViewCell>
     </objects>
     <resources>

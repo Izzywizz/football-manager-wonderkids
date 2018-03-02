@@ -37,26 +37,77 @@ class DataModel {
         }
     }
     
+    
+    
+    //Find specifc areas on the pitch: Midfielders/ Forwards etc.
     func findGoalkeepers() -> [Player] {
-        var goalkeepers = [Player]()
+        var localPlayers = [Player]()
         
         for player in players {
             if player.position.contains("GK") {
-                goalkeepers.append(player)
+                localPlayers.append(player)
             }
         }
         
-        return goalkeepers
+        return localPlayers
     }
     
-    func filter(on filterParameter: MenuTitle) -> [Player] {
-        switch filterParameter {
-        case .Goalkeepers:
-            return findGoalkeepers()
-        default:
-            return [Player]()
+    func findDefenders() -> [Player] {
+        var localPlayers = [Player]()
+        
+        for player in players {
+            
+            if player.position.contains("DLC") || player.position.contains("DC") || player.position.contains("DRLC") || player.position.contains("D/WB/") || player.position.contains("D/WB") || player.position.contains("DL") || player.position.contains("DR") || player.position.contains("DRL") || player.position.contains("DRC") || player.position.contains("SW") || player.position.contains("DRK") {
+                localPlayers.append(player)
+            }
         }
+        
+        return localPlayers
     }
     
     
+    func findMidfielders() -> [Player] {
+        var localPlayers = [Player]()
+        
+        for player in players {
+            
+            if player.position.contains("DM") || player.position.contains("MC") || player.position.contains("MR") || player.position.contains("ML") || player.position.contains("AM") {
+                localPlayers.append(player)
+            }
+        }
+            return localPlayers
+        
+    }
+    
+    func findForwards() -> [Player] {
+        var localPlayers = [Player]()
+        
+        for player in players {
+            
+            if player.position.contains("ST") || player.position.contains("AMR") || player.position.contains("AML") {
+                localPlayers.append(player)
+            }
+        }
+        return localPlayers
+        
+    }
+        
+        
+        func filter(on filterParameter: MenuTitle) -> [Player] {
+            switch filterParameter {
+            case .Goalkeepers:
+                return findGoalkeepers()
+            case .Defenders:
+                return findDefenders()
+            case .Midfielders:
+                return findMidfielders()
+            case .Forwards:
+                return findForwards()
+            default:
+                return [Player]()
+            }
+        }
+        
 }
+
+

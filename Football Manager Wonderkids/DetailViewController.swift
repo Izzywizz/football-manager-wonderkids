@@ -26,6 +26,7 @@ class DetailViewController: UITableViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem, let players = players {
+            print("count: \(players.count)")
         }
     }
 
@@ -86,6 +87,7 @@ class DetailViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! PlayerTableViewCell
         
         cell.playerName.text = players?[indexPath.row].name
+        cell.postion.text = players?[indexPath.row].position
         
         return cell
     }

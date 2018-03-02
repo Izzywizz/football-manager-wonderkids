@@ -13,6 +13,7 @@ class PlayerTableViewCell: UITableViewCell {
     @IBOutlet weak var ratingView: UIView!
     @IBOutlet weak var playerName: UILabel!
     @IBOutlet weak var positionView: UIView!
+    @IBOutlet weak var postion: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
