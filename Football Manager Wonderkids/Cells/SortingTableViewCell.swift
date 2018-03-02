@@ -26,6 +26,7 @@ class SortingTableViewCell: UITableViewCell {
         ViewHelper.roundedCorners(for: views)
         buttonArray = [position, name, price, rating]
         setupButtons()
+        //default sort type
         
     }
 
@@ -37,6 +38,9 @@ class SortingTableViewCell: UITableViewCell {
 
     @IBAction func sortAction(_ sender: UIButton, forEvent event: UIEvent) {
         let sortType = Sort(rawValue: sender.tag)!
+
+        UserDefaults.standard.set(sender.tag, forKey: "sortType")
+        NotificationCenter.default.post(name: Notification.Name("sort"), object: nil, userInfo: ["type": sender.tag])
 
         switch sortType {
         case .position:
@@ -76,6 +80,14 @@ class SortingTableViewCell: UITableViewCell {
     }
     
     func setupButtons() {
+        let sortPreviouslySelected = UserDefaults.standard.integer(forKey: "sortType")
+
+        for button in buttonArray {
+            if sortPreviouslySelected == button.tag {
+                button.isSelected = true
+                changeBackgrondColour()
+            }
+        }
         
         //set normal image
         position.setTitleColor(customPurple, for: .normal)

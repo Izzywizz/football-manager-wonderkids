@@ -26,7 +26,7 @@ class DetailViewController: UITableViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem, let players = players {
-            print("count: \(players.count)")
+            
         }
     }
 
@@ -34,6 +34,62 @@ class DetailViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
+        NotificationCenter.default.addObserver(self, selector: #selector(self.sortingMethodNotification(notification:)), name: Notification.Name("sort"), object: nil)
+        
+        let sortPreviouslySelected = UserDefaults.standard.integer(forKey: "sortType")
+        let sortType = Sort(rawValue: sortPreviouslySelected)!
+        sortMethod(type: sortType)
+    }
+    
+    @objc func sortingMethodNotification(notification: Notification){
+//        tableView.reloadRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
+        guard let type = notification.userInfo?["type"] as? Int else { return }
+        print("Recieved Observer: \(type)")
+        let sortType = Sort(rawValue: type)!
+        
+        sortMethod(type: sortType)
+
+        tableView.reloadData()
+
+    }
+    
+    func sortMethod(type: Sort) {
+        switch type {
+        case .name:
+            
+            players?.sort(by: { (playerOne, playerTwo) -> Bool in
+                if playerOne.name < playerTwo.name {
+                    return true
+                }
+                return false
+            })
+            
+        case .rating:
+            players?.sort(by: { (playerOne, playerTwo) -> Bool in
+                if playerOne.rating > playerTwo.rating {
+                    return true
+                }
+                return false
+            })
+            
+        case .position:
+            
+            players?.sort(by: { (playerOne, playerTwo) -> Bool in
+                if playerOne.position < playerTwo.position {
+                    return true
+                }
+                return false
+            })
+            
+        case .price:
+            players?.sort(by: { (playerOne, playerTwo) -> Bool in
+                if playerOne.value > playerTwo.value {
+                    return true
+                }
+                return false
+            })
+            
+        }
     }
 
 
