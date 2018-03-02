@@ -57,7 +57,7 @@ class DataModel {
         
         for player in players {
             
-            if player.position.contains("DLC") || player.position.contains("DC") || player.position.contains("DRLC") || player.position.contains("D/WB/") || player.position.contains("D/WB") || player.position.contains("DL") || player.position.contains("DR") || player.position.contains("DRL") || player.position.contains("DRC") || player.position.contains("SW") || player.position.contains("DRK") {
+            if player.position.contains("DLC") || player.position.contains("DC") || player.position.contains("DRLC") || player.position.contains("WB") || player.position.contains("DL") || player.position.contains("DR") || player.position.contains("DRL") || player.position.contains("DRC") || player.position.contains("SW") || player.position.contains("DRK") {
                 localPlayers.append(player)
             }
         }
@@ -83,8 +83,8 @@ class DataModel {
         var localPlayers = [Player]()
         
         for player in players {
-            
-            if player.position.contains("ST") || player.position.contains("AMR") || player.position.contains("AML") {
+
+            if player.position.contains("ST") || player.position.contains("FC") {
                 localPlayers.append(player)
             }
         }

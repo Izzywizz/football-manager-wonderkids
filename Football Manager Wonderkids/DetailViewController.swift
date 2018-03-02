@@ -86,8 +86,9 @@ class DetailViewController: UITableViewController {
         tableView.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: reuseID)
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! PlayerTableViewCell
         
-        cell.playerName.text = players?[indexPath.row].name
-        cell.postion.text = players?[indexPath.row].position
+        if let player = players?[indexPath.row] {
+            cell.configure(player: player)
+        }
         
         return cell
     }

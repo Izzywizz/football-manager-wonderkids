@@ -14,6 +14,8 @@ class PlayerTableViewCell: UITableViewCell {
     @IBOutlet weak var playerName: UILabel!
     @IBOutlet weak var positionView: UIView!
     @IBOutlet weak var postion: UILabel!
+    @IBOutlet weak var value: UILabel!
+    @IBOutlet weak var rating: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,6 +30,24 @@ class PlayerTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func configure(player: Player) {
+        if let firstPosition = player.position.split(separator: ",").last,
+            let lastName = player.name.split(separator: ",").first,
+            let firstname = player.name.split(separator: ",").last {
+            
+            postion.text = String(firstPosition)
+            
+            if firstname == lastName {
+                playerName.text = "\(firstname)"
+            } else {
+                playerName.text = "\(lastName), \(firstname)"
+            }
+
+        }
+        value.text = "\(player.value) mil"
+        rating.text = player.rating
     }
     
 }
