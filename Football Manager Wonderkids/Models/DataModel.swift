@@ -11,6 +11,7 @@ import Foundation
 class DataModel {
     
     var players = [Player]()
+    var currentPostionSelected: MenuTitle = .Goalkeepers
     
     init() {
         importJSONSeedData()
@@ -97,22 +98,38 @@ class DataModel {
             }
         }
         return localPlayers
+    }
+    
+    func findFavourties() -> [Player] {
+        var localPlayers = [Player]()
         
+        for player in players {
+            
+            if player.isFavourite {
+                localPlayers.append(player)
+            }
+        }
+        return localPlayers
     }
         
         
         func filter(on filterParameter: MenuTitle) -> [Player] {
             switch filterParameter {
             case .Goalkeepers:
+                currentPostionSelected = .Goalkeepers
                 return findGoalkeepers()
             case .Defenders:
+                currentPostionSelected = .Defenders
                 return findDefenders()
             case .Midfielders:
+                currentPostionSelected = .Midfielders
                 return findMidfielders()
             case .Forwards:
+                currentPostionSelected = .Forwards
                 return findForwards()
-            default:
-                return [Player]()
+            case .Favourites:
+                currentPostionSelected = .Favourites
+                return findFavourties()
             }
         }
         
