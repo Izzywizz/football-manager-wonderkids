@@ -63,10 +63,16 @@ class PlayerTableViewCell: UITableViewCell {
 
             
             switch rating {
-            case 0..<80:
+            case 70..<80:
                 let borderColour = UIColor(red: 181.0/255.0, green: 171.0/255.0, blue: 37.0/255.0, alpha: 1.0).cgColor
                 let yellowRatingColour = UIColor(red: 248.0/255.0, green: 231.0/255.0, blue: 28.0/255.0, alpha: 1.0)
                 ratingView.backgroundColor = yellowRatingColour
+                ViewHelper.drawBorders(for: [ratingView], withBorderColour: borderColour)
+                
+            case 0...69:
+                let borderColour = UIColor(red: 163.0/255.0, green: 13.0/255.0, blue: 31.0/255.0, alpha: 1.0).cgColor
+                let redRatingColour = UIColor(red: 255.0/255.0, green: 1.0/255.0, blue: 91.0/255.0, alpha: 1.0)
+                ratingView.backgroundColor = redRatingColour
                 ViewHelper.drawBorders(for: [ratingView], withBorderColour: borderColour)
                 
             default:
