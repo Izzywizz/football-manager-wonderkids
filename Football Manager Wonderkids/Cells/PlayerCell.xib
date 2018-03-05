@@ -132,6 +132,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="noHeart" width="27" height="26"/>
+        <image name="noHeart" width="38" height="33"/>
     </resources>
 </document>

@@ -129,6 +129,9 @@ class DetailViewController: UITableViewController {
         let cell = tableView.cellForRow(at: indexPath) as! PlayerTableViewCell
         let player = players![indexPath.row]
 
+        
+        cell.selectionStyle = .none //prevent grey animation
+        
         if player.isFavourite == false {
             player.isFavourite = true
             cell.favourite.image = #imageLiteral(resourceName: "Favourites")
