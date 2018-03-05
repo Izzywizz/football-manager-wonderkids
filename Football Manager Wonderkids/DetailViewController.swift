@@ -17,16 +17,18 @@ class DetailViewController: UITableViewController {
         }
     }
     
+    
     var players: [Player]? {
         didSet {
             configureView()
         }
     }
     
+    var position: MenuTitle!
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem, let players = players {
-
         }
     }
 
@@ -164,8 +166,7 @@ class DetailViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! PlayerTableViewCell
         
         if let player = players?[indexPath.row] {
-            cell.configure(player: player)
-            
+            cell.configure(player: player, withPositionColour: position)
         }
         
         return cell

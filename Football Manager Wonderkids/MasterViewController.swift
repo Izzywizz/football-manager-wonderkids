@@ -58,8 +58,9 @@ class MasterViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let title = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = title
+                controller.title = title
                 controller.players = sender as! [Player]
+                controller.position = dataModel.currentPostionSelected
                 controller.navigationItem.title = title
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true

@@ -8,6 +8,7 @@
 
 import UIKit
 
+let defaultBorderColour = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
 struct ViewHelper {
     /**
      This method makes sure that the views have a nice round corner to it, mostly used for TextViews in order to match the designs.
@@ -23,9 +24,9 @@ struct ViewHelper {
      Ensures that the views related to the textfields have a border and colour applied to them by default, recall that textfields are just views
      - parameter views: an Array of subclasses of UIView so TextFields, TableViewCells etc
      */
-    static func drawBorders(for views: [UIView])   {
+    static func drawBorders(for views: [UIView], withBorderColour color: CGColor = defaultBorderColour)  {
         
-        let borderColour = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
+        let borderColour = color
         for view in views {
             view.layer.borderWidth = 1
             view.layer.borderColor = borderColour
