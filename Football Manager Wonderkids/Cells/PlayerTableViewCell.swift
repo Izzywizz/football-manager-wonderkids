@@ -13,8 +13,9 @@ class PlayerTableViewCell: UITableViewCell {
     //MARK: - Properties
     @IBOutlet weak var ratingView: UIView!
     @IBOutlet weak var playerName: UILabel!
+    @IBOutlet weak var team: UILabel!
     @IBOutlet weak var positionView: UIView!
-    @IBOutlet weak var postion: UILabel!
+    @IBOutlet weak var position: UILabel!
     @IBOutlet weak var value: UILabel!
     @IBOutlet weak var rating: UILabel!
     @IBOutlet weak var favourite: UIImageView!
@@ -41,10 +42,10 @@ class PlayerTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(player: Player, withPositionColour position: MenuTitle) {
+    func configure(player: Player, withPositionColour positionTitle: MenuTitle) {
         
         //postion colours
-        switch position {
+        switch positionTitle {
         case .Goalkeepers:
             positionView.backgroundColor = goalkeeperColour
         case .Defenders:
@@ -84,19 +85,26 @@ class PlayerTableViewCell: UITableViewCell {
             
         }
 
-        if let firstPosition = player.position.split(separator: ",").last,
+        if let firstPosition = player.position.split(separator: ",").first,
+            let lastPosition = player.position.split(separator: ",").last,
             let lastName = player.name.split(separator: ",").first,
             let firstname = player.name.split(separator: ",").last {
             
-            postion.text = String(firstPosition)
+            if positionTitle == .Forwards {
+                position.text = String(lastPosition)
+            } else if positionTitle == .Midfielders {
+                position.text = String(firstPosition)
+            } else {
+                position.text = String(firstPosition)
+            }
             
             if firstname == lastName {
                 playerName.text = "\(firstname)"
             } else {
                 playerName.text = "\(lastName), \(firstname)"
             }
-
         }
+        team.text = player.team
         value.text = "\(player.value) mil"
         rating.text = player.rating
         

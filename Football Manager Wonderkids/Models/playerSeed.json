@@ -1211,7 +1211,7 @@
   },
   {
     "rating": "72",
-    "position": "D,WB,MRL",
+    "position": "WB,MRL",
     "age": "18",
     "nationality": "Italy",
     "team": "Palermo",
@@ -1343,7 +1343,7 @@
   },
   {
     "rating": "76",
-    "position": "D,WB,ML",
+    "position": "WB,ML",
     "age": "19",
     "nationality": "Brazil",
     "team": "Juventus",
@@ -1409,7 +1409,7 @@
   },
   {
     "rating": "74",
-    "position": "D,WB,ML",
+    "position": "WB,ML",
     "age": "19",
     "nationality": "Italy",
     "team": "Udinese",
@@ -1453,7 +1453,7 @@
   },
   {
     "rating": "82",
-    "position": "D,WB,ML",
+    "position": "WB,ML",
     "age": "18",
     "nationality": "England",
     "team": "Stoke",
@@ -1519,7 +1519,7 @@
   },
   {
     "rating": "77",
-    "position": "D,WB,MR",
+    "position": "WB,MR",
     "age": "17",
     "nationality": "Brazil",
     "team": "Cruzeiro",
@@ -1563,7 +1563,7 @@
   },
   {
     "rating": "78",
-    "position": "D,WB,MR",
+    "position": "WB,MR",
     "age": "18",
     "nationality": "Morocco",
     "team": "R.Madrid",
@@ -1596,7 +1596,7 @@
   },
   {
     "rating": "77",
-    "position": "D,WB,MR",
+    "position": "WB,MR",
     "age": "19",
     "nationality": "Argentina",
     "team": "ArgentinosJrs.",
@@ -1618,7 +1618,7 @@
   },
   {
     "rating": "75",
-    "position": "D,WB,AMR",
+    "position": "WB,AMR",
     "age": "19",
     "nationality": "Italy",
     "team": "Sassuolo",
@@ -1629,7 +1629,7 @@
   },
   {
     "rating": "77",
-    "position": "D,WB,MR",
+    "position": "WB,MR",
     "age": "19",
     "nationality": "Spain",
     "team": "Juventus",
@@ -1651,7 +1651,7 @@
   },
   {
     "rating": "77",
-    "position": "D,WB,AMR",
+    "position": "WB,AMR",
     "age": "19",
     "nationality": "Germany",
     "team": "Dortmund",
@@ -1706,7 +1706,7 @@
   },
   {
     "rating": "78",
-    "position": "D,WB,AMR",
+    "position": "WB,AMR",
     "age": "20",
     "nationality": "Spain",
     "team": "Sevilla",
@@ -3432,7 +3432,7 @@
   },
   {
     "rating": "72",
-    "position": "D,AML",
+    "position": "AML",
     "age": "17",
     "nationality": "England",
     "team": "Fulham",
