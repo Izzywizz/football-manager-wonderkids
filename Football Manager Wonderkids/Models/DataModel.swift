@@ -11,7 +11,7 @@ import Foundation
 class DataModel {
     
     var players = [Player]()
-    var currentPostionSelected: MenuTitle = .Goalkeepers
+    var currentPostionSelected: Position = .Goalkeepers
     
     init() {
         loadPlayers()
@@ -136,7 +136,7 @@ class DataModel {
     }
     
     
-    func filter(on filterParameter: MenuTitle) -> [Player] {
+    func filter(on filterParameter: Position) -> [Player] {
         switch filterParameter {
         case .Goalkeepers:
             currentPostionSelected = .Goalkeepers

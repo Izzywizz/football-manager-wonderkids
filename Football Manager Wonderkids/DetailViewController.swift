@@ -24,7 +24,7 @@ class DetailViewController: UITableViewController {
         }
     }
     
-    var position: MenuTitle!
+    var position: Position!
     
     func configureView() {
         // Update the user interface for the detail item.

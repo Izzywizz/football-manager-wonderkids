@@ -42,7 +42,7 @@ class PlayerTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(player: Player, withPositionColour positionTitle: MenuTitle) {
+    func configure(player: Player, withPositionColour positionTitle: Position) {
         
         //postion colours
         switch positionTitle {
