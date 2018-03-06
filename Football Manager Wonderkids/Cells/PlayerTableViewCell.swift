@@ -42,6 +42,11 @@ class PlayerTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setPositionBackgroundColour() {
+        
+    }
+    
+
     func configure(player: Player, withPositionColour positionTitle: Position) {
         
         //postion colours
@@ -90,9 +95,9 @@ class PlayerTableViewCell: UITableViewCell {
             let lastName = player.name.split(separator: ",").first,
             let firstname = player.name.split(separator: ",").last {
             
-            if positionTitle == .midfielders {
+            if player.returnPostion() == .midfielders {
                 position.text = String(firstPosition)
-            } else if positionTitle == .forwards {
+            } else if player.returnPostion() == .forwards {
                 position.text = String(lastPosition)
             } else {
                 position.text = String(firstPosition)

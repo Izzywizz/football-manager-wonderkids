@@ -90,7 +90,7 @@ class DetailViewController: UITableViewController {
         case .position:
             
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.position <= playerTwo.position {
+                if playerOne.returnPostion().hashValue < playerTwo.returnPostion().hashValue {
                     return true
                 }
                 return false

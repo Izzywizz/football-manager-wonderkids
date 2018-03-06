@@ -76,7 +76,7 @@ class DataModel {
         var localPlayers = [Player]()
         
         for player in players {
-            if player.position.contains("GK") {
+            if player.returnPostion() == .goalkeeper {
                 localPlayers.append(player)
             }
         }
@@ -89,7 +89,7 @@ class DataModel {
         
         for player in players {
             
-            if player.position.contains("DLC") || player.position.contains("DC") || player.position.contains("DRLC") || player.position.contains("WB") || player.position.contains("DL") || player.position.contains("DR") || player.position.contains("DRL") || player.position.contains("DRC") || player.position.contains("SW") || player.position.contains("DRK") {
+            if player.returnPostion() == .defenders {
                 localPlayers.append(player)
             }
         }
@@ -103,7 +103,7 @@ class DataModel {
         
         for player in players {
             
-            if player.position.contains("DM") || player.position.contains("MC") || player.position.contains("MR") || player.position.contains("ML") || player.position.contains("AM") {
+            if player.returnPostion() == .midfielders {
                 localPlayers.append(player)
             }
         }
@@ -116,7 +116,7 @@ class DataModel {
         
         for player in players {
             
-            if player.position.contains("ST") || player.position.contains("FC") {
+            if player.returnPostion() == .forwards {
                 localPlayers.append(player)
             }
         }
@@ -141,17 +141,22 @@ class DataModel {
         case .goalkeeper:
             currentPostionSelected = .goalkeeper
             return findGoalkeepers()
+            
         case .defenders:
             currentPostionSelected = .defenders
             return findDefenders()
+            
         case .midfielders:
             currentPostionSelected = .midfielders
             return findMidfielders()
+            
         case .forwards:
             currentPostionSelected = .forwards
             return findForwards()
+            
         case .favourites:
             currentPostionSelected = .favourites
+            
             return findFavourties()
         }
     }
