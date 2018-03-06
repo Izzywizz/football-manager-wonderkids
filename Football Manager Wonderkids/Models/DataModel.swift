@@ -53,6 +53,7 @@ class DataModel {
     //load
     func loadPlayers() {
         if let data = try? Data(contentsOf: dataFilePathPlayers()) {
+            print("Loading from data")
             let decoder = JSONDecoder()
             guard let jsonArray = try? decoder.decode([Player].self, from: data) else { return }
             
@@ -64,6 +65,7 @@ class DataModel {
             
         } else {
             //data empty
+            print("importing")
             importJSONSeedData()
         }
     }

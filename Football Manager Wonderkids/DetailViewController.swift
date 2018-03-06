@@ -51,8 +51,10 @@ class DetailViewController: UITableViewController {
 
     @objc func appMovedToBackground() {
         print("App moved to background!")
-        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: UITableViewScrollPosition.top, animated: true) //Stops the werid floating header sorting type
+        self.tableView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: true)
+//        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: UITableViewScrollPosition.top, animated: true) //Stops the werid floating header sorting type
     }
+    
     
     @objc func sortingMethodNotification(notification: Notification){
 //        tableView.reloadRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
