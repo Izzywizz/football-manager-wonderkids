@@ -88,36 +88,45 @@ class PlayerTableViewCell: UITableViewCell {
         }
     }
 
+    func setPositionNamingConvention(player: Player) {
+        
+        guard
+            let firstPosition = player.position.split(separator: ",").first,
+            let lastPosition = player.position.split(separator: ",").last
+            else { return }
+        
+        if player.returnPostion() == .midfielders {
+            position.text = String(firstPosition)
+        } else if player.returnPostion() == .forwards {
+            position.text = String(lastPosition)
+        } else {
+            position.text = String(firstPosition)
+        }
+    }
     
+    func setNames(for player: Player) {
+        guard
+            let lastName = player.name.split(separator: ",").first,
+            let firstname = player.name.split(separator: ",").last
+        else { return }
+        
+        if firstname == lastName {
+            playerName.text = "\(firstname)"
+        } else {
+            playerName.text = "\(lastName), \(firstname)"
+        }
+    }
     
     func configure(player: Player) {
         
         setPositionBackgroundColour(for: player)
         setRatingColour(for: player)
+        setPositionNamingConvention(player: player)
+        setNames(for: player)
         
-        if let firstPosition = player.position.split(separator: ",").first,
-            let lastPosition = player.position.split(separator: ",").last,
-            let lastName = player.name.split(separator: ",").first,
-            let firstname = player.name.split(separator: ",").last {
-            
-            if player.returnPostion() == .midfielders {
-                position.text = String(firstPosition)
-            } else if player.returnPostion() == .forwards {
-                position.text = String(lastPosition)
-            } else {
-                position.text = String(firstPosition)
-            }
-            
-            if firstname == lastName {
-                playerName.text = "\(firstname)"
-            } else {
-                playerName.text = "\(lastName), \(firstname)"
-            }
-        }
         team.text = player.team
         value.text = "\(player.value) mil"
         rating.text = player.rating
-        
         
         if player.isFavourite {
             favourite.image = #imageLiteral(resourceName: "Favourites")

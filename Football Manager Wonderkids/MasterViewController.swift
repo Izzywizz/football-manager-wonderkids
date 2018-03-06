@@ -23,7 +23,7 @@ class MasterViewController: UITableViewController {
         switch newCollection.verticalSizeClass {
         case .compact:
             print("Compact")
-            if let indexPath = tableView.indexPathForSelectedRow {
+            if let _ = tableView.indexPathForSelectedRow {
                 //no selection needed becasue we have a value to select
             } else {
                 // FIXME:- Find a way to remeber previous selction using nsuserdafults
@@ -41,7 +41,7 @@ class MasterViewController: UITableViewController {
         tableView.tableFooterView = UIView(frame: .zero) //prevent extra cell
         if let split = splitViewController {
             let controllers = split.viewControllers
-            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as! DetailViewController
+            detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
             detailViewController?.players = dataModel.players
         }
         
@@ -59,9 +59,9 @@ class MasterViewController: UITableViewController {
                 let title = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.title = title
-                controller.players = sender as! [Player]
+                controller.players = sender as? [Player]
                 controller.position = dataModel.currentPostionSelected
-                controller.navigationItem.title = title
+                controller.navigationItem.title = title.capitalized
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }

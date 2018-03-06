@@ -28,7 +28,7 @@ class DetailViewController: UITableViewController {
     
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem, let players = players {
+        if let _ = detailItem, let _ = players {
         }
     }
     
