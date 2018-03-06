@@ -63,6 +63,30 @@ class Player: Codable {
         self.value = value
         self.isFavourite = isFavourite
     }
+    
+    func returnPostion() -> Position {
+        
+        if self.position.contains("ST") || self.position.contains("FC") {
+            
+            return .forwards
+            
+        } else if self.position.contains("GK") {
+            
+           return .goalkeeper
+            
+        } else if self.position.contains("DLC") || self.position.contains("DC") || self.position.contains("DRLC") || self.position.contains("WB") || self.position.contains("DL") || self.position.contains("DR") || self.position.contains("DRL") || self.position.contains("DRC") || self.position.contains("SW") || self.position.contains("DRK") {
+
+            return .defenders
+            
+        } else if self.position.contains("DM") || self.position.contains("MC") || self.position.contains("MR") || self.position.contains("ML") || self.position.contains("AM") {
+            
+            return .midfielders
+    
+        } else {
+            
+            return .favourites
+        }
+    }
 }
 
 

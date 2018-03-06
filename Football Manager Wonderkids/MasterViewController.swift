@@ -12,8 +12,8 @@ class MasterViewController: UITableViewController {
     
     var detailViewController: DetailViewController? = nil
     
-    lazy var dataSource: [MenuTitle] = {
-        let dataSource = MenuTitle.Goalkeepers.titles
+    lazy var dataSource: [Position] = {
+        let dataSource = Position.goalkeeper.titles
         return dataSource
     }()
     var dataModel: DataModel!

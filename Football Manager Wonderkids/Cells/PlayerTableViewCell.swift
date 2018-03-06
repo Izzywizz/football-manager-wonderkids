@@ -42,17 +42,19 @@ class PlayerTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(player: Player, withPositionColour positionTitle: MenuTitle) {
+    func configure(player: Player, withPositionColour positionTitle: Position) {
         
         //postion colours
-        switch positionTitle {
-        case .Goalkeepers:
+        let positionType = player.returnPostion()
+        
+        switch positionType {
+        case .goalkeeper:
             positionView.backgroundColor = goalkeeperColour
-        case .Defenders:
+        case .defenders:
             positionView.backgroundColor = defenderColour
-        case .Midfielders:
+        case .midfielders:
             positionView.backgroundColor = midfielderColour
-        case .Forwards:
+        case .forwards:
             positionView.backgroundColor = forwardColour
         default:
             positionView.backgroundColor = .white
@@ -61,8 +63,6 @@ class PlayerTableViewCell: UITableViewCell {
         if let rating = Int(player.rating) {
             
             //if this works add the red rating
-
-            
             switch rating {
             case 70..<80:
                 let borderColour = UIColor(red: 181.0/255.0, green: 171.0/255.0, blue: 37.0/255.0, alpha: 1.0).cgColor
@@ -90,10 +90,10 @@ class PlayerTableViewCell: UITableViewCell {
             let lastName = player.name.split(separator: ",").first,
             let firstname = player.name.split(separator: ",").last {
             
-            if positionTitle == .Forwards {
-                position.text = String(lastPosition)
-            } else if positionTitle == .Midfielders {
+            if positionTitle == .midfielders {
                 position.text = String(firstPosition)
+            } else if positionTitle == .forwards {
+                position.text = String(lastPosition)
             } else {
                 position.text = String(firstPosition)
             }

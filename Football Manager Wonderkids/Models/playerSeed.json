@@ -2465,7 +2465,7 @@
   },
   {
     "rating": "78",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "17",
     "nationality": "Mali",
     "team": "Guidars",
@@ -4727,7 +4727,7 @@
   },
   {
     "rating": "79",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "18",
     "nationality": "France",
     "team": "Lyon",
@@ -4749,7 +4749,7 @@
   },
   {
     "rating": "78",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "20",
     "nationality": "Kosovo",
     "team": "Schalke",
@@ -4815,7 +4815,7 @@
   },
   {
     "rating": "76",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "20",
     "nationality": "Argentina",
     "team": "Belgrano",
@@ -4837,7 +4837,7 @@
   },
   {
     "rating": "80",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "17",
     "nationality": "Italy",
     "team": "Cesena",
@@ -4980,7 +4980,7 @@
   },
   {
     "rating": "79",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "19",
     "nationality": "Spain",
     "team": "-",
@@ -5222,7 +5222,7 @@
   },
   {
     "rating": "77",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "18",
     "nationality": "Brazil",
     "team": "SaoPaulo",
@@ -6003,7 +6003,7 @@
   },
   {
     "rating": "79",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "20",
     "nationality": "Spain",
     "team": "-",
@@ -6036,7 +6036,7 @@
   },
   {
     "rating": "76",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "19",
     "nationality": "Argentina",
     "team": "SanLorenzo",
@@ -6113,7 +6113,7 @@
   },
   {
     "rating": "82",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "19",
     "nationality": "Paraguay",
     "team": "R.Madrid",
@@ -6157,7 +6157,7 @@
   },
   {
     "rating": "78",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "16",
     "nationality": "England",
     "team": "ManCity",
@@ -6212,7 +6212,7 @@
   },
   {
     "rating": "77",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "16",
     "nationality": "Germany",
     "team": "Mainz",
@@ -6300,7 +6300,7 @@
   },
   {
     "rating": "78",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "18",
     "nationality": "Colombia",
     "team": "Watford",
@@ -6311,7 +6311,7 @@
   },
   {
     "rating": "76",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "17",
     "nationality": "Scotland",
     "team": "Everton",
@@ -6849,7 +6849,7 @@
   },
   {
     "rating": "73",
-    "position": "AM,FC",
+    "position": "AM",
     "age": "16",
     "nationality": "Spain",
     "team": "ManCity",

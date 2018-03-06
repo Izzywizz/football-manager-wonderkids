@@ -24,7 +24,7 @@ class DetailViewController: UITableViewController {
         }
     }
     
-    var position: MenuTitle!
+    var position: Position!
     
     func configureView() {
         // Update the user interface for the detail item.
@@ -73,7 +73,7 @@ class DetailViewController: UITableViewController {
         case .name:
             
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.name < playerTwo.name {
+                if playerOne.name <= playerTwo.name {
                     return true
                 }
                 return false
@@ -81,7 +81,7 @@ class DetailViewController: UITableViewController {
             
         case .rating:
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.rating > playerTwo.rating {
+                if playerOne.rating >= playerTwo.rating {
                     return true
                 }
                 return false
@@ -90,7 +90,7 @@ class DetailViewController: UITableViewController {
         case .position:
             
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.position < playerTwo.position {
+                if playerOne.position <= playerTwo.position {
                     return true
                 }
                 return false
@@ -98,7 +98,9 @@ class DetailViewController: UITableViewController {
             
         case .price:
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.value > playerTwo.value {
+                guard let playerOneValue = Double(playerOne.value), let playerTwoValue = Double(playerTwo.value) else { return false }
+
+                if playerOneValue > playerTwoValue {
                     return true
                 }
                 return false

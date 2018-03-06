@@ -11,7 +11,7 @@ import Foundation
 class DataModel {
     
     var players = [Player]()
-    var currentPostionSelected: MenuTitle = .Goalkeepers
+    var currentPostionSelected: Position = .goalkeeper
     
     init() {
         loadPlayers()
@@ -136,22 +136,22 @@ class DataModel {
     }
     
     
-    func filter(on filterParameter: MenuTitle) -> [Player] {
+    func filter(on filterParameter: Position) -> [Player] {
         switch filterParameter {
-        case .Goalkeepers:
-            currentPostionSelected = .Goalkeepers
+        case .goalkeeper:
+            currentPostionSelected = .goalkeeper
             return findGoalkeepers()
-        case .Defenders:
-            currentPostionSelected = .Defenders
+        case .defenders:
+            currentPostionSelected = .defenders
             return findDefenders()
-        case .Midfielders:
-            currentPostionSelected = .Midfielders
+        case .midfielders:
+            currentPostionSelected = .midfielders
             return findMidfielders()
-        case .Forwards:
-            currentPostionSelected = .Forwards
+        case .forwards:
+            currentPostionSelected = .forwards
             return findForwards()
-        case .Favourites:
-            currentPostionSelected = .Favourites
+        case .favourites:
+            currentPostionSelected = .favourites
             return findFavourties()
         }
     }
