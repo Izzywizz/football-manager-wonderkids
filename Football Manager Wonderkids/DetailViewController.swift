@@ -31,7 +31,7 @@ class DetailViewController: UITableViewController {
         if let detail = detailItem, let players = players {
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -48,24 +48,24 @@ class DetailViewController: UITableViewController {
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(appMovedToBackground), name: Notification.Name.UIApplicationWillResignActive, object: nil)
     }
-
+    
     @objc func appMovedToBackground() {
         print("App moved to background!")
         self.tableView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: true)
-//        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: UITableViewScrollPosition.top, animated: true) //Stops the werid floating header sorting type
+        //        tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: UITableViewScrollPosition.top, animated: true) //Stops the werid floating header sorting type
     }
     
     
     @objc func sortingMethodNotification(notification: Notification){
-//        tableView.reloadRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
+        //        tableView.reloadRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
         guard let type = notification.userInfo?["type"] as? Int else { return }
-        print("Recieved Observer: \(type)")
-        let sortType = Sort(rawValue: type)!
+        print("Recieved Observer: \(notification)")
         
+        let sortType = Sort(rawValue: type)!
         sortMethod(type: sortType)
-
+        
         tableView.reloadData()
-
+        
     }
     
     func sortMethod(type: Sort) {
@@ -90,16 +90,25 @@ class DetailViewController: UITableViewController {
         case .position:
             
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
-                if playerOne.returnPostion().hashValue < playerTwo.returnPostion().hashValue {
-                    return true
+                
+                if position == .favourites {
+                    if playerOne.returnPostion().hashValue < playerTwo.returnPostion().hashValue {
+                        return true
+                    }
+                    return false
+                    
+                } else {
+                    if playerOne.position < playerTwo.position {
+                        return true
+                    }
+                    return false
                 }
-                return false
             })
             
         case .price:
             players?.sort(by: { (playerOne, playerTwo) -> Bool in
                 guard let playerOneValue = Double(playerOne.value), let playerTwoValue = Double(playerTwo.value) else { return false }
-
+                
                 if playerOneValue > playerTwoValue {
                     return true
                 }
@@ -108,8 +117,8 @@ class DetailViewController: UITableViewController {
             
         }
     }
-
-
+    
+    
     // MARK: - TableView Delegate
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         //return headerCell
@@ -126,7 +135,7 @@ class DetailViewController: UITableViewController {
         
         return cell
     }
-
+    
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 100.0
     }
@@ -136,7 +145,7 @@ class DetailViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         let cell = tableView.cellForRow(at: indexPath) as! PlayerTableViewCell
         let player = players![indexPath.row]
-
+        
         cell.selectionStyle = .none //prevent grey animation
         
         if player.isFavourite == false {
@@ -147,7 +156,7 @@ class DetailViewController: UITableViewController {
             cell.favourite.image = #imageLiteral(resourceName: "noHeart")
         }
     }
-
+    
     
     // MARK: - TableView DataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -159,7 +168,7 @@ class DetailViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    
+        
         return playerCell(at: indexPath)
     }
     
@@ -172,12 +181,12 @@ class DetailViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseID) as! PlayerTableViewCell
         
         if let player = players?[indexPath.row] {
-            cell.configure(player: player, withPositionColour: position)
+            cell.configure(player: player)
         }
         
         return cell
     }
-
-
+    
+    
 }
 

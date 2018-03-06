@@ -42,13 +42,7 @@ class PlayerTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setPositionBackgroundColour() {
-        
-    }
-    
-
-    func configure(player: Player, withPositionColour positionTitle: Position) {
-        
+    func setPositionBackgroundColour(for player: Player) {
         //postion colours
         let positionType = player.returnPostion()
         
@@ -64,6 +58,10 @@ class PlayerTableViewCell: UITableViewCell {
         default:
             positionView.backgroundColor = .white
         }
+    }
+    
+    
+    func setRatingColour(for player: Player) {
         
         if let rating = Int(player.rating) {
             
@@ -87,9 +85,16 @@ class PlayerTableViewCell: UITableViewCell {
                 ratingView.backgroundColor = greenRatingColour
                 ViewHelper.drawBorders(for: [ratingView], withBorderColour: borderColour)
             }
-            
         }
+    }
 
+    
+    
+    func configure(player: Player) {
+        
+        setPositionBackgroundColour(for: player)
+        setRatingColour(for: player)
+        
         if let firstPosition = player.position.split(separator: ",").first,
             let lastPosition = player.position.split(separator: ",").last,
             let lastName = player.name.split(separator: ",").first,
