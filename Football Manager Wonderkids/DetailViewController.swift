@@ -36,6 +36,8 @@ class DetailViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
+        tableView.tableFooterView = UIView(frame: .zero) //prevent extra cell
+        
         NotificationCenter.default.addObserver(self, selector: #selector(self.sortingMethodNotification(notification:)), name: Notification.Name("sort"), object: nil)
         
         let sortPreviouslySelected = UserDefaults.standard.integer(forKey: "sortType")
