@@ -17,7 +17,6 @@ class DataModel {
         loadPlayers()
     }
     
-    
     func documentsDirectory() -> URL {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         return paths[0]
@@ -38,7 +37,6 @@ class DataModel {
                 players.append(player)
             }
         }
-        
     }
     
     //save

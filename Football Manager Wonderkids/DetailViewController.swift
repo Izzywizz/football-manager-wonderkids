@@ -24,7 +24,7 @@ class DetailViewController: UITableViewController {
         }
     }
     
-    var position: Position!
+    var position: Position?
     
     func configureView() {
         // Update the user interface for the detail item.
@@ -62,6 +62,7 @@ class DetailViewController: UITableViewController {
         print("Recieved Observer: \(notification)")
         
         let sortType = Sort(rawValue: type)!
+        print("sort: \(sortType)")
         sortMethod(type: sortType)
         
         tableView.reloadData()

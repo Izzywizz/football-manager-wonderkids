@@ -8,8 +8,16 @@
 
 import UIKit
 
+extension MasterViewController: UISplitViewControllerDelegate {
+    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+        return collapseDetailViewController
+    }
+}
+
 class MasterViewController: UITableViewController {
     
+    fileprivate var collapseDetailViewController = true
+
     var detailViewController: DetailViewController? = nil
     
     lazy var dataSource: [Position] = {
@@ -27,8 +35,8 @@ class MasterViewController: UITableViewController {
                 //no selection needed becasue we have a value to select
             } else {
                 // FIXME:- Find a way to remeber previous selction using nsuserdafults
-                let defaultSelection = IndexPath(row: 0, section: 0)
-                tableView.selectRow(at: defaultSelection, animated: true, scrollPosition: .none)
+//                let defaultSelection = IndexPath(row: 0, section: 0)
+//                tableView.selectRow(at: defaultSelection, animated: true, scrollPosition: .none)
             }
         case .regular, .unspecified:
             print("Regular")
@@ -37,9 +45,12 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.tableFooterView = UIView(frame: .zero) //prevent extra cell
         if let split = splitViewController {
+            splitViewController?.delegate = self
+
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
             detailViewController?.players = dataModel.players
@@ -55,6 +66,8 @@ class MasterViewController: UITableViewController {
     // MARK: - Segues
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
+            collapseDetailViewController = false
+
             if let indexPath = tableView.indexPathForSelectedRow {
                 let title = dataSource[indexPath.row].rawValue
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController

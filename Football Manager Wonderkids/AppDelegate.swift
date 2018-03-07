@@ -21,10 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         let topNavController = splitViewController.viewControllers.first as! UINavigationController
         let masterViewController = topNavController.topViewController as! MasterViewController
+        
         masterViewController.dataModel = data
+        masterViewController.detailViewController?.players = data.players
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
-                
+        splitViewController.preferredDisplayMode = .allVisible
+        
+        let controllers = splitViewController.viewControllers
+        let detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        detailViewController?.players = data.players
         return true
     }
 
